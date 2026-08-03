@@ -1,0 +1,1075 @@
+File:     Fintra Webdesign V0.1 (Copy)
+Modified: 2026-08-02T20:08:36Z
+Version:  2383211765180162225
+
+PAGE  Landing Page (Desktop)  [0:1]  — 88 top-level nodes
+   FRAME        5:2            1440x2971      Desktop - 1
+   FRAME        22:2           1440x8214      Landing Page | EN
+   FRAME        158:963        1440x8214      Landing Page | BN
+   FRAME        4679:8566      1440x1042      Landing Page | BN V1
+   FRAME        4679:9799      1440x1042      Landing Page | BN V2
+   FRAME        5:34           45351x17055    Components
+   LINE         11:74          0x487          Line 2
+   FRAME        263:1952       21x12          Flag_of_the_United_Kingdom 1
+   INSTANCE     365:2632       1000x708       Certificate Popup
+   RECTANGLE    14230:4105     850x644        TREC_License_
+   FRAME        785:2049       1440x1024      Login Page | EN
+   FRAME        14209:20994    1182x929       Frame 978
+   FRAME        3000:3611      1440x1024      Login Page | EN
+   FRAME        2970:2185      1440x1024      Login Page | BN
+   FRAME        3000:3660      1440x1024      Login Page | BN
+   FRAME        919:2882       1440x1024      OTP page for login | EN
+   FRAME        2970:2234      1440x1024      OTP page for Password Reset | BN
+   FRAME        911:2129       1440x1024      Forgot Password Page | EN
+   FRAME        2970:2274      1440x1024      Forgot Password Page | BN
+   FRAME        927:3075       1440x1024      Forgot Password Page | EN
+   FRAME        2970:2315      1440x1024      Forgot Password Page | BN
+   FRAME        928:3345       1440x1024      Forgot Password Page | EN
+   FRAME        2996:3304      1440x1024      Forgot Password Page | EN
+   FRAME        2996:3415      1440x1024      Forgot Password Page | BN
+   FRAME        2970:2360      1440x1024      Forgot Password Page complete | BN
+   VECTOR       911:2223       25x18          Vector
+   VECTOR       2970:2405      25x18          Vector
+   FRAME        820:2018       1440x1024      Sign-in Page | EN
+   FRAME        2970:2406      1440x1024      Sign-in Page | BN
+   FRAME        855:2083       1440x1024      OTP page | EN
+   FRAME        2970:2452      1440x1024      OTP page | BN
+   FRAME        919:2613       1440x1024      OTP page for Password Reset (phone num) | EN
+   FRAME        2970:2492      1440x1024      OTP page for Password Reset (phone num) | BN
+   FRAME        919:3004       1440x1024      OTP page for Password Reset (email) | EN
+   FRAME        2970:2532      1440x1024      OTP page for Password Reset (email) | BN
+   FRAME        3166:5672      1440x1024      Create BO Account Start
+   FRAME        3697:2980      1440x1024      Create BO Account Start
+   FRAME        4040:3957      1440x1024      Payment Confirmed
+   FRAME        4036:3758      1440x1024      Payment page
+   FRAME        5813:12202     1440x1024      Payment page - Bkash
+   FRAME        5813:12291     1440x1024      Payment page - Card
+   FRAME        3649:2938      1440x1024      Create BO Account Start
+   FRAME        3206:2535      1440x1024      Create BO Account Step 1 active
+   FRAME        3206:2623      1440x1024      Create BO Account Step 2 inactive
+   FRAME        3905:3253      1440x1024      Create BO Account Step 2 inactive (Joint)
+   FRAME        3905:3942      1440x2396      Create BO Account Step 2 inactive (Joint)
+   FRAME        3843:3409      1440x1024      Create BO Account Step 2 inactive
+   FRAME        3317:2576      1440x1024      Create BO Account Step 2 active
+   FRAME        3905:3322      1440x1024      Create BO Account Step 2 active (Joint)
+   FRAME        3802:3041      1440x1024      Create BO Account Step 2 active
+   FRAME        3905:3388      1440x1024      Create BO Account Step 2 active (Joint)
+   FRAME        3340:2800      1440x1185      Create BO Account Step 2 - ID verification local
+   FRAME        3905:3449      1440x1185      Create BO Account Step 2 - ID verification local (Joint)
+   FRAME        3802:3138      1440x1185      Create BO Account Step 2 - ID verification NRB
+   FRAME        3905:3505      1440x1185      Create BO Account Step 2 - ID verification NRB (Joint)
+   FRAME        3563:2646      1440x1111      Create BO Account Step 2 - Bank Details
+   FRAME        3570:2841      1440x1024      Create BO Account Step 2 - Present address
+   FRAME        3905:3672      1440x1024      Create BO Account Step 2 - Present address
+   FRAME        3578:3338      1440x1024      Create BO Account Step 2 - Permanent address
+   FRAME        3905:3753      1440x1024      Create BO Account Step 2 - Permanent address
+   FRAME        3578:3440      1440x1024      Create BO Account Step 2 - POA
+   FRAME        3607:3458      1440x1024      Create BO Account Step 4 - Introducer
+   FRAME        3618:2737      1440x1024      Create BO Account Step 4 - Introducer
+   FRAME        3618:2885      1440x2172      Create BO Account Step 5 - Nominee 1
+   FRAME        3816:3597      1440x4099      Create BO Account Step 5 - Guardian info
+   FRAME        3623:3444      1440x2298      Create BO Account Step 5 - Nominee 2
+   FRAME        3636:4120      1440x4537      Create BO Account Step 5 - Nominee 3
+   FRAME        3643:4444      1440x3141      Create BO Account Step 5 - Nominee 4
+   FRAME        3583:2738      1440x1024      Create BO Account Step 3 - POA (Other) 1
+   FRAME        3607:3139      1440x1024      Create BO Account Step 3 - POA (Other) 2
+   FRAME        3814:3225      1440x1185      Create BO Account Step 3 - POA (Other) 4
+   FRAME        3814:3299      1440x1185      Create BO Account Step 3 - POA (Other) 5
+   FRAME        3607:3350      1440x1024      Create BO Account Step 3 - POA (Other) 3
+   FRAME        3578:3227      1440x1024      Create BO Account Step 2 - Permenant same as present?
+   FRAME        3905:3834      1440x1024      Create BO Account Step 2 - Permenant same as present?
+   INSTANCE     3234:2648      1000x645       Upload file - profile pic
+   INSTANCE     3313:2668      1000x645       Upload file - signature
+   INSTANCE     3726:3239      1000x645       passport image
+   INSTANCE     3726:3240      1000x645       permit
+   FRAME        4248:4975      1440x1024      User Dashboard Full
+   FRAME        4248:5214      1440x1024      User Portfolio
+   FRAME        4248:5263      1440x1024      User BO Full
+   FRAME        4248:5354      1440x1024      User Report
+   FRAME        4248:5395      1440x1024      User Report
+   FRAME        4248:5605      1209x580       Frame 364
+   INSTANCE     5813:12350     1200x714       Map Pop-up
+   VECTOR       14209:54378    29x31          Logo
+   COMPONENT_SET 14209:54387    564x186        Cash float
+
+PAGE  Landing 2.0  [8005:4982]  — 162 top-level nodes
+   FRAME        8005:5001      1440x2190      Landing
+   FRAME        8008:1176      8318x1024      Components
+   INSTANCE     8008:6542      1000x708       Component 60
+   FRAME        8008:6738      1770x954       Hero
+   FRAME        8008:6751      1770x678       Benefits
+   FRAME        8008:6773      1770x556       About
+   FRAME        8008:6793      1770x843       Contact
+   FRAME        8165:101       1000x1000      Profile Fintra
+   FRAME        8316:7632      1000x1000      App icon
+   FRAME        8240:5093      1000x1000      Whatsapp
+   VECTOR       9153:36460     182x228        Vector
+   FRAME        9153:8937      1920x1080      Whatsapp
+   FRAME        9153:22698     1920x1080      Whatsapp-flip
+   FRAME        8165:27635     2050x900       Cover
+   FRAME        9002:1514      4096x2304      Cover
+   FRAME        8165:27655     48x48          Favicon
+   VECTOR       9245:15329     121x31         Logo-eng
+   VECTOR       9153:36459     184x47         Logo-eng
+   VECTOR       9072:101       500x128        Logo-eng-light
+   VECTOR       9072:102       500x128        Logo-eng-dark
+   VECTOR       8325:3628      500x128        Logo-eng-blk
+   FRAME        11937:32215    1540x450       Ban-Eng logo light line
+   FRAME        11937:32283    1540x450       Ban-Eng logo green line
+   VECTOR       9245:15330     103x32         Logo-bn
+   FRAME        9079:8414      200x50         OMS-logo
+   VECTOR       9072:107       500x157        Logo-bn-light
+   VECTOR       9072:108       500x157        Logo-bn-dark
+   VECTOR       8325:3629      407x128        Logo-bn-blk
+   VECTOR       8341:9017      407x128        green logo-bng
+   VECTOR       8341:9018      407x128        green logo-blk
+   VECTOR       8341:9019      499x128        Logo 1-eng
+   FRAME        9015:4338      694x115        insight-banner-l
+   FRAME        8348:8038      539x168        English logo with background
+   VECTOR       13492:10792    499x128        Logo 1-eng
+   FRAME        8348:8051      80x55          Eng | Bangla logo with background
+   FRAME        8452:2743      80x55          Eng | Bangla logo transparent
+   FRAME        13457:5154     256x48         Frame 685
+   FRAME        8452:2747      400x93         Oms Logo for dark mode
+   FRAME        14262:22020    32x32          Frame 687
+   FRAME        13457:5157     256x48         Frame 686
+   FRAME        13436:5163     300x80         Frame 684
+   FRAME        8348:8047      180x180        fav
+   FRAME        9072:111       500x500        Profile-Dark
+   VECTOR       9668:449       128x160        Vector
+   VECTOR       9410:4920      400x500        icon
+   FRAME        9079:8446      32x32          Favicon
+   VECTOR       9145:19655     22x28          Vector
+   FRAME        9044:2445      232x245        Icon Dark
+   FRAME        8349:8092      16x16          Icon with background
+   FRAME        8348:8039      470x168        English logo 2 with backhround
+   FRAME        8348:8043      447x168        Bangla logo with background
+   VECTOR       8341:9020      430x128        Logo 2-eng
+   VECTOR       9072:109       500x149        Logo 2-eng-light
+   VECTOR       9072:110       500x149        Logo 2-eng-dark
+   RECTANGLE    9081:8452      2048x2048      Fintra 1
+   FRAME        9079:8451      2048x2048      Logo for X-borker-bg
+   FRAME        9147:19682     225x262        Asset 7squiggle 1
+   FRAME        9147:19690     1920x1080      Slide 16:9 - 1
+   FRAME        9147:19693     1920x1080      Slide 16:9 - 2
+   FRAME        9375:4860      1242x2208      Shot 6
+   FRAME        9427:390       1290x2796      Shot 6- IOS
+   FRAME        9379:5035      1242x2208      Shot 1
+   FRAME        9483:390       2048x2732      Tab 1
+   FRAME        9492:390       2048x2732      Tab 1 - IOS
+   FRAME        9483:511       2048x2732      Tab 2
+   FRAME        9492:395       2048x2732      Tab 2 - IOS
+   FRAME        9483:522       2048x2732      Tab 3
+   FRAME        9492:401       2048x2732      Tab 3 - IOS
+   FRAME        9483:530       2048x2732      Tab 4
+   FRAME        9492:407       2048x2732      Tab 4 - IOS
+   FRAME        9483:536       2048x2732      Tab 5
+   FRAME        9492:413       2048x2732      Tab 5 - IOS
+   FRAME        9483:542       2048x2732      Tab 6
+   FRAME        9492:419       2048x2732      Tab 6 - IOS
+   FRAME        9427:395       1290x2796      Shot 1- IOS
+   FRAME        9379:5266      1242x2208      Shot 2
+   FRAME        9427:400       1290x2796      Shot 2- IOS
+   FRAME        9379:5497      1242x2208      Shot 3
+   FRAME        9427:405       1290x2796      Shot 3- IOS
+   FRAME        9379:5728      1242x2208      Shot 4
+   FRAME        9427:410       1290x2796      Shot 4- IOS
+   FRAME        9379:5959      1242x2208      Shot 5
+   FRAME        9427:415       1290x2796      Shot 5- IOS
+   FRAME        9379:6190      1024x500       Banner
+   FRAME        9409:4885      840x594        Certificate of Appreciation white
+   FRAME        9451:1080      840x594        Certificate of Appreciation white-star pattern
+   FRAME        9451:1101      840x594        Certificate of Appreciation white-stack pattern
+   RECTANGLE    9404:4793      2456x1735      bg-pattern 2
+   FRAME        9451:1281      456x127        Frame 183
+   FRAME        9451:30400     104x120        Frame 184
+   FRAME        9468:421       2000x1200      1
+   FRAME        9468:422       2000x1200      2
+   FRAME        9468:423       2000x1200      3
+   FRAME        9468:424       2000x1200      4
+   FRAME        9468:425       2000x1200      5
+   FRAME        9468:426       2000x1200      6
+   FRAME        9468:427       2000x1200      7
+   FRAME        9468:428       2000x1200      8
+   FRAME        9492:448       221x1080       bg
+   FRAME        9508:390       595x842        Offer A4
+   FRAME        9508:443       1080x1920      1st Frame
+   FRAME        9516:394       1080x1920      2nd Frame
+   FRAME        9516:403       1080x1920      3rd Frame
+   FRAME        9516:4746      1080x1920      4th Frame
+   FRAME        9516:4801      1080x1920      5th Frame
+   FRAME        9516:4810      1080x1920      5th Frame
+   FRAME        9510:450       832x416        Slide 16:9 - 3
+   FRAME        9510:451       832x416        Slide 16:9 - 4
+   VECTOR       9543:5572      54x272         Vector
+   VECTOR       9543:5583      54x272         Vector
+   VECTOR       9543:5606      54x186         Vector
+   VECTOR       9543:5613      54x186         Vector
+   VECTOR       9543:5580      54x232         Vector
+   VECTOR       9543:5611      54x232         Vector
+   VECTOR       9543:5584      54x232         Vector
+   VECTOR       9543:5608      54x232         Vector
+   VECTOR       9543:5573      54x103         Vector
+   VECTOR       9543:5579      54x103         Vector
+   VECTOR       9543:5587      54x165         Vector
+   VECTOR       9543:5586      54x103         Vector
+   VECTOR       9543:5609      54x103         Vector
+   VECTOR       9543:5614      54x103         Vector
+   VECTOR       9543:5576      54x137         Vector
+   VECTOR       9543:5582      54x71          Vector
+   VECTOR       9543:5615      54x71          Vector
+   VECTOR       9543:5610      54x51          Vector
+   VECTOR       9543:5574      54x233         Vector
+   VECTOR       9543:5577      54x184         Vector
+   VECTOR       9543:5581      54x184         Vector
+   VECTOR       9543:5575      54x329         Vector
+   VECTOR       9543:5585      54x329         Vector
+   VECTOR       9543:5612      54x329         Vector
+   VECTOR       9543:5605      54x329         Vector
+   VECTOR       9543:5578      54x329         Vector
+   VECTOR       9543:5642      1979x839       Vector
+   FRAME        9543:5655      842x595        Banner for fingerprint
+   RECTANGLE    9561:4901      1280x720       image 1
+   FRAME        9561:4911      718x277        Original
+   FRAME        11250:15008    718x301        + Department
+   FRAME        11250:15020    795x336        + Department Bolder
+   FRAME        13115:46364    795x336        + Department Bolder
+   FRAME        9562:6921      1250x1250      Frame 203
+   RECTANGLE    9617:4957      0x0            Screenshot_20260104-141925 1
+   RECTANGLE    9617:4958      864x1920       Screenshot_20260104-141925 2
+   FRAME        9766:470       1920x1080      Hero-BG
+   FRAME        9777:525       402x874        Hero-bg-mbl
+   FRAME        9677:458       256x256        QR Code
+   RECTANGLE    9703:449       864x1920       Screenshot_20260104-142538 1
+   FRAME        9743:5221      233x233        offer 1fin 1
+   FRAME        10867:7546     1920x1080      Iftar-Slide
+   VECTOR       11854:21820    145x161        উপাদানঃ পরিশোধিত পানি মিনারেল কনসেন্ট্রেশন (এমজি/লি) টিডিএসঃ <২৫০ পিএইচঃ ৬.৪-৭.৪ ক্লোরাইডঃ <৫০ ক্যাডমিয়ামঃ <০.০০৩ নাইট্রেডঃ <৪.৫ লেডঃ <০.০১ ক্লোরিনঃ নাই সায়ানাইডঃ নাই আরসেনিকঃ নাই
+   RECTANGLE    11860:454      495x1001       Project1 1
+   FRAME        11860:468      495x1001       Frame 662
+   FRAME        11860:492      495x1001       Frame 663
+   FRAME        11860:501      1018x851       Frame 664
+   FRAME        12140:2914     1018x563       Frame 665
+   FRAME        11860:503      733x368        Design Info
+   FRAME        11974:18372    595x842        A4 - 1
+   FRAME        13115:46444    1920x1080      Wifi-BG
+   RECTANGLE    13118:46453    1533x765       Screenshot 2026-04-26 123647 1
+   FRAME        13125:391      266x150        BG-wifi
+   FRAME        13413:9526     1000x1000      BRACU x Fintra
+
+PAGE  Landing 2.1  [11477:4756]  — 40 top-level nodes
+   FRAME        11477:75610    1440x5753      Landing
+   FRAME        11625:10933    514x244        Test 1
+   FRAME        11625:10948    514x244        Test 2
+   FRAME        11625:10963    514x244        Test 3
+   FRAME        11625:10978    514x244        Test 4
+   FRAME        11625:10993    514x244        Test 5
+   FRAME        12587:16832    362x276        Test 6
+   FRAME        12587:16847    362x276        Test 7
+   FRAME        12587:16862    362x276        Test 8
+   FRAME        12587:16877    362x276        Test 9
+   FRAME        12587:16892    362x276        Test 10
+   FRAME        11564:4899     1196x462       Frame 841
+   FRAME        11477:75758    10464x16713    Frame 157
+   RECTANGLE    13402:4776     522x380        images 1
+   RECTANGLE    13402:4777     160x148        download 1
+   RECTANGLE    11523:10667    415x249        Screenshot 2026-04-20 113611 1
+   FRAME        11502:10647    266x100        Frame 161
+   FRAME        11523:10668    832x485        Frame 166
+   FRAME        11529:10931    649x226        Frame 830
+   FRAME        11529:11044    491x226        Frame 835
+   FRAME        11529:10970    170x44         Frame 834
+   FRAME        11529:11053    491x226        Frame 836
+   FRAME        11541:11457    412x386        Frame 837
+   RECTANGLE    11564:5374     237x500        Moonstone 1
+   FRAME        11638:15845    1440x2705      Analysis-Dark
+   FRAME        12336:43245    1440x3346      Market Overview-Dark
+   FRAME        13292:4934     1440x1502      About the company
+   FRAME        12331:2590     1440x6077      Analysis-Light (previous)
+   FRAME        11804:1820     1440x1281      Chart
+   FRAME        11831:2168     1440x1242      Screener
+   FRAME        11664:18682    568x372        Frame 876
+   FRAME        11786:19175    1196x372       Frame 877
+   INSTANCE     11685:18965    1196x318       Component 489
+   INSTANCE     11736:12209    1196x318       Component 490
+   FRAME        11760:12908    100x100        Loader
+   FRAME        12357:3873     1440x1024      Analysis-Dark-Loader
+   FRAME        12363:4157     1440x1024      Chart-Dark-Loader
+   FRAME        12363:4377     1440x1024      Screener-Dark-Loader
+   FRAME        12363:4596     1440x1024      Market-Dark-Loader
+   FRAME        12663:49739    1404x878       Start
+
+PAGE  Landing 2.1 - Mobile  [12427:14918]  — 12 top-level nodes
+   FRAME        12427:14919    402x3241       Market
+   FRAME        12628:6654     402x3644       Analysis
+   FRAME        13111:45562    402x894        Analysis
+   FRAME        13340:6707     402x2172       Analysis
+   FRAME        12628:6311     402x874        Market=preloader
+   FRAME        12663:54329    402x874        Analysis=preloader
+   FRAME        13061:7313     402x874        Chart=preloader
+   FRAME        12429:22815    402x5670       Features
+   FRAME        12429:14921    19528x7444     Components
+   FRAME        12663:49754    372x799        Start
+   FRAME        12435:4973     362x322        Frame 877
+   FRAME        12628:6299     362x393        Component 489
+
+PAGE  User Dashboard  [3957:7932]  — 239 top-level nodes
+   FRAME        3957:7933      79040x15069    Components
+   FRAME        8347:4230      238x291        Sub-menu
+   FRAME        5913:16195     1202x567       Nominee-popup
+   FRAME        7662:8659      966x238        lagunage pop-up | EN
+   FRAME        7662:8721      966x220        lagunage pop-up | BN
+   FRAME        7657:3333      1202x566       Nominee-popup | BN
+   FRAME        7715:21331     1202x566       Nominee-popup | BN
+   FRAME        7723:3409      1202x566       Nominee-popup | BN
+   FRAME        7659:3909      1202x566       Guardian-popup | BN
+   FRAME        7715:21724     1202x566       Guardian-popup | BN
+   FRAME        7723:3839      1202x566       Guardian-popup | BN
+   FRAME        7662:3205      1202x566       POA-popup | BN
+   FRAME        7717:3310      1202x566       POA-popup | BN
+   FRAME        7724:4198      1202x566       POA-popup | BN
+   FRAME        7170:13128     1202x567       Guardian-popup
+   FRAME        7179:16618     1202x567       Guardian-popup V2
+   FRAME        7187:4193      1202x567       Guardian-popup V3
+   INSTANCE     7187:5202      1202x732       Guardian-popup
+   INSTANCE     7187:5586      1202x732       Guardian-popup V2
+   INSTANCE     7187:5671      1202x732       Guardian-popup V3
+   FRAME        7179:15281     1202x567       Nominee-popup V2
+   FRAME        7187:3893      1202x567       Nominee-popup V3
+   FRAME        5934:3774      402x803        Add Nominee Information
+   FRAME        6992:4777      402x803        Add Nominee Information
+   FRAME        8681:29618     1440x1024      User Dashboard Full
+   FRAME        9076:5477      1440x1024      User Dashboard Temp
+   FRAME        8525:6874      1440x1024      User Dashboard Full
+   FRAME        8525:8005      1440x1024      User Dashboard Full
+   FRAME        8325:6860      1440x1024      User Dashboard Full
+   FRAME        8525:7063      1440x1024      User Dashboard Full
+   FRAME        8341:8642      1440x1024      User Dashboard Full
+   FRAME        8325:7548      1440x1024      User Dashboard Full
+   FRAME        5913:14429     878x293        Required Pop-Up
+   FRAME        4116:2039      1440x1024      User Portfolio
+   FRAME        4007:535       1440x1024      User BO Full
+   FRAME        9543:5398      1440x1024      Analysis
+   FRAME        14074:21082    1440x1024      Analysis Test
+   FRAME        10208:7014     1440x1024      Market Research
+   FRAME        10663:7754     1440x1024      Watchlist Empty
+   FRAME        10663:25992    1440x1024      Watchlist Empty
+   FRAME        10159:23496    1440x1024      Company Profile
+   FRAME        11061:9644     1440x1024      Advance Chart
+   FRAME        11115:9073     1440x1024      Screener
+   FRAME        11061:10158    407x319        Frame 252
+   FRAME        10994:8049     1440x1024      Contact Info - Company
+   FRAME        11002:8931     1440x1024      Ownership
+   FRAME        10997:8533     407x319        Frame 252
+   FRAME        10805:7007     1440x1024      Update Settings - Profile
+   FRAME        10805:14574    1440x1024      Update Settings - Password
+   FRAME        11285:26601    1122x549       Add account info
+   FRAME        11269:9352     1440x1024      Update Settings - Payment
+   FRAME        11295:26665    1440x1024      Update Settings - Payment
+   FRAME        11295:26913    1440x1024      Update Settings - Payment
+   FRAME        11295:27100    1440x1024      Update Settings - Payment
+   FRAME        10821:14702    1440x1024      Update Settings - Preference
+   FRAME        10271:23106    1440x1024      Stock News
+   FRAME        10353:6092     1440x1024      Financials
+   FRAME        10645:6494     1440x1024      Dividend History
+   FRAME        10587:7716     1440x1024      Financials - Bar Chart
+   FRAME        10171:6040     1440x1024      Research - Locked
+   FRAME        10194:6119     1440x1024      Research - Unlocked
+   INSTANCE     11041:8208     843x303        Search Results
+   FRAME        4097:4047      1440x1024      User BO None
+   FRAME        4097:4218      1440x1024      User BO Semi
+   FRAME        4167:2349      1440x1024      User Report
+   FRAME        9152:8718      1440x1024      Wallet
+   FRAME        11378:9200     1440x1024      Transaction History
+   FRAME        11183:9105     310x119        Frame 821
+   FRAME        9122:4850      1440x1024      User Report - Report loading (portfolio)
+   FRAME        9168:22802     1440x1024      User Report - Report loading (ledger)
+   FRAME        9168:23020     1440x1024      User Report - Report loading (Tax)
+   FRAME        9122:20167     1440x1024      User Report - Report generated (portfolio)
+   FRAME        9168:22819     1440x1024      User Report - Report generated (ledger)
+   FRAME        9168:23037     1440x1024      User Report - Report generated (Tax)
+   FRAME        4667:2123      1440x1024      Instant Cash
+   FRAME        4680:6714      1440x1024      Instant Cash
+   FRAME        6109:10128     1440x1024      Instant Cash
+   FRAME        4097:967       1209x580       Frame 364
+   FRAME        4116:2024      1209x665       Frame 382
+   INSTANCE     4150:510       1209x527       stock popup
+   INSTANCE     10107:5442     1209x527       Component 489
+   FRAME        5052:6065      595x842        IC invoice
+   FRAME        5913:14589     1440x1024      Quick BO 1
+   FRAME        7642:11576     1440x1024      Quick BO 1 | BN
+   FRAME        7642:11815     1440x1024      Quick BO 2 | Individual | BN
+   FRAME        7715:3010      1440x1024      Quick BO 2 | Joint | BN
+   FRAME        7717:3621      1440x1024      Quick BO 2 | Company | BN
+   FRAME        7649:2946      1440x1024      Quick BO 3 | Individual | BN
+   FRAME        7715:21371     1440x1024      Quick BO 3 | Joint | BN
+   FRAME        7723:3327      1440x1024      Quick BO 3 | Company | BN
+   FRAME        7723:3542      1440x1024      Quick BO 4 | Company | BN
+   FRAME        7723:3651      1440x1024      Quick BO 5 | Company | BN
+   FRAME        7723:3762      1440x1024      Quick BO 6 | Company | BN
+   FRAME        7723:3901      1440x1024      Quick BO 7 | Company | BN
+   FRAME        7724:4012      1440x1024      Quick BO 8 | Company | BN
+   FRAME        7724:4119      1440x1024      Quick BO 8 | Company | BN
+   FRAME        7724:4260      1440x1024      Quick BO 8 | Company | BN
+   FRAME        7724:4373      1440x1024      Quick BO 8 | Company | BN
+   FRAME        7657:3459      1440x1024      Quick BO 4 | Individual | BN
+   FRAME        7715:21467     1440x1024      Quick BO 4 | Joint| BN
+   FRAME        7657:3580      1440x1024      Quick BO 5 | Individual | BN
+   FRAME        7715:21564     1440x1024      Quick BO 5 | Joint | BN
+   FRAME        7662:3000      1440x1024      Quick BO 8 | Individual | BN
+   FRAME        7662:3373      1440x1024      Quick BO 11 | Individual | BN
+   FRAME        7662:3083      1440x1024      Quick BO 9 | Individual | BN
+   FRAME        7662:3252      1440x1024      Quick BO 10 | Individual | BN
+   FRAME        7659:3686      1440x1024      Quick BO 6 | Individual | BN
+   FRAME        7715:21641     1440x1024      Quick BO 6 | Joint | BN
+   FRAME        7715:21867     1440x1024      Quick BO 7 | Joint | BN
+   FRAME        7715:21981     1440x1024      Quick BO 8 | Joint | BN
+   FRAME        7715:22088     1440x1024      Quick BO 9 | Joint | BN
+   FRAME        7717:3357      1440x1024      Quick BO 10 | Joint | BN
+   FRAME        7717:3470      1440x1024      Quick BO 11 | Joint | BN
+   FRAME        7659:3791      1440x1024      Quick BO 7 | Individual | BN
+   FRAME        6899:8225      1440x1024      Quick BO | Joint 1
+   FRAME        8525:7722      1440x1024      Quick BO | Joint 14
+   FRAME        6900:2740      1440x1024      Quick BO | Joint 3
+   FRAME        8525:7768      1440x1024      Quick BO | Joint 15
+   FRAME        6900:3017      1440x1024      Quick BO | Joint 4
+   FRAME        8525:7826      1440x1024      Quick BO | Joint 16
+   FRAME        6900:3131      1440x1024      Quick BO | Joint 5
+   FRAME        6900:3323      1440x1024      Quick BO | Joint 6
+   FRAME        7187:4486      1440x1024      Quick BO | Joint 12
+   FRAME        6900:3550      1440x1024      Quick BO | Joint 7
+   FRAME        7187:4372      1440x1024      Quick BO | Joint 11
+   FRAME        6900:3651      1440x1024      Quick BO | Joint 8
+   FRAME        7187:4769      1440x1024      Quick BO | Joint 13
+   FRAME        6900:3771      1440x1024      Quick BO | Joint 9
+   FRAME        6823:10543     1440x1024      Quick BO | Company 2
+   FRAME        6823:10691     1440x1024      Quick BO | Company 3
+   FRAME        6877:2921      1440x1024      Quick BO | Company 4
+   FRAME        6823:10938     1440x1024      Quick BO | Company 5
+   FRAME        6881:2679      1440x1024      Quick BO | Company 10
+   FRAME        6877:3122      1440x1024      Quick BO | Company 6
+   FRAME        7179:16660     1440x1024      Quick BO | Company 11
+   FRAME        7179:16769     1440x1024      Quick BO | Company 12
+   FRAME        6823:11166     1440x1024      Quick BO | Company 7
+   FRAME        7179:17178     1440x1024      Quick BO | Company 13
+   FRAME        6881:2573      1440x1024      Quick BO | Company 9
+   FRAME        5913:14853     1440x1024      Quick BO 2
+   FRAME        5913:15291     1440x1024      Quick BO 3
+   FRAME        5913:15551     1440x1024      Quick BO 4
+   FRAME        5913:15705     1440x1024      Quick BO 5
+   FRAME        5913:16291     1440x1024      Quick BO 6
+   FRAME        6704:9955      1440x1024      Quick BO 7
+   FRAME        7170:13215     1440x1024      Quick BO 10
+   FRAME        6891:4699      1440x1024      Quick BO 8
+   FRAME        7170:13423     1440x1024      Quick BO 11
+   FRAME        6891:4962      1440x1024      Quick BO 9
+   FRAME        7174:13763     1440x1024      Quick BO 12
+   FRAME        5913:16495     1440x1024      Submitted
+   FRAME        7662:3458      1440x1024      Submitted | BN
+   FRAME        5913:16766     402x874        Quick BO Mobile 1
+   FRAME        5913:20303     402x874        Quick BO Mobile 2
+   FRAME        6992:3703      402x874        Quick BO Mobile | Joint 1
+   FRAME        6992:3846      402x874        Quick BO Mobile | Joint 2
+   FRAME        6992:4351      402x874        Quick BO Mobile | Joint 3
+   FRAME        6992:4657      402x874        Quick BO Mobile | Joint 4
+   FRAME        6992:4919      402x874        Quick BO Mobile | Joint 5
+   FRAME        6992:5071      402x874        Quick BO Mobile | Joint 6
+   FRAME        5913:20639     402x874        Quick BO Mobile 3
+   FRAME        5913:20763     402x874        Quick BO Mobile 4
+   FRAME        5926:2648      402x874        Quick BO Mobile 5
+   FRAME        5926:2772      402x874        Quick BO Mobile 6
+   FRAME        6957:4137      402x874        Quick BO Mobile 8
+   FRAME        6957:4258      402x874        Quick BO Mobile 9
+   FRAME        5928:2167      402x874        Quick BO Mobile 7
+   FRAME        6108:2737      1440x1024      Instant Cash V 2.0
+   FRAME        6109:9931      1440x1024      Instant Cash V 2.0
+   FRAME        6109:10587     1440x1024      Instant Cash V 2.0 success
+   INSTANCE     6109:9802      1082x568       Pop-up IC 2.0
+   INSTANCE     6485:19133     1082x568       Pop-up IC 2.0
+   FRAME        6655:12301     1440x1024      Payment Confirmed
+   FRAME        6655:12338     1440x1024      Payment page
+   FRAME        6655:12381     1440x1024      Payment page - Bkash
+   FRAME        6655:12421     1440x1024      Payment page - Card
+   INSTANCE     6655:12461     1200x714       Map Pop-up
+   FRAME        7557:17264     1201x965       Owner
+   INSTANCE     7662:2968      1200x714       Map Pop-up
+   FRAME        7717:3791      1201x841       Company info
+   FRAME        8316:21803     1201x810       Panels
+   FRAME        8681:29977     1122x1525      Frame 392
+   FRAME        8674:7545      1920x5356      Color Palette
+   FRAME        9086:23669     402x874        Dashboard-Mobile
+   GROUP        9153:8825      18x21          Icon
+   FRAME        9597:4976      2880x1620      Slide 16:9 - 1
+   FRAME        10055:22093    1122x1497      Frame 393
+   FRAME        10185:6066     622x324        Frame 733
+   FRAME        10245:12313    622x661        Frame 735
+   FRAME        10194:6074     622x661        Frame 734
+   INSTANCE     10245:11665    316x1024       Filter
+   INSTANCE     10245:12285    1209x952       Report view
+   FRAME        10547:7049     129x38         Frame 819
+   INSTANCE     10553:9616     1340x769       Metrix popup
+   INSTANCE     10686:11661    1035x562       Add shares
+   INSTANCE     10697:12679    1209x527       Latest Updates Module
+   FRAME        10887:7149     1122x2088      Frame 820
+   FRAME        10948:8092     1920x1080      Slide 16:9 - 2
+   FRAME        11245:15005    1920x1080      Slide 16:9 - 4
+   FRAME        10958:9540     1920x1080      Slide 16:9 - 3
+   INSTANCE     11088:9243     316x1024       Filter V2
+   FRAME        11295:26830    511x263        Component 397
+   FRAME        11314:27342    1122x1838      Frame 395
+   FRAME        11360:9200     1003x712       T&C - popup
+   FRAME        14115:21177    1003x712       T&C - popup paper
+   FRAME        14146:17344    1003x712       T&C Campaign - popup
+   FRAME        11502:9448     1122x2619      Frame 822
+   FRAME        11502:10274    1122x1838      Frame 823
+   FRAME        11879:10590    21x21          Frame 976
+   FRAME        13488:12196    1440x1024      Paper Trading - Market
+   FRAME        14074:19989    1440x1024      Paper Trading - Test
+   FRAME        13638:13552    1440x1024      Paper Trading - Market
+   FRAME        13754:12148    1440x1024      Paper Trading - Trade
+   FRAME        14292:28459    1440x1024      Paper Trading - Modify Order
+   FRAME        14292:29113    1440x1024      Paper Trading - Modify Order
+   FRAME        14292:28805    1440x1024      Paper Trading - Modify Order
+   FRAME        14247:20770    1440x1024      Paper Trading - Trade (still only)
+   FRAME        13773:32826    1440x1024      Paper Trading - Portfolio
+   FRAME        14107:19949    1440x1024      Paper Trading - Wallet
+   FRAME        13798:12807    1440x1024      Paper Trading - Campaigns
+   FRAME        13839:16749    1440x1024      Paper Trading - Campaigns Dashboard
+   FRAME        13846:20053    1440x1024      Paper Trading - Campaigns Watchlist
+   FRAME        13846:21426    1440x1024      Paper Trading - Campaigns Trade
+   FRAME        13846:21811    1440x1024      Paper Trading - Campaigns Portfolio
+   FRAME        13846:21997    1440x1024      Paper Trading - Campaigns Scoreboard
+   INSTANCE     13513:16606    843x303        Search Results
+   INSTANCE     13635:13336    1035x503       Component 503
+   FRAME        13839:16404    1249x991       Details
+   FRAME        14074:15061    238x920        Component 1
+   FRAME        14074:19897    238x920        Component 504
+   FRAME        14091:42835    2189x1370      Paper Trading Dashboard
+   FRAME        14096:44081    1035x316       Order cancel popup
+   FRAME        14115:21098    380x338        Deposit Success - Popup
+   COMPONENT_SET 14190:16592    3855x959       Paper loader
+   COMPONENT_SET 14190:16595    3855x959       Live loader
+   FRAME        14244:20687    1000x1000      Bell-icon
+   INSTANCE     14247:20981    340x81         Order Validity
+   FRAME        14247:20982    340x81         Frame 1025
+   COMPONENT_SET 14247:21735    4855x1064      Component 516
+
+PAGE  BackOffice Dashboard  [4331:1794]  — 194 top-level nodes
+   FRAME        4331:2114      70406x18439    Components
+   FRAME        4331:1795      1440x1024      Pending Requests
+   FRAME        6756:8544      1440x1024      BO Requests
+   FRAME        7372:14028     1440x1024      Quick BO Requests Readyfor CDBL
+   FRAME        7375:15756     1440x1024      Quick BO Requests Readyfor CDBL
+   FRAME        7401:16626     1440x1024      Create new BO | Account Type
+   FRAME        7414:10669     1440x1024      Create new BO 1 | Individual
+   FRAME        7505:11700     1440x1024      Create new BO 1 | Joint
+   FRAME        7553:12988     1440x1024      Create new BO 1 | Company
+   FRAME        7597:16294     1440x1024      Create new BO 2 | Company
+   FRAME        7588:15143     1440x1024      Create new BO 3 | Company
+   FRAME        7597:16659     1440x1024      Create new BO 4 | Company
+   FRAME        7597:16945     1440x1024      Create new BO 5 | Company
+   FRAME        7602:13540     1440x1024      Create new BO 6 | Company
+   FRAME        7602:13803     1440x1024      Create new BO 7 | Company
+   FRAME        7602:13994     1440x1024      Create new BO 8 | Company
+   FRAME        7602:14180     1440x1024      Create new BO 8 | Company
+   FRAME        7602:14338     1440x1024      Create new BO 9 | Company
+   FRAME        7602:14539     1440x1024      Create new BO 10 | Company
+   FRAME        7602:14731     1440x1024      Create new BO 11 | Company
+   FRAME        7505:13214     1440x1024      Create new BO 2 | Joint
+   FRAME        7505:13970     1440x1024      Create new BO 3 | Joint
+   FRAME        7505:14214     1440x1024      Create new BO 4 | Joint
+   FRAME        7505:14462     1440x1024      Create new BO 5 | Joint
+   FRAME        7505:14723     1440x1024      Create new BO 6 | Joint
+   FRAME        7505:14943     1440x1024      Create new BO 7 | Joint
+   FRAME        7505:15129     1440x1024      Create new BO 8 | Joint
+   FRAME        7505:15392     1440x1024      Create new BO 9 | Joint
+   FRAME        7505:15582     1440x1024      Create new BO 9 | Joint
+   FRAME        7435:17345     1440x1024      Create new BO 2 | Individual
+   FRAME        7445:14440     1440x1024      Create new BO 3 | Individual
+   FRAME        7445:14684     1440x1024      Create new BO 4 | Individual
+   FRAME        7449:14937     1440x1024      Create new BO 5 | Individual
+   FRAME        7449:15841     1440x1024      Create new BO 6 | Individual
+   FRAME        7450:16044     1440x1024      Create new BO 7 | Individual
+   FRAME        7450:16258     1440x1024      Create new BO 8 | Individual
+   FRAME        7450:16613     1440x1024      Create new BO 8 | Individual
+   FRAME        7450:16807     1440x1024      Create new BO 9 | Individual
+   FRAME        7343:8631      1440x1024      Quick BO Requests Completed | Joint
+   FRAME        7343:14782     1440x1024      Quick BO Requests Completed | Joint
+   FRAME        7372:13684     1440x1024      Quick BO Requests Completed | Company
+   FRAME        6773:7885      1440x1024      Complete quick BO 1 | Joint
+   FRAME        7367:12300     1440x1024      Complete quick BO 1 | Company
+   FRAME        7343:12573     1440x1024      Complete quick BO 1 | Individual
+   FRAME        7024:7885      1440x1024      Complete quick BO 2 | Joint
+   FRAME        7369:13534     1440x1024      Complete quick BO 2 | Company
+   FRAME        7343:12743     1440x1024      Complete quick BO 2 | Individual
+   FRAME        7102:15861     1440x1024      Complete quick BO 3  | Joint
+   FRAME        7135:8461      1440x1024      Complete quick BO 4 | Joint
+   FRAME        7372:12589     1440x1024      Complete quick BO 3 | Company
+   FRAME        7343:13075     1440x1024      Complete quick BO 3 | Individual
+   FRAME        7308:8454      1440x1024      Complete quick BO 5 | Joint
+   FRAME        7372:13213     1440x1024      Complete quick BO 5 | Joint
+   FRAME        7343:13257     1440x1024      Complete quick BO 4 | Individual
+   FRAME        7372:13091     1440x1024      Complete quick BO 4 | Company
+   FRAME        7308:9067      1440x1024      Complete quick BO 6 | Joint
+   FRAME        7343:13393     1440x1024      Complete quick BO 5 | Individual
+   FRAME        4384:223       1440x1024      Search Accounts
+   FRAME        4389:8484      1440x1024      Search Accounts
+   FRAME        4408:2238      1440x1024      Search Accounts 2
+   FRAME        4414:7266      1440x1024      User List
+   FRAME        5650:8559      1440x1024      Add Agent
+   FRAME        5684:8920      1440x1024      Assign agent def
+   FRAME        5704:14860     1440x1024      Assign agent complete
+   FRAME        5744:9587      1440x1024      Assign agent list
+   FRAME        5756:10141     1440x1024      Assign agent complete
+   FRAME        5684:9148      1440x1024      Assign agent open
+   FRAME        5674:8745      1440x1024      Add Agent Filled
+   FRAME        5664:8748      1440x1024      View Agent List
+   FRAME        6401:7981      1440x1024      View Agent List
+   FRAME        4459:4381      1440x1024      EOD Tracker
+   FRAME        4508:2965      1440x1024      EOD Tracker
+   FRAME        4503:3458      1440x1024      Trade File
+   FRAME        4519:7445      1440x1024      Client File
+   FRAME        4519:7947      1440x1024      Position File
+   FRAME        5017:4308      1440x1024      Instant Cash Backoffice
+   FRAME        5052:6363      1440x1024      Instant Cash Backoffice -  Pending Requests
+   FRAME        5126:6302      1440x1024      Instant Cash Backoffice -  Report
+   FRAME        5211:6871      1440x1024      Instant Cash Backoffice -  Report
+   FRAME        5195:6422      1440x1024      Instant Cash Backoffice -  Settlement Status
+   FRAME        4569:3352      1440x1024      Holiday Management
+   FRAME        4614:2269      1440x1024      Holiday Management View table
+   FRAME        4747:9949      1440x1024      English CMS - Services
+   FRAME        5342:4540      1440x1024      English CMS - Services
+   FRAME        5342:4613      1440x1024      English CMS - Services
+   FRAME        5342:4755      1440x1024      English CMS - Services Updated
+   FRAME        4818:8269      1440x1024      English CMS - Services Updated
+   FRAME        5342:4898      1440x1024      English CMS - Services Updated
+   FRAME        5342:4972      1440x1024      English CMS - FAQ
+   FRAME        5342:5045      1440x1024      English CMS - Compare table
+   FRAME        5342:5092      1440x1024      English CMS - FAQ Updated
+   FRAME        5342:5166      1440x1024      English CMS - Compare table Updated
+   FRAME        4747:15840     1440x1024      English CMS - Testomnials
+   FRAME        5342:5214      1440x1024      English CMS - Testomnials
+   FRAME        4866:3647      1440x1024      English CMS - Testomnials search
+   FRAME        5342:5297      1440x1024      English CMS - Testomnials search
+   FRAME        4782:9029      1440x1024      English CMS - Branches
+   FRAME        5342:5349      1440x1024      English CMS - Branches
+   FRAME        4888:3476      1440x1024      English CMS - Branches search
+   FRAME        5342:5458      1440x1024      English CMS - Branches search
+   FRAME        4635:2201      1440x1024      Holiday Management View table
+   FRAME        4614:2155      1440x1024      Holiday Management 2
+   FRAME        4635:2184      1182x391       Edit Holiday
+   FRAME        4519:8050      1440x1024      Position File 2
+   FRAME        4519:8536      1440x1024      Position File 3
+   FRAME        5447:5803      1440x1024      Position File 5
+   FRAME        9262:14247     1440x1024      LVaR calculations
+   FRAME        11937:30731    1440x1024      LVaR email notification - Def
+   FRAME        11945:18419    1440x1024      LVaR email notification - More Options
+   FRAME        9262:14702     1440x1024      Consolidated Margin Portfolio
+   FRAME        4527:8901      1440x1024      Position File 4
+   FRAME        4519:7853      1440x1024      Client File 4
+   FRAME        4519:7661      1440x1024      Client File 3
+   FRAME        5447:5888      1440x1024      Client File 5
+   FRAME        5744:9391      1122x348       Client list popup
+   FRAME        4519:7566      1440x1024      Client File 2
+   FRAME        4508:3056      1440x1024      Trade File 4
+   FRAME        4503:3612      1440x1024      Trade File 2
+   FRAME        4503:3707      1440x1024      Trade File 3
+   FRAME        4496:945       1440x1024      EOD Tracker 2
+   FRAME        4496:1028      1440x1024      EOD Tracker 3
+   FRAME        5447:4975      1440x1024      EOD Tracker 4
+   FRAME        4408:415       1440x1024      Search Accounts Approved Only
+   FRAME        4408:700       1440x1024      Search Accounts Rejected Only
+   FRAME        4385:6386      1440x1024      Search Accounts results
+   FRAME        5052:6775      1082x511       Component 234
+   FRAME        5417:4972      1082x316       Component 396
+   FRAME        5447:6106      1082x316       Component 397
+   FRAME        6401:7915      1182x432       Component 400
+   FRAME        5447:6122      1082x316       Component 398
+   FRAME        4430:8338      1209x527       Component 200
+   FRAME        4358:12052     1269x855       Pop-up Content
+   FRAME        4408:919       1269x855       Pop-up Undo
+   FRAME        4386:8473      1209x580       Popup
+   INSTANCE     5342:5511      1217x553       Component 395
+   FRAME        5195:6749      595x842        Instant Cash Invoice
+   FRAME        5370:7648      595x842        Instant Cash Report
+   FRAME        5617:14252     595x842        Pending Settlement Report
+   FRAME        5589:7084      1440x1024      Agent Dashboard Full
+   FRAME        5589:12499     1440x1024      Agent User Portfolio
+   FRAME        5589:12793     1440x1024      Agent Request Instant Cash
+   FRAME        5589:13013     595x842        A4 - 1
+   FRAME        5589:13382     1440x1024      Instant Cash
+   FRAME        9756:15834     1440x1024      BO KPI - Overall
+   FRAME        9849:16654     1440x1024      News- Upload Article
+   FRAME        12029:28972    1440x1024      News- Create Article
+   FRAME        9866:21386     1440x1024      User - Add Potential Clients
+   FRAME        13863:41849    1440x1024      Campaign - Create campaign
+   FRAME        13944:35179    1440x1024      Campaign - View Campaigns
+   FRAME        9892:17250     1209x515       Edit potential client data
+   FRAME        9866:26762     1440x1024      User - Import Potential Clients
+   FRAME        9892:16988     1440x1024      User - Import Potential Clients
+   FRAME        9866:27052     1440x1024      User - Preview Import
+   FRAME        9866:27663     1440x1024      User - List Imported
+   FRAME        9866:26629     1440x1024      User - Added Potential Clients
+   FRAME        9852:22788     1440x1024      News- Article list
+   FRAME        9858:20992     1440x1024      News- Email send
+   FRAME        9852:22631     1440x1024      News- Upload Article complete
+   FRAME        9756:21435     1440x1024      BO KPI - BO wise
+   FRAME        9840:20698     1440x1024      BO KPI - User wise
+   FRAME        9840:20956     1440x1024      BO KPI - User wise report
+   FRAME        9829:20083     1440x1024      BO KPI - BO wise report
+   FRAME        9756:21141     1440x1024      BO KPI - Overall report
+   FRAME        5589:13601     1440x1024      Agent Ledger Report
+   FRAME        5870:9170      1440x1024      Agent Instrument Ledger Report
+   FRAME        5871:9362      1440x1024      Agent Instrument Ledger Report 2
+   FRAME        5589:13642     1440x1024      Agent Ledger Report 2
+   FRAME        5672:6691      1182x502       Edit Agent
+   FRAME        5797:12371     1122x477       Assign Table
+   INSTANCE     6538:10620     1082x568       Pop-up IC 2.0
+   FRAME        7373:14262     1269x855       Enter BO ID
+   FRAME        7451:17689     1123x958       Nominee
+   FRAME        7505:13875     1123x958       Nominee | Joint
+   FRAME        7588:15508     1123x958       Nominee | Company
+   FRAME        7451:17690     1123x958       Guardian
+   FRAME        7505:14632     1123x958       Guardian|Joint
+   FRAME        7602:13712     1123x958       Guardian | Company
+   FRAME        7451:17691     1123x958       POA
+   FRAME        7505:15300     1123x958       POA | Joint
+   FRAME        7602:14918     1123x958       POA | Joint
+   INSTANCE     9245:14425     1209x641       Analysis modal
+   FRAME        9265:15837     1209x564       Analysis modal
+   FRAME        9832:20437     1209x644       BO Request Details-green
+   FRAME        9858:20790     1209x352       Send article via email popup
+   FRAME        11945:18379    1209x238       Send article via email popup
+   FRAME        9840:21153     1209x472       BO Request User Details-raju
+   FRAME        9840:21407     1209x421       BO Request User Details-sazzad
+   FRAME        9840:21459     1209x421       BO Request User Details-dmd
+   FRAME        9838:20627     1209x644       BO Request Details-red
+   FRAME        9840:21224     1209x421       BO Request User Details-md
+   FRAME        11945:28824    1728x1178      Fintra Notification Non Margin to Margin
+   FRAME        11945:29132    1728x1178      Fintra Notification Margin to Non Margin
+   FRAME        11945:29439    1728x1178      Fintra Notification Non-Marginable for Specific Days
+   FRAME        13885:45575    2189x1305      Document
+
+PAGE  Email Templates  [9902:21975]  — 22 top-level nodes
+   SECTION      9902:28873     4871x6217      App release mail design
+   FRAME        13588:309      393x2278       Fintra x Investaloy email - Mobile
+   FRAME        13653:299      361x919        Hero-email mobile
+   SECTION      9902:29720     2361x2859      OTP Email
+   SECTION      9923:31309     2409x4883      Welcome Message
+   SECTION      9933:17226     2361x2994      Marginable Ticker reminder email
+   SECTION      13263:4866     2361x5959      Morning Bulletin
+   SECTION      13269:48617    2361x4038      BO Account Details
+   FRAME        12488:44661    393x1951       Fintra Notification Email Dark- Mobile
+   FRAME        12491:44842    361x328        Frame 624
+   FRAME        12486:4680     1728x1551      Fintra Notification Email Dark- Desktop
+   FRAME        10493:25046    1920x1080      Market Research Panel
+   FRAME        13563:13167    1728x1799      Fintra x Investaloy email
+   FRAME        13653:265      1194x747       Hero-email desk
+   VECTOR       13570:14153    300x484        Vector
+   RECTANGLE    13570:14149    460x533        Gemini_Generated_Image_869amf869amf869a 1
+   RECTANGLE    13570:14126    518x600        Gemini_Generated_Image_srbhfgsrbhfgsrbh 1
+   FRAME        12491:44835    640x209        Frame 623
+   VECTOR       13563:13707    2224x507       Vector
+   RECTANGLE    13563:13670    2224x507       image 1
+   RECTANGLE    13563:13704    2224x507       logo 1
+   VECTOR       13570:14130    407x545        Vector
+
+PAGE  Email signature  [13115:46376]  — 6 top-level nodes
+   RECTANGLE    13115:46377    1280x720       image 1
+   FRAME        13115:46378    718x277        Original
+   FRAME        13115:46389    718x301        + Department
+   FRAME        13115:46401    964x327        + Department Bolder
+   FRAME        13115:46413    795x336        + Department Bolder
+   FRAME        13115:46425    1250x1250      Frame 203
+
+PAGE  Paper Trading V 1.0  [13384:1265]  — 3 top-level nodes
+   FRAME        13387:34511    1440x1024      Sign-Up
+   FRAME        13465:24       1440x1024      Login
+   FRAME        13463:16774    29665x12861    Frame 669
+
+PAGE  Envelope  [9606:5156]  — 6 top-level nodes
+   FRAME        9606:5157      595x842        Envelope design requirements
+   FRAME        9641:930       595x842        Business Card design requirements
+   FRAME        9698:5801      595x842        Temp. Business Card design requirements
+   FRAME        9606:5211      595x842        Envelope design requirements
+   FRAME        9642:1061      500x500        frame 1
+   FRAME        9642:1091      500x500        frame 2
+
+PAGE  Report Book  [9049:2977]  — 16 top-level nodes
+   FRAME        9049:2978      595x842        NCC_Bank_1_pager_1
+   FRAME        9049:3055      595x842        NCC_Bank_1_pager_1 V2_with watermark
+   FRAME        9105:4324      595x842        NCC_Bank_1_pager_1 V2_with footer
+   FRAME        9049:3049      595x842        NCC_Bank_1_pager_2
+   FRAME        9053:94        595x842        NCC_Bank_1_pager_2_with watermark
+   FRAME        9105:8792      595x842        NCC_Bank_1_pager_2_with footer
+   FRAME        9105:8778      595x842        NCC_Bank_1_pager_1 V2
+   RECTANGLE    12128:2562     154x102        Screenshot 2025-12-08 145854 1
+   FRAME        12130:2569     2481x3508      Frame 207
+   FRAME        12130:2567     2481x3508      Frame 206
+   VECTOR       13489:10373    1x4            Vector
+   VECTOR       13489:10374    0x3            Vector
+   RECTANGLE    13489:10368    90x93          Slice 1 1
+   FRAME        12162:18069    2481x3511      A4 - 1
+   FRAME        12165:18514    2481x3511      A4 - 2
+   FRAME        12258:2        2481x3511      A4 - 3
+
+PAGE  LLM Wireframes  [7765:4982]  — 11 top-level nodes
+   FRAME        7766:4983      1440x1024      Landing
+   FRAME        7768:5022      1440x2332      Courses
+   FRAME        7768:5122      1440x1024      Chapters
+   FRAME        7769:6711      1440x1024      Chapters
+   FRAME        7783:4338      1440x5210      Content V 2,0 1
+   FRAME        7788:3387      1440x2133      Test Page
+   FRAME        7788:4144      1440x2133      Test Page
+   FRAME        7788:3783      1440x2591      Failed Result
+   FRAME        7788:4303      1440x2591      Failed Result
+   FRAME        7769:6790      658x316        result 3
+   FRAME        7783:3824      20484x6982     Frame 96
+
+PAGE  LLM Design  [7801:24]  — 78 top-level nodes
+   RECTANGLE    7838:5495      15380x1704     Rectangle 28
+   RECTANGLE    8614:2672      5138x5404      Rectangle 40
+   RECTANGLE    8614:4134      5114x1939      Rectangle 42
+   RECTANGLE    8214:3612      5114x1939      Rectangle 38
+   RECTANGLE    7862:738       15380x4389     Rectangle 30
+   RECTANGLE    7946:697       15380x5167     Rectangle 32
+   RECTANGLE    7984:1308      15380x5167     Rectangle 34
+   FRAME        7801:25        1440x1024      Login
+   FRAME        7862:739       1440x3369      Courses
+   FRAME        7981:1034      1440x3369      Courses = Resume Course
+   FRAME        7946:1564      1440x1024      Test Page (for oassing)
+   FRAME        7984:3302      1440x1024      User Profile
+   FRAME        7984:3387      1440x1280      User Profile - User Info
+   FRAME        7991:6391      1440x1024      User Profile - User Progress
+   FRAME        7991:6493      1440x1024      User Profile - User Progress Loaded
+   FRAME        7996:1285      1440x1024      User Profile - User Accomplishment
+   FRAME        7996:1370      1440x1024      User Profile - User Accomplishment Loaded
+   FRAME        7996:1487      1440x1024      User Profile - Certificate
+   FRAME        7996:1570      1440x1024      User Profile - Certificate Loaded
+   FRAME        7976:1186      1440x1024      Test Page (for failing)
+   FRAME        7946:1597      1440x4100      Test Page
+   FRAME        7976:1221      1440x4100      Test Page
+   FRAME        7968:784       1440x4376      Test Page - Passed
+   FRAME        7972:3384      1440x1024      Test Page - Failed
+   FRAME        7976:917       1440x4376      Test Page - Failed
+   FRAME        7919:6568      1440x1024      Chapters
+   FRAME        7980:979       1440x1024      Chapters (1 Completed)
+   FRAME        7925:736       1440x1024      Chapter 1 Skeleton
+   FRAME        7925:976       1440x3627      Sections
+   FRAME        7862:488       1440x1024      OTP Register
+   FRAME        7845:5970      1440x1024      OTP Change Password
+   FRAME        7845:5910      1440x1024      Change Password Initial
+   FRAME        7845:6235      1440x1024      Change Password
+   FRAME        7862:589       1440x1024      Login after Change Password
+   FRAME        7816:5370      1440x1024      Register
+   FRAME        7801:40        22821x1704     Components for login
+   FRAME        8614:2673      7110x1704      Components for login - Mobile
+   FRAME        8614:4135      7110x1704      Components for login - Mobile
+   FRAME        8214:3613      7110x1704      Components for login - Mobile
+   FRAME        7862:901       22821x1704     Components for Course listing
+   FRAME        7946:949       22821x4460     Components for Test Page
+   FRAME        7984:1929      22821x4460     Components for User Profile
+   TEXT         7838:5496      1908x122       Login/Registration/Change Password/OTP
+   TEXT         8614:3131      589x122        Landing Page
+   TEXT         8614:4593      1908x122       Login/Registration/Change Password/OTP
+   TEXT         8214:4071      1095x122       Course Listing / Content
+   TEXT         7862:1559      1095x122       Course Listing / Content
+   TEXT         7946:1004      972x122        Test Page - Pass & Fail
+   TEXT         7984:2914      525x122        User Profile
+   RECTANGLE    7862:709       39400x3046     Rectangle 29
+   RECTANGLE    8614:3132      13436x6348     Rectangle 41
+   RECTANGLE    8614:4594      13436x3046     Rectangle 43
+   RECTANGLE    8214:4072      13436x3046     Rectangle 39
+   RECTANGLE    7862:1560      39400x5267     Rectangle 31
+   RECTANGLE    7946:1005      39400x6149     Rectangle 33
+   RECTANGLE    7984:2915      39400x6149     Rectangle 35
+   FRAME        7951:10465     959x228        Quiz-Popup
+   COMPONENT_SET 7956:7744      334x88         BTN
+   FRAME        7964:809       369x298        Menu Popup
+   FRAME        7976:1170      959x228        Quiz-Popup
+   TEXT         8188:2362      8086x2420      Desktop
+   TEXT         8188:2363      6518x2420      Mobile
+   FRAME        8614:4595      402x874        Login Password wrong
+   FRAME        8614:4652      402x874        Login after Password Reset
+   FRAME        8614:4693      402x874        Register
+   FRAME        8614:4738      402x874        Forgot Password Initial
+   FRAME        8614:4764      402x874        Forgot Password Initial-User not found
+   FRAME        8614:4789      402x874        Forgot Password - OTP
+   FRAME        8614:4803      402x874        Forgot Password
+   FRAME        8614:4828      402x874        OTP - Register
+   FRAME        8614:4842      402x383        Extension List
+   FRAME        8614:3407      402x4888       landing-mobile
+   FRAME        8614:4869      402x874        Login
+   FRAME        8214:5066      402x874        Course Listing
+   FRAME        8424:2644      1440x4467      Landing Page
+   FRAME        8454:2755      22821x1704     Components for landing page
+   FRAME        8632:3095      402x874        iPhone 16 Pro - 1
+   COMPONENT_SET 8661:8105      1172x436       Component 96
+
+PAGE  Landing Page (Mobile)  [263:1993]  — 43 top-level nodes
+   FRAME        273:2700       393x852        Landing Page | EN
+   FRAME        3100:4929      393x852        Landing Page After login | EN
+   FRAME        3014:3508      393x852        Login Page | En
+   FRAME        3110:5688      393x852        Create Account Page | En
+   FRAME        3917:7163      393x852        Create BO Account start | En
+   FRAME        3917:7293      393x852        Create BO Account Pref | En
+   FRAME        3917:7689      393x852        Create BO Account personal info 1 | En
+   FRAME        3917:7957      393x852        Create BO Account personal info 2 | En
+   FRAME        3935:8148      393x852        Create BO Account personal info 3 | En
+   FRAME        3946:7017      393x852        Create BO Account personal info 3 | En
+   FRAME        3939:8925      393x852        Create BO Account personal info 4 | En
+   FRAME        3939:9261      393x852        Create BO Account personal info 6 | En
+   FRAME        3946:2989      393x852        Create BO Account personal info 7 | En
+   FRAME        3939:9051      393x852        Create BO Account personal info 5 | En
+   FRAME        3946:6760      393x852        Create BO Account POA 1 | En
+   FRAME        3946:6944      393x852        Create BO Account POA 3 | En
+   FRAME        3951:7588      393x852        Create BO Account POA 3 | En
+   FRAME        3951:7823      393x852        Create BO Account POA 3 | En
+   FRAME        3946:7227      393x852        Create BO Account POA 4 | En
+   FRAME        3946:7311      393x852        Create BO Account POA 5 | En
+   FRAME        3946:6833      393x852        Create BO Account POA 2 | En
+   FRAME        3946:7454      393x852        Create BO Account POA 6 | En
+   FRAME        3087:4501      393x852        Login Page | En
+   FRAME        3030:5874      393x852        Reset password OTP Page | En
+   FRAME        3030:6364      393x852        Reset password OTP Page filled | En
+   FRAME        3027:3529      393x852        OTP page for login (without keypad) | EN
+   FRAME        3110:5932      393x852        OTP page for login (without keypad) | EN
+   FRAME        3110:6339      393x852        OTP page for login (without keypad) | EN
+   FRAME        3110:6496      393x852        OTP page for login (without keypad) | EN
+   FRAME        3110:6163      393x852        OTP page for login (without keypad) | EN
+   FRAME        3033:1647      393x852        OTP entry for reset password (without keypad) | EN
+   FRAME        3033:1812      393x852        OTP entry for reset password (with keypad) | EN
+   FRAME        3038:2104      393x852        OTP entry for reset password filled (with keypad) | EN
+   FRAME        3060:4267      393x852        Reset password page | EN
+   FRAME        3087:4300      393x852        Reset password page compleyed | EN
+   FRAME        3087:4386      393x852        Reset password redirect | EN
+   FRAME        3027:5545      393x852        OTP page for login (without keypad) | EN
+   FRAME        3027:5395      393x852        OTP page for login (with keypad) | EN
+   FRAME        3027:5704      393x852        OTP page for login (with keypad) complete | EN
+   FRAME        273:2745       393x734        Landing Page Content | EN
+   FRAME        273:2837       24556x9116     Frame 143
+   INSTANCE     447:5034       346x292        Cert Popup
+   FRAME        3917:7119      1440x1024      Create BO Account Start
+
+PAGE  User Dashboard v2.0  [8700:4982]  — 7 top-level nodes
+   FRAME        8700:9846      1440x1024      1. Dashboard | En
+   FRAME        8742:11431     1440x1024      1. Dashboard | Bn
+   FRAME        8719:10230     1440x1024      2. BO Account - Initial | En
+   FRAME        8755:759       1440x1024      2. BO Account - Initial | Bn
+   FRAME        8719:11212     1440x1024      2. BO Account - Applied
+   FRAME        8719:10874     13700x1024     Frame 585
+   FRAME        8742:11403     238x177        Frame 6
+
+PAGE  Color palette deck  [8528:8349]  — 11 top-level nodes
+   FRAME        8542:8648      1920x1080      Page 9
+   FRAME        8542:8618      1920x1080      Page 8
+   FRAME        8529:8594      1920x1080      Page 7
+   FRAME        8529:8576      1920x1080      Page 6
+   FRAME        8529:8556      1920x1080      Page 5
+   FRAME        8529:8522      1920x1080      Page 4
+   FRAME        8529:8547      1920x1080      Page 3
+   FRAME        8529:8505      1920x1080      Page 2
+   FRAME        8528:8483      1920x1080      Page 1
+   FRAME        9073:113       1920x1080      Page 10
+   FRAME        8528:8350      1920x1080      Title
+
+PAGE  BackOffice Dashboard- Mobile  [8761:17056]  — 67 top-level nodes
+   FRAME        8761:17057     402x874        Pending BO
+   FRAME        8772:32859     402x874        Complete Quick BO
+   FRAME        8786:33150     402x874        Search BO
+   FRAME        8801:14870     402x874        User list
+   FRAME        8825:30081     402x1161       Add Agent
+   FRAME        8830:14643     402x874        Assign Agent
+   FRAME        8841:625       402x874        EOD Tracker
+   FRAME        8871:14867     402x874        Trade File
+   FRAME        8871:30278     402x874        Daily Client File
+   FRAME        8871:30711     402x874        Daily Position File
+   FRAME        8871:31223     402x874        Manage Holidays
+   FRAME        8900:15176     402x899        Cash Requests
+   FRAME        8900:30905     402x934        Pending Settlement
+   FRAME        8903:31359     402x934        History
+   FRAME        8903:31832     402x874        Report
+   FRAME        8946:1335      402x1763       Edit Content - services
+   FRAME        8946:29425     402x874        Edit Content - testimonial
+   FRAME        8958:29848     402x874        Edit Content - Branches
+   FRAME        8903:32178     402x1334       Report Generated
+   FRAME        8876:31507     402x874        View Holidays
+   FRAME        8841:19847     402x874        EOD Tracker -  Uploading
+   FRAME        8871:14891     402x874        Trade File -  Uploading
+   FRAME        8871:30302     402x874        Daily Client File -  Uploading
+   FRAME        8871:30735     402x874        Daily Position File -  Uploading
+   FRAME        8841:30192     402x920        EOD Tracker -  Uploaded
+   FRAME        8871:14917     402x997        Trade File -  Uploaded
+   FRAME        8871:30328     402x919        Daily Client File -  Uploaded
+   FRAME        8871:30761     402x919        Daily Position File -  Uploaded
+   FRAME        8830:14888     402x1143       Assign Agent
+   FRAME        8830:30539     402x874        Assign Agent
+   FRAME        8825:30229     402x1065       View agent list
+   FRAME        8794:34887     402x1521       Approval history
+   FRAME        8794:35242     402x914        Approval history - Rejected
+   FRAME        8794:35119     402x914        Approval history - Approved
+   FRAME        8786:34827     402x874        Search BO - results
+   FRAME        8772:32838     362x352        warning
+   FRAME        8772:32502     402x874        Ready for CDBL
+   FRAME        8761:22199     402x874        Navbar - Pending BO
+   FRAME        8772:32929     402x874        Navbar - Complete Quick BO
+   FRAME        8786:33174     402x874        Navbar - Search BO
+   FRAME        8801:14897     402x874        Navbar - User list
+   FRAME        8825:30120     402x874        Navbar - Add Agent
+   FRAME        8830:14688     402x874        Navbar - Assign Agent
+   FRAME        8841:654       402x874        Navbar - EOD Tracker
+   FRAME        8871:15025     402x874        Navbar - Trade File
+   FRAME        8871:30469     402x874        Navbar - Daily Client File
+   FRAME        8871:30835     402x874        Navbar - Daily Position File
+   FRAME        8871:31247     402x874        Navbar - Manage Holidays
+   FRAME        8900:15221     402x874        Navbar - Cash Requests
+   FRAME        8900:30995     402x874        Navbar - Pending Settlement
+   FRAME        8903:31483     402x874        Navbar - History
+   FRAME        8903:31941     402x874        Navbar - Report
+   FRAME        8946:1367      402x874        Navbar - Edit Content
+   FRAME        8794:34914     402x874        Navbar - Approval history
+   FRAME        8772:29198     16351x7264     Frame 567
+   VECTOR       8772:32848     50x50          Vector
+   FRAME        8807:14558     362x568        Component 200
+   FRAME        8830:30053     362x576        Component 201
+   FRAME        8830:30841     362x426        Component 202
+   FRAME        8841:30422     362x707        Edit Agent
+   FRAME        8841:30636     362x573        Component 400
+   FRAME        8871:31398     362x554        Edit Holiday
+   FRAME        8946:29675     362x569        Add New Testimonial
+   FRAME        8958:29933     362x786        Add New Branches
+   FRAME        8946:29780     362x677        Edit Testimonial
+   FRAME        8958:29950     362x790        Edit Branches
+   FRAME        8900:30739     362x700        IC Popup
+
+PAGE  Paper Trading Mobile  [6115:2339]  — 23 top-level nodes
+   FRAME        6115:2340      402x2237       Home | Light
+   FRAME        6256:139       402x2237       Home | Dark
+   FRAME        6243:117       402x1092       Asset | Light
+   FRAME        6603:10467     402x874        Trade A | Light
+   FRAME        6686:598       402x874        Trade B | Light
+   FRAME        6686:837       402x874        Trade C | Light
+   FRAME        6479:7987      402x874        Add Funds | Light
+   FRAME        6485:8373      402x874        OTP - Funds | Light
+   FRAME        6485:16740     402x874        Funds Successful | Light
+   FRAME        6387:19418     402x1092       Asset | Dark
+   FRAME        6119:2423      55672x13561    Frame 1
+   FRAME        6146:7532      402x606        Edit list Popup | Light
+   FRAME        6358:18601     402x456        Add Tiles | Light
+   FRAME        6419:8318      402x709        Share Details | Light
+   FRAME        6419:8460      402x709        Add Tiles | Dark
+   FRAME        6387:19508     402x456        Add Tiles | Dark
+   FRAME        6256:652       402x606        Edit list Popup | Dark
+   FRAME        6154:8222      402x562        Tips- Dashboard | Light
+   FRAME        6256:677       402x562        Tips- Dashboard | Dark
+   FRAME        6538:10327     402x874        Add Funds | Dark
+   FRAME        6538:10353     402x874        OTP - Funds | Dark
+   FRAME        6538:10381     402x874        Funds Successful | Dark
+   FRAME        6631:570       402x874        Company Details | Light
+
+PAGE  Font selection  [5117:1966]  — 2 top-level nodes
+   FRAME        5117:6212      1785x2526      A4 - 2
+   FRAME        5117:6255      1785x2526      A4 - 3
+
+PAGE  Display Images For Employees  [13653:336]  — 1 top-level nodes
+   FRAME        13653:337      1000x1000      Mr. Imtiaz-DP
+
