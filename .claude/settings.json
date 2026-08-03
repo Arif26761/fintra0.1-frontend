@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/.env*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(secrets/**)",
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Edit(**/.env*)",
+      "Edit(secrets/**)",
+      "Write(**/.env*)",
+      "Write(secrets/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Edit|Write|Grep",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/audit-secrets.mjs" }
+        ]
+      }
+    ]
+  }
+}
