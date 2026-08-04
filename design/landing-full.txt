@@ -1,0 +1,420 @@
+FRAME      11477:75610    1440x5753    Landing
+  FRAME      11625:15842    1440x5753    Frame 873 [VERTICAL gap:117]
+    FRAME      12371:4863     1440x2160    Frame 913 [VERTICAL gap:0]
+      FRAME      11625:15840    1440x1262    Hero
+        FRAME      11625:15839    1440x906     Frame 871 [VERTICAL gap:10]
+          FRAME      11477:75662    1404x878     Start [VERTICAL gap:10]
+            ELLIPSE    11477:85440    1403x700     Ellipse 1
+            FRAME      11477:75663    1198x268     Frame 152 [VERTICAL gap:5]
+              FRAME      11502:10646    446x34       Frame 160 [HORIZONTAL gap:10]
+                RECTANGLE  11502:10649    64x24        Frame 161 1
+                TEXT       11502:10644    352x24       Trusted by over 600 traders all over bangladesh
+              TEXT       11477:75664    622x140      Invest with clarity. trade with confidence
+              TEXT       11477:75665    1198x24      Empowering Every Investor in Bangladesh’s Capital Market
+            FRAME      11477:75666    429x87       Frame 2 [HORIZONTAL gap:10]
+              FRAME      11477:75667    210x47       BTN [HORIZONTAL gap:10]
+                TEXT       11477:75668    46x27        Login
+                VECTOR     11625:10918    10x10        Vector
+              FRAME      11477:75670    210x47       BTN [HORIZONTAL gap:10]
+                TEXT       11477:75671    81x27        About Us
+        INSTANCE   11581:5803     959x567      Component 7
+          RECTANGLE  I11581:5803;11581:5795 958x681      Analysis 1
+      FRAME      11549:11575    1440x898     Features [VERTICAL gap:40]
+        FRAME      11477:75646    1440x84      About [HORIZONTAL gap:59]
+          FRAME      11477:75657    1198x84      Frame 137 [VERTICAL gap:25]
+            TEXT       11477:75660    644x35       Everything You Need to Trade Smarter
+            TEXT       11477:75661    454x24       Powerful tools designed specifically for the Bangladeshi market
+        FRAME      11549:11574    1196x774     Frame 838 [VERTICAL gap:30]
+          FRAME      11523:10660    1196x419     Frame 165 [HORIZONTAL gap:30]
+            INSTANCE   11546:11476    583x419      Component 1 [VERTICAL gap:30]
+              RECTANGLE  I11546:11476;11546:11461 523x241      Frame 175 1
+              FRAME      I11546:11476;11546:11462 523x88       Frame 176 [VERTICAL gap:5]
+                TEXT       I11546:11476;11546:11463 523x35       Advance Charts
+                TEXT       I11546:11476;11546:11464 523x48       A professional workspace that simplifies the most complex technical analysis.
+            INSTANCE   11546:11499    583x419      Component 2 [VERTICAL gap:30]
+              RECTANGLE  I11546:11499;11546:11483 523x241      Frame 175 1
+              FRAME      I11546:11499;11546:11484 523x88       Frame 831 [VERTICAL gap:5]
+                TEXT       I11546:11499;11546:11485 523x35       Real-Time Updates
+                TEXT       I11546:11499;11546:11486 523x48       Stay ahead of every price movement with zero-latency data directly from the exchange.
+          FRAME      11529:10937    1196x325     Frame 166 [HORIZONTAL gap:30]
+            INSTANCE   11546:11522    379x325      Component 3 [VERTICAL gap:30]
+              RECTANGLE  I11546:11522;11546:11506 319x147      Frame 175 1
+              FRAME      I11546:11522;11546:11507 319x88       Frame 176 [VERTICAL gap:5]
+                TEXT       I11546:11522;11546:11508 319x35       Trade Now, Settle Later
+                TEXT       I11546:11522;11546:11509 319x48       Instant loans to keep your portfolio moving at full speed.
+            INSTANCE   11546:11545    379x325      Def [VERTICAL gap:30]
+              RECTANGLE  I11546:11545;11546:11529 319x147      Frame 175 1
+              FRAME      I11546:11545;11546:11530 319x88       Frame 176 [VERTICAL gap:5]
+                TEXT       I11546:11545;11546:11531 319x35       Smart Market Filtering
+                TEXT       I11546:11545;11546:11532 319x48       Discover the next market leader using 50+ professional screening criteria.
+            INSTANCE   11546:11568    379x325      Component 4 [VERTICAL gap:30]
+              RECTANGLE  I11546:11568;11546:11552 319x147      Frame 175 1
+              FRAME      I11546:11568;11546:11553 319x88       Frame 831 [VERTICAL gap:5]
+                TEXT       I11546:11568;11546:11554 319x35       Instant Transactions
+                TEXT       I11546:11568;11546:11555 319x48       Move your money in and out with secure, lightning-fast banking integrations.
+    FRAME      11564:36       1440x636     App CTA [VERTICAL gap:90]
+      FRAME      11564:37       1440x84      About [HORIZONTAL gap:59]
+        FRAME      11564:38       1198x84      Frame 137 [HORIZONTAL gap:25]
+          FRAME      11564:4866     439x84       Frame 839 [VERTICAL gap:0]
+            TEXT       11564:39       439x35       Trade Anywhere, Anytime.
+            TEXT       11564:40       374x24       Download the Fintra mobile app for iOS and Android
+          FRAME      11564:4823     368x84       App redirect [HORIZONTAL gap:22]
+            FRAME      11564:4824     173x51       Download_on_the_App_Store_Badge
+              GROUP      11564:4825     173x51       Group
+                VECTOR     11564:4826     173x51       Vector
+                VECTOR     11564:4827     171x49       Vector
+                GROUP      11564:4828     27x33        Group
+                  GROUP      11564:4829     27x33        Group
+                    VECTOR     11564:4830     27x25        Vector
+                    VECTOR     11564:4831     7x8          Vector
+                GROUP      11564:4832     102x22       Group
+                  VECTOR     11564:4833     14x17        Vector
+                  VECTOR     11564:4834     12x18        Vector
+                  VECTOR     11564:4835     12x18        Vector
+                  VECTOR     11564:4836     11x18        Vector
+                  VECTOR     11564:4837     7x16         Vector
+                  VECTOR     11564:4838     12x13        Vector
+                  VECTOR     11564:4839     7x13         Vector
+                  VECTOR     11564:4840     11x13        Vector
+                GROUP      11564:4841     99x9         Group
+                  GROUP      11564:4842     99x9         Group
+                    VECTOR     11564:4843     7x9          Vector
+                    VECTOR     11564:4844     6x6          Vector
+                    VECTOR     11564:4845     9x6          Vector
+                    VECTOR     11564:4846     5x6          Vector
+                    VECTOR     11564:4847     1x9          Vector
+                    VECTOR     11564:4848     6x6          Vector
+                    VECTOR     11564:4849     5x6          Vector
+                    VECTOR     11564:4850     6x9          Vector
+                    VECTOR     11564:4851     6x6          Vector
+                    VECTOR     11564:4852     5x6          Vector
+                    VECTOR     11564:4853     4x8          Vector
+                    VECTOR     11564:4854     5x9          Vector
+                    VECTOR     11564:4855     5x6          Vector
+            FRAME      11564:4856     173x51       Google_Play_Store_badge_EN
+              VECTOR     11564:4857     173x51       path11
+              VECTOR     11564:4858     173x51       path13
+              VECTOR     11564:4859     109x22       path35
+              VECTOR     11564:4860     21x17        path37
+              VECTOR     11564:4861     16x14        path39
+              VECTOR     11564:4862     14x27        path41
+              VECTOR     11564:4863     21x16        path43
+              VECTOR     11564:4864     50x8         path33
+      INSTANCE   11576:5628     1196x462     Component 5 [HORIZONTAL gap:60]
+        FRAME      I11576:5628;11573:5383 463x462      Frame 840 [VERTICAL gap:30]
+          FRAME      I11576:5628;11573:5384 463x93       Frame 176 [VERTICAL gap:5]
+            FRAME      I11576:5628;11578:5667 463x3        Frame 843
+              LINE       I11576:5628;11573:5385 463x0        Line 2
+            TEXT       I11576:5628;11573:5386 463x35       Trade Fast, Trade Easy
+            TEXT       I11576:5628;11573:5387 463x48       Master the market with a high-velocity interface built for decisive action.
+          FRAME      I11576:5628;11573:5388 463x93       Frame 177 [VERTICAL gap:5]
+            FRAME      I11576:5628;11578:5675 463x3        Frame 843
+              LINE       I11576:5628;11578:5676 463x0        Line 2
+            TEXT       I11576:5628;11573:5390 463x85       Instant Portfolio Insights
+          FRAME      I11576:5628;11573:5391 463x93       Frame 178 [VERTICAL gap:5]
+            FRAME      I11576:5628;11578:5672 463x3        Frame 843
+              LINE       I11576:5628;11578:5673 463x0        Line 2
+            TEXT       I11576:5628;11573:5393 463x85       Track Your Favorite Stocks
+          FRAME      I11576:5628;11573:5394 463x93       Frame 179 [VERTICAL gap:5]
+            FRAME      I11576:5628;11578:5678 463x3        Frame 843
+              LINE       I11576:5628;11578:5679 463x0        Line 2
+            TEXT       I11576:5628;11573:5396 463x85       Your Trading Hub at a Glance
+        FRAME      I11576:5628;11573:5397 673x462      Component 2 [VERTICAL gap:30]
+          FRAME      I11576:5628;11573:5398 613x432      Frame 842
+            RECTANGLE  I11576:5628;11573:5428 370x780      Hub
+            RECTANGLE  I11576:5628;11573:5430 370x780      Fav Stocks
+            RECTANGLE  I11576:5628;11573:5426 370x780      Portfolio
+            RECTANGLE  I11576:5628;11573:5399 370x780      Buy/Sell
+    INSTANCE   11610:5350     1440x833     Pricing [VERTICAL gap:40]
+      FRAME      I11610:5350;11610:5019 1440x84      About [HORIZONTAL gap:59]
+        FRAME      I11610:5350;11610:5020 1198x84      Frame 137 [VERTICAL gap:25]
+          TEXT       I11610:5350;11610:5021 460x35       Choose Your Trading Power
+          TEXT       I11610:5350;11610:5022 470x24       Flexible plans designed for every stage of your investment journey
+      FRAME      I11610:5350;11610:5023 333x46       Frame 25 [HORIZONTAL gap:10]
+        RECTANGLE  I11610:5350;11610:5024 159x36       Rectangle 1
+        FRAME      I11610:5350;11610:5025 159x36       Frame 23 [HORIZONTAL gap:10]
+          TEXT       I11610:5350;11610:5026 61x16        Monthly
+        FRAME      I11610:5350;11610:5027 154x36       Frame 24 [HORIZONTAL gap:10]
+          TEXT       I11610:5350;11610:5028 114x16       Annually (30% Off)
+      FRAME      I11610:5350;11610:5029 1440x623     Frame 165 [HORIZONTAL gap:30]
+        INSTANCE   I11610:5350;11610:5030 583x623      Component 8 [VERTICAL gap:30]
+          FRAME      I11610:5350;11610:5030;11586:5966 523x193      Frame 176 [VERTICAL gap:35]
+            FRAME      I11610:5350;11610:5030;11586:5967 483x64       Frame 844 [VERTICAL gap:5]
+              TEXT       I11610:5350;11610:5030;11586:5968 483x35       Essential
+              TEXT       I11610:5350;11610:5030;11586:5969 483x24       Curated tools for casual tracking and market entry
+            TEXT       I11610:5350;11610:5030;11586:5970 483x54       Free
+          FRAME      I11610:5350;11610:5030;11586:5971 523x47       BTN [HORIZONTAL gap:10]
+            TEXT       I11610:5350;11610:5030;11586:5972 100x27       Get Started
+            VECTOR     I11610:5350;11610:5030;11586:5973 10x10        Vector
+          FRAME      I11610:5350;11610:5030;11586:5974 523x228      Frame 855 [VERTICAL gap:15]
+            TEXT       I11610:5350;11610:5030;11586:5975 523x16       Features
+            FRAME      I11610:5350;11610:5030;11586:5976 523x197      Frame 854 [VERTICAL gap:13]
+              FRAME      I11610:5350;11610:5030;11586:5977 523x22       Frame 849 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5978 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5979 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:5980 238x22       Basic indicators and timeframes.
+              FRAME      I11610:5350;11610:5030;11586:5981 523x22       Frame 850 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5982 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5983 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:5984 310x22       Daily gainers, losers, and unchanged lists.
+              FRAME      I11610:5350;11610:5030;11586:5985 523x22       Frame 851 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5986 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5987 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:5988 271x22       Track up to 10 of your favorite stocks.
+              FRAME      I11610:5350;11610:5030;11586:5989 523x22       Frame 852 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5990 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5991 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:5992 307x22       Real-time balance and position monitoring.
+              FRAME      I11610:5350;11610:5030;11586:5993 523x22       Frame 853 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5994 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5995 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:5996 292x22       General DSE news and announcements.
+              FRAME      I11610:5350;11610:5030;11586:5997 523x22       Frame 854 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5030;11586:5998 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5030;11586:5999 8x6          Vector
+                TEXT       I11610:5350;11610:5030;11586:6000 244x22       Basic filtering by sector and price.
+        INSTANCE   I11610:5350;11610:5031 583x623      Component 9 [VERTICAL gap:30]
+          FRAME      I11610:5350;11610:5031;11586:6082 523x193      Frame 176 [VERTICAL gap:35]
+            FRAME      I11610:5350;11610:5031;11586:6083 483x64       Frame 844 [VERTICAL gap:5]
+              TEXT       I11610:5350;11610:5031;11586:6084 483x35       Fintra+
+              TEXT       I11610:5350;11610:5031;11586:6085 483x24       Professional tools for traders who demand an advantage.
+            TEXT       I11610:5350;11610:5031;11586:6086 483x54       ৳ 1,000 /Month
+          FRAME      I11610:5350;11610:5031;11586:6087 523x47       BTN [HORIZONTAL gap:10]
+            TEXT       I11610:5350;11610:5031;11586:6088 114x27       Upgrade Now
+            VECTOR     I11610:5350;11610:5031;11625:10907 10x10        Vector
+          FRAME      I11610:5350;11610:5031;11586:6090 523x263      Frame 855 [VERTICAL gap:15]
+            TEXT       I11610:5350;11610:5031;11586:6091 523x16       Everything in essential, plus
+            FRAME      I11610:5350;11610:5031;11586:6092 523x232      Frame 854 [VERTICAL gap:13]
+              FRAME      I11610:5350;11610:5031;11586:6093 523x22       Frame 849 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6094 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6095 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6096 364x22       Direct-from-exchange market feeds with no delay.
+              FRAME      I11610:5350;11610:5031;11586:6097 523x22       Frame 850 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6098 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6099 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6100 346x22       Institutional-grade indicators and drawing tools.
+              FRAME      I11610:5350;11610:5031;11586:6101 523x22       Frame 851 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6102 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6103 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6104 451x22       Exclusive eligibility for instant cash to trade during settlement.
+              FRAME      I11610:5350;11610:5031;11586:6105 523x22       Frame 852 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6106 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6107 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6108 303x22       50+ deep-tier filters to find hidden alpha.
+              FRAME      I11610:5350;11610:5031;11586:6109 523x22       Frame 853 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6110 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6111 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6112 387x22       Access to pro-level deep dives and dividend analysis.
+              FRAME      I11610:5350;11610:5031;11586:6113 523x22       Frame 854 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6114 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6115 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6116 389x22       Be the first to know about Price Sensitive Information.
+              FRAME      I11610:5350;11610:5031;11586:6117 523x22       Frame 855 [HORIZONTAL gap:18]
+                FRAME      I11610:5350;11610:5031;11586:6118 8x15         Frame 850 [VERTICAL gap:10]
+                  VECTOR     I11610:5350;11610:5031;11586:6119 8x6          Vector
+                TEXT       I11610:5350;11610:5031;11586:6120 395x22       24/7 priority access to our dedicated assistance team.
+    FRAME      11617:468      1440x679     FAQ [VERTICAL gap:40]
+      FRAME      11617:469      1196x84      About [HORIZONTAL gap:59]
+        FRAME      11617:470      1198x84      Frame 137 [VERTICAL gap:25]
+          TEXT       11617:471      473x35       Frequently Asked Questions
+          TEXT       11617:472      301x24       You have questions? We have the answers
+      FRAME      11619:10834    1196x555     Frame 858 [VERTICAL gap:20]
+        INSTANCE   11619:10748    1196x95      Faq 1 [VERTICAL gap:30]
+          FRAME      I11619:10748;11619:10709 1136x35      Frame 176 [HORIZONTAL gap:5]
+            TEXT       I11619:10748;11619:10710 407x35       What is Fintra and how does it give me an advantage?
+            VECTOR     I11619:10748;11619:10711 16x9         Vector
+        INSTANCE   11619:10817    1196x95      Faq 3 [VERTICAL gap:30]
+          FRAME      I11619:10817;11619:10771 1136x35      Frame 176 [HORIZONTAL gap:5]
+            TEXT       I11619:10817;11619:10772 264x35       Is the market data truly real-time?
+            VECTOR     I11619:10817;11619:10773 16x9         Vector
+        INSTANCE   11619:10818    1196x95      Faq 5 [VERTICAL gap:30]
+          FRAME      I11619:10818;11619:10803 1136x35      Frame 176 [HORIZONTAL gap:5]
+            TEXT       I11619:10818;11619:10804 375x35       Is my trading data and capital secure with Fintra?
+            VECTOR     I11619:10818;11619:10805 16x9         Vector
+        INSTANCE   11619:10819    1196x95      Faq 2 [VERTICAL gap:30]
+          FRAME      I11619:10819;11619:10755 1136x35      Frame 176 [HORIZONTAL gap:5]
+            TEXT       I11619:10819;11619:10756 362x35       How do I update my official BO Account details?
+            VECTOR     I11619:10819;11619:10757 16x9         Vector
+        INSTANCE   11619:10820    1196x95      Faq 4 [VERTICAL gap:30]
+          FRAME      I11619:10820;11619:10787 1136x35      Frame 176 [HORIZONTAL gap:5]
+            TEXT       I11619:10820;11619:10788 328x35       How does the "Instant Cash" feature work?
+            VECTOR     I11619:10820;11619:10789 16x9         Vector
+    FRAME      11622:10846    1198x364     Component 3 [HORIZONTAL gap:50]
+      FRAME      11622:10897    1069x42      Frame 863
+        ELLIPSE    11622:10898    1251x120     Ellipse 20
+        ELLIPSE    11622:10899    1159x55      Ellipse 19
+        ELLIPSE    11622:10900    760x25       Ellipse 18
+      FRAME      11622:10848    514x244      Frame 176 [VERTICAL gap:30]
+        FRAME      11622:10859    514x167      Frame 859 [VERTICAL gap:15]
+          TEXT       11622:10849    514x80       Elevate Your Strategy Dominate the Market
+          TEXT       11622:10850    514x72       Stop trading in the dark. Join thousands of elite investors using Fintra to outpace the market with real-time data, instant liquidity, and institutional-grade insights. Your next big move starts here.
+        FRAME      11622:10855    245x47       BTN [HORIZONTAL gap:10]
+          TEXT       11622:10856    145x27       Start My Journey
+          VECTOR     11625:10931    10x10        Vector
+      INSTANCE   11625:11055    514x244      Slider
+        FRAME      I11625:11055;11625:11014 2430x244     Frame 864 [HORIZONTAL gap:65]
+          RECTANGLE  I11625:11055;11625:11012 514x244      Test 1 1
+          RECTANGLE  I11625:11055;11625:11013 414x197      Test 2 1
+          RECTANGLE  I11625:11055;11625:11009 414x197      Test 3 1
+          RECTANGLE  I11625:11055;11625:11010 414x197      Test 4 1
+          RECTANGLE  I11625:11055;11625:11011 414x197      Test 5 1
+    FRAME      11625:15841    1440x496     Frame 872 [VERTICAL gap:100]
+      FRAME      11625:15824    1195x319     Frame 870 [HORIZONTAL gap:103]
+        FRAME      11477:75618    334x319      Frame 151 [VERTICAL gap:50]
+          FRAME      11477:75619    334x203      Frame 147 [VERTICAL gap:20]
+            FRAME      11760:18636    334x143      Frame 877 [VERTICAL gap:15]
+              VECTOR     11625:15438    160x40       Logo
+              TEXT       11477:75621    334x88       Redefining the trading experience for the modern investor. Precision tools, institutional intelligence, and the speed you need to dominate the market.
+            FRAME      11760:18593    292x40       App redirect [HORIZONTAL gap:22]
+              FRAME      11760:18594    135x40       Download_on_the_App_Store_Badge
+                GROUP      11760:18595    135x40       Group
+                  VECTOR     11760:18596    135x40       Vector
+                  VECTOR     11760:18597    133x38       Vector
+                  GROUP      11760:18598    21x26        Group
+                    GROUP      11760:18599    21x26        Group
+                      VECTOR     11760:18600    21x19        Vector
+                      VECTOR     11760:18601    5x6          Vector
+                  GROUP      11760:18602    80x17        Group
+                    VECTOR     11760:18603    11x13        Vector
+                    VECTOR     11760:18604    9x14         Vector
+                    VECTOR     11760:18605    9x14         Vector
+                    VECTOR     11760:18606    8x14         Vector
+                    VECTOR     11760:18607    6x12         Vector
+                    VECTOR     11760:18608    9x10         Vector
+                    VECTOR     11760:18609    5x10         Vector
+                    VECTOR     11760:18610    9x10         Vector
+                  GROUP      11760:18611    78x7         Group
+                    GROUP      11760:18612    78x7         Group
+                      VECTOR     11760:18613    5x7          Vector
+                      VECTOR     11760:18614    5x5          Vector
+                      VECTOR     11760:18615    7x5          Vector
+                      VECTOR     11760:18616    4x5          Vector
+                      VECTOR     11760:18617    1x7          Vector
+                      VECTOR     11760:18618    5x5          Vector
+                      VECTOR     11760:18619    4x5          Vector
+                      VECTOR     11760:18620    5x7          Vector
+                      VECTOR     11760:18621    5x5          Vector
+                      VECTOR     11760:18622    4x5          Vector
+                      VECTOR     11760:18623    3x6          Vector
+                      VECTOR     11760:18624    4x7          Vector
+                      VECTOR     11760:18625    4x5          Vector
+              FRAME      11760:18626    135x40       Google_Play_Store_badge_EN
+                VECTOR     11760:18627    135x40       path11
+                VECTOR     11760:18628    135x40       path13
+                VECTOR     11760:18629    85x17        path35
+                VECTOR     11760:18630    16x13        path37
+                VECTOR     11760:18631    13x11        path39
+                VECTOR     11760:18632    11x21        path41
+                VECTOR     11760:18633    16x13        path43
+                VECTOR     11760:18634    39x6         path33
+          FRAME      11625:15786    334x62       Frame 867 [VERTICAL gap:10]
+            TEXT       11625:15440    334x27       Follow our market updates
+            FRAME      11625:15781    103x25       Frame 37
+              VECTOR     11625:15782    25x25        Vector
+              VECTOR     11625:15783    25x25        Vector
+              VECTOR     11625:15784    25x25        Vector
+        FRAME      11625:15787    126x116      Quick Links [VERTICAL gap:21]
+          TEXT       11625:15788    126x14       Company
+          TEXT       11625:15789    126x11       About Fintra
+          TEXT       11625:15790    126x14       Careers
+          TEXT       11625:15791    126x14       Contact Support
+        FRAME      11625:15794    129x151      Quick Links [VERTICAL gap:21]
+          TEXT       11625:15795    129x14       Legal Links
+          TEXT       11625:15796    129x11       Privacy Policy
+          TEXT       11625:15797    129x14       Terms of Service
+          TEXT       11625:15799    114x14       Risk Disclosure
+          TEXT       11625:15798    101x14       Refund Policy
+        FRAME      11625:15823    334x319      Frame 869 [VERTICAL gap:49]
+          FRAME      11625:15801    334x0        Frame 867 [VERTICAL gap:10]
+            TEXT       11625:15802    334x27       Subscribe to our newsletter
+            FRAME      11625:15807    334x52       Frame 35 [HORIZONTAL gap:10]
+              TEXT       11625:15808    117x14       Enter Your Email
+              FRAME      11625:15812    101x32       Component 13 [HORIZONTAL gap:10]
+                TEXT       11625:15813    66x14        Subscribe
+          FRAME      11625:15814    334x181      Frame 868 [VERTICAL gap:10]
+            TEXT       11625:15815    334x24       Visit Our Office
+            RECTANGLE  11625:15821    334x147      Rectangle 2
+      FRAME      11477:75611    1440x77      Footer [HORIZONTAL gap:10]
+        FRAME      11625:11063    1198x37      Frame 865 [HORIZONTAL gap:833]
+          TEXT       11625:11068    404x27       © 2026 Fintra Securities Ltd. All Rights Reserved.
+          FRAME      11625:11067    166x37       Frame 866 [HORIZONTAL gap:10]
+            TEXT       11625:11064    102x27       Jump to top
+            VECTOR     11625:11065    14x14        Vector
+  INSTANCE   11708:11778    1236x65      Navbar-Dark [HORIZONTAL gap:447]
+    VECTOR     I11708:11778;11477:75833 120x31       Logo
+    FRAME      I11708:11778;11477:75834 453x27       Navigation [HORIZONTAL gap:40]
+      TEXT       I11708:11778;12336:43199 53x27        Market
+      TEXT       I11708:11778;11477:75836 62x27        Analysis
+      TEXT       I11708:11778;11477:75837 44x27        Chart
+      TEXT       I11708:11778;11477:75838 68x27        Screener
+      TEXT       I11708:11778;11704:19027 66x27        Features
+    FRAME      I11708:11778;11477:75840 249x45       CTA's [HORIZONTAL gap:10]
+      FRAME      I11708:11778;11477:75841 101x45       BTN [HORIZONTAL gap:10]
+        TEXT       I11708:11778;11477:75842 41x22        Login
+      FRAME      I11708:11778;11477:75843 138x45       BTN [HORIZONTAL gap:10]
+        TEXT       I11708:11778;11477:75844 58x22        Sign Up
+        VECTOR     I11708:11778;11625:10926 10x10        Vector
+    RECTANGLE  I11708:11778;11625:15835 66x2         Underline
+
+--- typography ---
+  14x  General Sans w300 16px/24
+  14x  General Sans w300 16px/22
+   9x  General Sans w600 20px/35
+   9x  General Sans w500 16px/14
+   6x  General Sans w500 18px/27
+   5x  General Sans w500 16px/35
+   5x  General Sans w500 16px/27
+   4x  General Sans w600 35px/35
+   3x  General Sans w600 18px/27
+   3x  General Sans w500 16px/16
+   2x  General Sans w500 20px/35
+   2x  General Sans w600 40px/54
+   2x  General Sans w500 16px/22
+   1x  General Sans w400 16px/24
+   1x  General Sans w700 55px/70
+   1x  Kentledge w700 16px/16
+   1x  General Sans w600 35px/40
+   1x  General Sans w400 16px/14
+   1x  General Sans w500 14px/14
+   1x  General Sans w600 18px/24
+
+--- colours ---
+  87x  fill #ffffff
+  39x  fill #eaebf4
+  17x  fill IMAGE
+  16x  fill #0d1818
+  16x  stroke GRADIENT_LINEAR
+  11x  fill #b7ff64
+  10x  fill GRADIENT_LINEAR
+  10x  fill #a1a1aa
+   9x  fill #000000
+   8x  stroke #ffffff
+   7x  stroke #b7ff64
+   6x  stroke #000000
+   4x  fill #231f20
+   4x  stroke #213636
+   2x  fill #ffffff @0.10
+   2x  fill #a6a6a6
+   2x  fill #a2a2a1
+   2x  fill #eb3131
+   2x  fill #f6b60b
+   2x  fill #5778c5
+   2x  fill #3bad49
+   1x  fill #000c0c
+   1x  fill #061d1d
+   1x  fill #ffffff @0.15
+   1x  fill #192424
+   1x  fill #132418
+   1x  fill #507e1b
+   1x  fill #73b12b
+   1x  fill #9bf236
+   1x  fill #1e1e1e @0.20
+   1x  stroke #ffffff @0.15
+
+--- corner radii ---
+  16x  12px
+  14x  100px
+   3x  8px
+   1x  18px
+   1x  44px
+   1x  200px
