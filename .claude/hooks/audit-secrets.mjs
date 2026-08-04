@@ -23,7 +23,7 @@ process.stdin.on('end', () => {
       tool: payload.tool_name,
       target,
       sensitive: SENSITIVE.test(target),
-    }) + '\n'
+    }) + '\n',
   );
 
   if (!target || !SENSITIVE.test(target)) process.exit(0);
@@ -34,7 +34,7 @@ process.stdin.on('end', () => {
       tool: payload.tool_name,
       target,
       session: payload.session_id,
-    }) + '\n'
+    }) + '\n',
   );
 
   console.error(`AUDIT: blocked ${payload.tool_name} -> ${target}`);

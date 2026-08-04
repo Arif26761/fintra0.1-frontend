@@ -1,0 +1,11 @@
+# 1. secret gate — cheapest check, runs first
+if git diff --cached -U0 -- ':!.husky' | grep -qE '(figd_|ghp_|github_pat_|sk-[A-Za-z0-9]{20,})'; then
+  echo "✗ possible credential in staged changes — commit blocked"
+  exit 1
+fi
+
+# 2. lint and format only what's staged
+npx lint-staged
+
+# 3. full suite (fast enough at this size)
+npm test
