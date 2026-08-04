@@ -19,9 +19,7 @@
     "PreToolUse": [
       {
         "matcher": "Read|Edit|Write|Grep",
-        "hooks": [
-          { "type": "command", "command": "node .claude/hooks/audit-secrets.mjs" }
-        ]
+        "hooks": [{ "type": "command", "command": "node .claude/hooks/audit-secrets.mjs" }]
       }
     ]
   }

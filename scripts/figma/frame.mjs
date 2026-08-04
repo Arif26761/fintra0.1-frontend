@@ -9,8 +9,9 @@ if (!TOKEN || !FILE_KEY || !NODE_ID) {
   process.exit(1);
 }
 
-const url = `https://api.figma.com/v1/files/${FILE_KEY}/nodes`
-  + `?ids=${encodeURIComponent(NODE_ID)}&depth=${DEPTH}`;
+const url =
+  `https://api.figma.com/v1/files/${FILE_KEY}/nodes` +
+  `?ids=${encodeURIComponent(NODE_ID)}&depth=${DEPTH}`;
 
 const res = await fetch(url, { headers: { 'X-Figma-Token': TOKEN } });
 
@@ -27,12 +28,19 @@ if (!root) {
   process.exit(1);
 }
 
-const fonts = new Map();    // font-family + weight + size + line-height
-const colors = new Map();   // colour code + opacity
+const fonts = new Map(); // font-family + weight + size + line-height
+const colors = new Map(); // colour code + opacity
 const radii = new Map();
 
 const hex = ({ r, g, b }) =>
-  '#' + [r, g, b].map((v) => Math.round(v * 255).toString(16).padStart(2, '0')).join('');
+  '#' +
+  [r, g, b]
+    .map((v) =>
+      Math.round(v * 255)
+        .toString(16)
+        .padStart(2, '0'),
+    )
+    .join('');
 
 function collectPaints(paints, kind) {
   for (const p of paints ?? []) {
@@ -51,7 +59,7 @@ function walk(node, depth) {
   const size = b ? `${Math.round(b.width)}x${Math.round(b.height)}` : '';
   const auto = node.layoutMode ? ` [${node.layoutMode} gap:${node.itemSpacing ?? 0}]` : '';
   console.log(
-    `${'  '.repeat(depth)}${node.type.padEnd(10)} ${node.id.padEnd(14)} ${size.padEnd(12)} ${node.name}${auto}`
+    `${'  '.repeat(depth)}${node.type.padEnd(10)} ${node.id.padEnd(14)} ${size.padEnd(12)} ${node.name}${auto}`,
   );
 
   const s = node.style;
