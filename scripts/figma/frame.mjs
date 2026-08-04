@@ -54,12 +54,65 @@ function collectPaints(paints, kind) {
   }
 }
 
+function detail(node) {
+  const bits = [];
+
+  if (node.layoutMode) {
+    bits.push(node.layoutMode === 'HORIZONTAL' ? 'row' : 'col');
+    if (node.itemSpacing) bits.push(`gap:${node.itemSpacing}`);
+    if (node.primaryAxisAlignItems) bits.push(`main:${node.primaryAxisAlignItems}`);
+    if (node.counterAxisAlignItems) bits.push(`cross:${node.counterAxisAlignItems}`);
+    const p = [node.paddingTop, node.paddingRight, node.paddingBottom, node.paddingLeft];
+    if (p.some(Boolean)) bits.push(`pad:${p.map((v) => v ?? 0).join('/')}`);
+  }
+
+  if (node.cornerRadius) bits.push(`r:${node.cornerRadius}`);
+
+  const alpha = (p) => (p.opacity ?? 1) * (p.color?.a ?? 1);
+  const paint = (p) => {
+    const a = alpha(p);
+    return (p.type === 'SOLID' ? hex(p.color) : p.type) + (a < 1 ? ` @${a.toFixed(2)}` : '');
+  };
+
+  const fill = (node.fills ?? []).find((f) => f.visible !== false);
+  if (fill) bits.push(`${node.type === 'TEXT' ? 'color' : 'bg'}:${paint(fill)}`);
+
+  const stroke = (node.strokes ?? []).find((s) => s.visible !== false);
+  if (stroke) bits.push(`border:${paint(stroke)}@${node.strokeWeight ?? 1}px`);
+
+  if (node.type === 'TEXT') {
+    const s = node.style ?? {};
+    if (s.textCase) bits.push(`case:${s.textCase}`);
+    if (s.textAlignHorizontal !== 'LEFT') bits.push(`align:${s.textAlignHorizontal}`);
+    if (s.letterSpacing) bits.push(`ls:${s.letterSpacing}`);
+    bits.push(
+      `"${node.characters}"`,
+      `${s.fontSize}/${Math.round(s.lineHeightPx ?? 0)} w${s.fontWeight}`,
+    );
+  }
+
+  for (const e of node.effects ?? []) {
+    if (e.visible === false) continue;
+    if (e.type === 'LAYER_BLUR') bits.push(`blur:${e.radius}`);
+    else if (e.type === 'BACKGROUND_BLUR') bits.push(`backdrop:${e.radius}`);
+    else if (e.type === 'DROP_SHADOW' || e.type === 'INNER_SHADOW') {
+      const a = (e.color?.a ?? 1).toFixed(2);
+      const kind = e.type === 'INNER_SHADOW' ? 'inset-shadow' : 'shadow';
+      bits.push(
+        `${kind}:${e.offset?.x ?? 0},${e.offset?.y ?? 0} ${e.radius} ${hex(e.color)} @${a}`,
+      );
+    }
+  }
+
+  return bits.length ? `  ${bits.join(' ')}` : '';
+}
+
 function walk(node, depth) {
   const b = node.absoluteBoundingBox;
   const size = b ? `${Math.round(b.width)}x${Math.round(b.height)}` : '';
-  const auto = node.layoutMode ? ` [${node.layoutMode} gap:${node.itemSpacing ?? 0}]` : '';
+
   console.log(
-    `${'  '.repeat(depth)}${node.type.padEnd(10)} ${node.id.padEnd(14)} ${size.padEnd(12)} ${node.name}${auto}`,
+    `${'  '.repeat(depth)}${node.type.padEnd(10)} ${node.id.padEnd(14)} ${size.padEnd(12)} ${node.name}${detail(node)}`,
   );
 
   const s = node.style;

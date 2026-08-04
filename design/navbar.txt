@@ -1,0 +1,33 @@
+INSTANCE   11708:11778    1236x65      Navbar-Dark  row gap:447 main:SPACE_BETWEEN cross:CENTER pad:10/10/10/20 r:12 bg:#1e1e1e @0.20 border:#ffffff @0.15@2px
+  VECTOR     I11708:11778;11477:75833 120x31       Logo  bg:#ffffff
+  FRAME      I11708:11778;11477:75834 453x27       Navigation  row gap:40 cross:CENTER
+    TEXT       I11708:11778;12336:43199 53x27        Market  color:#eaebf4 "Market" 16/27 w500
+    TEXT       I11708:11778;11477:75836 62x27        Analysis  color:#eaebf4 "Analysis" 16/27 w500
+    TEXT       I11708:11778;11477:75837 44x27        Chart  color:#eaebf4 "Chart" 16/27 w500
+    TEXT       I11708:11778;11477:75838 68x27        Screener  color:#eaebf4 "Screener" 16/27 w500
+    TEXT       I11708:11778;11704:19027 66x27        Features  color:#eaebf4 "Features" 16/27 w500
+  FRAME      I11708:11778;11477:75840 249x45       CTA's  row gap:10 cross:CENTER
+    FRAME      I11708:11778;11477:75841 101x45       BTN  row gap:10 main:CENTER cross:CENTER pad:10/30/10/30 r:100 bg:#ffffff @0.10
+      TEXT       I11708:11778;11477:75842 41x22        Login  color:#eaebf4 "Login" 16/22 w500
+    FRAME      I11708:11778;11477:75843 138x45       BTN  row gap:10 main:CENTER cross:CENTER pad:10/30/10/30 r:100 bg:#b7ff64
+      TEXT       I11708:11778;11477:75844 58x22        Sign Up  color:#000000 "Sign Up" 16/22 w500
+      VECTOR     I11708:11778;11625:10926 10x10        Vector  border:#000000@2px
+  RECTANGLE  I11708:11778;11625:15835 66x2         Underline  r:100 bg:#b7ff64
+
+--- typography ---
+   5x  General Sans w500 16px/27
+   2x  General Sans w500 16px/22
+
+--- colours ---
+   6x  fill #eaebf4
+   2x  fill #b7ff64
+   1x  fill #1e1e1e @0.20
+   1x  stroke #ffffff @0.15
+   1x  fill #ffffff
+   1x  fill #ffffff @0.10
+   1x  fill #000000
+   1x  stroke #000000
+
+--- corner radii ---
+   3x  100px
+   1x  12px

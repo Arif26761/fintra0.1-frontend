@@ -1,5 +1,7 @@
 {
   "editor.inlineCompletionsAccessibilityVerbose": true,
   "editor.inlineSuggest.edits.allowCodeShifting": "never",
-  "editor.inlineSuggest.enabled": false
+  "editor.inlineSuggest.enabled": false,
+  "css.lint.unknownAtRules": "ignore",
+  "cSpell.words": ["colour", "colours", "Fintra"]
 }
