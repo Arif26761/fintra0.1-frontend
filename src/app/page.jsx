@@ -1,10 +1,13 @@
-import Navbar from '@/components/common/Navbar/Navbar';
-import './globals.css';
+import Navbar from '@/components/common/Navbar';
+import Hero from '@/components/LandingPage/Hero';
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
+    <main className="mx-auto w-full max-w-full min-h-dvh">
+      <div data-diff-hide className="fixed top-11 left-1/2 z-50 -translate-x-1/2">
+        <Navbar />
+      </div>
+      <Hero />
     </main>
   );
 }

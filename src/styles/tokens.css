@@ -1,8 +1,9 @@
 @theme {
   /* surface */
-  --color-bg: #0d1818;
+  --color-bg: #0c1717; /* 000c0c */
   --color-surface: #192424;
   --color-surface-alt: #132418;
+  --color-rich-green: #061d1d;
 
   /* brand ramp */
   --color-brand: #b7ff64;
