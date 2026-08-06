@@ -7,11 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "diff": "node scripts/visual/diff.mjs"
   },
   "lint-staged": {
     "*.{js,jsx,mjs}": [
@@ -23,9 +24,12 @@
     ]
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "next": "16.2.12",
+    "postcss": "^8.5.25",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.0",
@@ -38,6 +42,9 @@
     "husky": "^9.1.7",
     "jsdom": "^30.0.1",
     "lint-staged": "^17.3.0",
+    "pixelmatch": "^7.2.0",
+    "playwright": "^1.62.1",
+    "pngjs": "^7.0.0",
     "prettier": "^3.9.6",
     "vitest": "^4.1.10"
   }

@@ -1,47 +1,43 @@
-:root {
+@theme {
   /* surface */
-  --c-bg: #0d1818;
-  --c-surface: #192424;
-  --c-surface-alt: #132418;
-  --c-black: #000000;
+  --color-bg: #0c1717; /* 000c0c */
+  --color-surface: #192424;
+  --color-surface-alt: #132418;
+  --color-rich-green: #061d1d;
 
   /* brand ramp */
-  --c-brand: #b7ff64;
-  --c-brand-600: #9bf236;
-  --c-brand-700: #73b12b;
-  --c-brand-800: #507e1b;
+  --color-brand: #b7ff64;
+  --color-brand-600: #9bf236;
+  --color-brand-700: #73b12b;
+  --color-brand-800: #507e1b;
 
   /* text */
-  --c-text: #ffffff;
-  --c-text-soft: #eaebf4;
-  --c-text-muted: #a1a1aa; /* #a6a6a6 and #a2a2a1 also appear*/
+  --color-ink: #ffffff;
+  --color-ink-soft: #eaebf4;
+  --color-ink-muted: #a1a1aa;
 
-  /* lines & overlays */
-  --c-border: #213636;
-  --c-border-soft: rgb(255 255 255 / 0.15);
-  --c-overlay: rgb(255 255 255 / 0.1);
+  /* lines */
+  --color-line: #213636;
 
   /* market data */
-  --c-up: #3bad49;
-  --c-down: #eb3131;
-  --c-warn: #f6b60b;
-  --c-info: #5778c5;
-
-  /* radius */
-  --r-sm: 8px;
-  --r-md: 12px;
-  --r-pill: 100px;
+  --color-up: #3bad49;
+  --color-down: #eb3131;
+  --color-warn: #f6b60b;
+  --color-info: #5778c5;
 
   /* type */
-  --ff-sans: 'General Sans', system-ui, sans-serif;
-  --fs-xs: 14px;
-  --fs-sm: 16px;
-  --fs-md: 18px;
-  --fs-lg: 20px;
-  --fs-2xl: 35px;
-  --fs-3xl: 40px;
-  --fs-4xl: 55px;
+  --font-sans: var(--font-general-sans), system-ui, sans-serif;
+  --text-xs: 14px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-3xl: 35px;
+  --text-4xl: 40px;
+  --text-5xl: 55px;
 
-  /* rhythm */
-  --gap-section: 117px;
+  /* radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
 }

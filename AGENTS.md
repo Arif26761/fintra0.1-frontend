@@ -14,9 +14,14 @@ much as output.
 
 - **JavaScript only. Never TypeScript.** No `.ts`/`.tsx`, no type annotations.
 - Next.js 16, App Router. Component files are `.jsx`, not `.js`.
-- **CSS Modules only.** No Tailwind, no styled-components, no CSS-in-JS.
-- All design values come from `src/styles/tokens.css`, generated from Figma.
-  Never hardcode a colour, size, radius or spacing value.
+- **Tailwind CSS v4**, themed from the Figma tokens in `src/styles/tokens.css`.
+  Prefer semantic utilities (`bg-brand`, `text-ink-soft`, `rounded-md`) over
+  arbitrary values. Never hardcode a hex or px that exists as a token.
+- Drop to a `.module.css` only for pseudo-elements with layout, keyframes, or
+  when a class string exceeds ~6 arbitrary values. Raw CSS is permitted where
+  Tailwind cannot match Figma exactly.
+- Type scale is overridden: `text-base` is 16px, `text-lg` is 18px, `text-xl`
+  is 20px. These are the design's values, not Tailwind's defaults.
 
 ### Charts — hard requirement
 
