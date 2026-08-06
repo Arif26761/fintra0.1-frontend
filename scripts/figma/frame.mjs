@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
+
 const TOKEN = process.env.FIGMA_TOKEN;
 const FILE_KEY = process.env.FIGMA_FILE_KEY;
 const NODE_ID = process.argv[2];
@@ -9,22 +11,23 @@ if (!TOKEN || !FILE_KEY || !NODE_ID) {
   process.exit(1);
 }
 
-const url =
-  `https://api.figma.com/v1/files/${FILE_KEY}/nodes` +
-  `?ids=${encodeURIComponent(NODE_ID)}&depth=${DEPTH}`;
+let root = null;
 
-const res = await fetch(url, { headers: { 'X-Figma-Token': TOKEN } });
-
-if (!res.ok) {
-  console.error(`Figma API ${res.status} ${res.statusText}`);
-  console.error(await res.text());
-  process.exit(1);
+for (const file of existsSync('design/raw') ? readdirSync('design/raw') : []) {
+  if (!file.endsWith('.json')) continue;
+  const payload = JSON.parse(readFileSync(`design/raw/${file}`, 'utf8'));
+  for (const entry of Object.values(payload.nodes ?? {})) {
+    root = findNode(entry.document, NODE_ID);
+    if (root) break;
+  }
+  if (root) {
+    console.error(`(from cache: design/raw/${file})`);
+    break;
+  }
 }
 
-const root = (await res.json()).nodes[NODE_ID]?.document;
-
 if (!root) {
-  console.error(`Node ${NODE_ID} not found — check the id uses a colon, not a dash.`);
+  console.error(`${NODE_ID} not in design/raw — run scripts/figma/pull.mjs first`);
   process.exit(1);
 }
 
@@ -53,6 +56,15 @@ function collectPaints(paints, kind) {
     colors.set(label, (colors.get(label) ?? 0) + 1);
   }
 }
+
+// function findNode(node, id) {
+//   if (node?.id === id) return node;
+//   for (const child of node?.children ?? []) {
+//     const hit = findNode(child, id);
+//     if (hit) return hit;
+//   }
+//   return null;
+// }
 
 function detail(node) {
   const bits = [];
@@ -105,6 +117,15 @@ function detail(node) {
   }
 
   return bits.length ? `  ${bits.join(' ')}` : '';
+}
+
+function findNode(node, id) {
+  if (node?.id === id) return node;
+  for (const child of node?.children ?? []) {
+    const hit = findNode(child, id);
+    if (hit) return hit;
+  }
+  return null;
 }
 
 function walk(node, depth) {

@@ -1,4 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import Button from '@/components/common/Button';
+import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
 
 const LINKS = ['Market', 'Analysis', 'Chart', 'Screener', 'Features'];
 
@@ -8,7 +11,9 @@ export default function Navbar({ active = 'Features' }) {
       aria-label="Main"
       className="flex w-309 items-center justify-between rounded-md bg-[rgb(30_30_30/0.2)] py-2.5 pr-2.5 pl-5 shadow-[inset_0_0_0_2px_rgb(255_255_255/0.15)] backdrop-blur-md"
     >
-      <Link href="/" aria-label="Fintra home" className="h-[31px] w-[120px] bg-ink" />
+      <Link href="/" aria-label="Fintra home" className="shrink-0">
+        <Image src="/images/logo.svg" alt="Fintra" width={120} height={31} unoptimized priority />
+      </Link>
 
       <ul className="flex h-11.25 list-none items-center gap-10">
         {LINKS.map((label) => (
@@ -28,21 +33,13 @@ export default function Navbar({ active = 'Features' }) {
       </ul>
 
       <div className="flex items-center gap-2.5">
-        <Link
-          href="/login"
-          className="inline-flex h-11.25 items-center justify-center rounded-pill bg-[rgb(255_255_255/0.1)] px-7.5 text-base leading-5.5 font-medium text-ink-soft"
-        >
+        <Button href="/login" variant="ghostMuted">
           Login
-        </Link>
-        <Link
-          href="/signup"
-          className="inline-flex h-11.25 items-center justify-center gap-2.5 rounded-pill bg-brand px-7.5 text-base leading-5.5 font-medium text-black"
-        >
+        </Button>
+        <Button href="/signup" variant="primary">
           Sign Up
-          <svg className="size-2.5" viewBox="0 0 10 10" aria-hidden="true">
-            <path d="M1 9 L9 1 M3 1 H9 V7" fill="none" stroke="currentColor" strokeWidth="2" />
-          </svg>
-        </Link>
+          <ArrowUpRight />
+        </Button>
       </div>
     </nav>
   );

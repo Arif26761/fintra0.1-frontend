@@ -58,6 +58,7 @@ secrets/
 design/raw/
 
 # --- visual regression artifacts ---
+tests/visual/actual/
 tests/visual/diff/
 test-results/
 playwright-report/
