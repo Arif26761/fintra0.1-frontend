@@ -11,7 +11,7 @@ export default function FeatureCard({
 }) {
   return (
     <div
-      className={`flex shrink-0 flex-col items-start gap-7.5 rounded-md border border-[rgb(255_255_255/0.15)] bg-bg-card p-7.5 ${className}`}
+      className={`flex shrink-0 flex-col items-start gap-7.5 rounded-md shadow-[inset_0_0_0_1px_rgb(255_255_255/0.08)] bg-bg-card p-7.5 ${className}`}
     >
       <div className={`relative shrink-0 overflow-hidden ${frameClassName}`}>
         <Image src={image} alt="" className={`absolute max-w-none ${imgClassName}`} fill />

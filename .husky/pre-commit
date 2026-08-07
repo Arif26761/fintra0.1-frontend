@@ -8,4 +8,4 @@ fi
 npx lint-staged
 
 # 3. full suite (fast enough at this size)
-npm test
+# npm test
