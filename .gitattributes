@@ -1,0 +1,15 @@
+# Mark sensitive files so they are never accidentally diff'd or merged
+.env         binary
+.env.*       binary
+*.pem        binary
+*.key        binary
+*.p12        binary
+secrets/**   binary
+
+# Normalise line endings for source files
+*.js         text eol=lf
+*.jsx        text eol=lf
+*.mjs        text eol=lf
+*.json       text eol=lf
+*.css        text eol=lf
+*.md         text eol=lf
