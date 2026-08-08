@@ -8,9 +8,17 @@ const URL = process.env.DIFF_URL ?? 'http://localhost:3000';
 const SECTIONS = ['hero', 'features', 'app-cta', 'pricing', 'faq', 'testimonials', 'prefooter'];
 const only = process.argv[2];
 const BG = [13, 24, 24]; // --color-bg #0d1818
+const SIZE_SLACK = 4; // px of rounding we tolerate before calling it a layout bug
 
 mkdirSync('tests/visual/actual', { recursive: true });
 mkdirSync('tests/visual/diff', { recursive: true });
+
+function crop(png, width, height) {
+  if (png.width === width && png.height === height) return png;
+  const out = new PNG({ width, height });
+  PNG.bitblt(png, out, 0, 0, width, height, 0, 0);
+  return out;
+}
 
 const browser = await chromium.launch();
 const page = await browser.newPage({
@@ -38,15 +46,33 @@ for (const name of SECTIONS) {
 
   await el.screenshot({ path: `tests/visual/actual/${name}.png` });
 
-  const base = PNG.sync.read(readFileSync(basePath));
-  const shot = PNG.sync.read(readFileSync(`tests/visual/actual/${name}.png`));
+  let base = PNG.sync.read(readFileSync(basePath));
+  let shot = PNG.sync.read(readFileSync(`tests/visual/actual/${name}.png`));
 
-  if (base.width !== shot.width || base.height !== shot.height) {
+  const dw = Math.abs(base.width - shot.width);
+  const dh = Math.abs(base.height - shot.height);
+
+  if (dw > SIZE_SLACK || dh > SIZE_SLACK) {
     console.log(
       `${name.padEnd(13)} SIZE  baseline ${base.width}x${base.height}  actual ${shot.width}x${shot.height}`,
     );
     failures++;
     continue;
+  }
+
+  // Playwright rounds an element's clip rect up when the page lands it on a
+  // fractional offset — the Landing frame is 5752.65px tall, so every section
+  // below a fractional one can come back 1-2px larger than Figma's export.
+  // Compare the overlap; anything past SIZE_SLACK already failed above.
+  const width = Math.min(base.width, shot.width);
+  const height = Math.min(base.height, shot.height);
+
+  if (dw || dh) {
+    console.log(
+      `${name.padEnd(13)} note  ${base.width}x${base.height} vs ${shot.width}x${shot.height} — comparing ${width}x${height}`,
+    );
+    base = crop(base, width, height);
+    shot = crop(shot, width, height);
   }
 
   // Figma frames export with transparency — composite onto the page background
@@ -59,13 +85,13 @@ for (const name of SECTIONS) {
     base.data[i + 3] = 255;
   }
 
-  const diff = new PNG({ width: base.width, height: base.height });
-  const bad = pixelmatch(base.data, shot.data, diff.data, base.width, base.height, {
+  const diff = new PNG({ width, height });
+  const bad = pixelmatch(base.data, shot.data, diff.data, width, height, {
     threshold: 0.12,
   });
   writeFileSync(`tests/visual/diff/${name}.png`, PNG.sync.write(diff));
 
-  const pct = ((1 - bad / (base.width * base.height)) * 100).toFixed(2);
+  const pct = ((1 - bad / (width * height)) * 100).toFixed(2);
   console.log(`${name.padEnd(13)} ${pct}%   ${bad.toLocaleString()} px differ`);
   if (Number(pct) < 99) failures++;
 }
