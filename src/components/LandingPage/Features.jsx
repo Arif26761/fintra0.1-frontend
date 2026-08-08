@@ -11,6 +11,7 @@ const WIDE = [
     frameClassName: 'h-[241px] w-[523px]',
     imgClassName: 'size-full object-cover',
     gradient: FADE,
+    sizes: '523px',
   },
   {
     title: 'Real-Time Updates',
@@ -20,6 +21,7 @@ const WIDE = [
     frameClassName: 'h-[241px] w-[523px]',
     imgClassName: 'size-full object-cover',
     gradient: FADE,
+    sizes: '523px',
   },
 ];
 
@@ -31,6 +33,7 @@ const NARROW = [
     frameClassName: 'aspect-[2312/1064] w-full',
     imgClassName: 'size-full object-cover',
     gradient: FADE_ALT,
+    sizes: '319px',
   },
   {
     title: 'Smart Market Filtering',
@@ -39,6 +42,7 @@ const NARROW = [
     frameClassName: 'aspect-[2312/1064] w-full',
     imgClassName: 'size-full object-cover',
     gradient: FADE,
+    sizes: '319px',
   },
   {
     title: 'Instant Transactions',
@@ -47,6 +51,7 @@ const NARROW = [
     frameClassName: 'aspect-[2312/1064] w-full',
     imgClassName: 'size-full object-cover',
     gradient: FADE,
+    sizes: '319px',
   },
 ];
 

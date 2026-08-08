@@ -1,0 +1,41 @@
+FRAME      11622:10846    1198x364     Component 3  row gap:50 pad:60/60/60/60 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+  FRAME      11622:10897    1069x42      Frame 863
+    ELLIPSE    11622:10898    1251x120     Ellipse 20  bg:#507e1b blur:200
+    ELLIPSE    11622:10899    1159x55      Ellipse 19  bg:#73b12b blur:124
+    ELLIPSE    11622:10900    760x25       Ellipse 18  bg:#b7ff64 blur:12
+  FRAME      11622:10848    514x244      Frame 176  col gap:30
+    FRAME      11622:10859    514x167      Frame 859  col gap:15
+      TEXT       11622:10849    514x80       Elevate Your Strategy Dominate the Market  color:#ffffff case:TITLE "Elevate Your Strategy 
+Dominate the Market" 35/40 w600
+      TEXT       11622:10850    514x72       Stop trading in the dark. Join thousands of elite investors using Fintra to outpace the market with real-time data, instant liquidity, and institutional-grade insights. Your next big move starts here.  color:#eaebf4 ls:0.16 "Stop trading in the dark. Join thousands of elite investors using Fintra to outpace the market with real-time data, instant liquidity, and institutional-grade insights. Your next big move starts here." 16/24 w300
+    FRAME      11622:10855    245x47       BTN  row gap:10 main:CENTER cross:CENTER pad:10/40/10/40 r:100 bg:#b7ff64
+      TEXT       11622:10856    145x27       Start My Journey  color:#000000 "Start My Journey" 18/27 w500
+      VECTOR     11625:10931    10x10        Vector  border:#000000@2px
+  INSTANCE   11625:11055    514x244      Slider
+    FRAME      I11625:11055;11625:11014 2430x244     Frame 864  row gap:65 cross:CENTER
+      RECTANGLE  I11625:11055;11625:11012 514x244      Test 1 1  bg:IMAGE
+      RECTANGLE  I11625:11055;11625:11013 414x197      Test 2 1  bg:IMAGE
+      RECTANGLE  I11625:11055;11625:11009 414x197      Test 3 1  bg:IMAGE
+      RECTANGLE  I11625:11055;11625:11010 414x197      Test 4 1  bg:IMAGE
+      RECTANGLE  I11625:11055;11625:11011 414x197      Test 5 1  bg:IMAGE
+
+--- typography ---
+   1x  General Sans w600 35px/40
+   1x  General Sans w300 16px/24
+   1x  General Sans w500 18px/27
+
+--- colours ---
+   5x  fill IMAGE
+   2x  fill #b7ff64
+   1x  fill #0d1818
+   1x  stroke GRADIENT_LINEAR
+   1x  fill #507e1b
+   1x  fill #73b12b
+   1x  fill #ffffff
+   1x  fill #eaebf4
+   1x  fill #000000
+   1x  stroke #000000
+
+--- corner radii ---
+   1x  12px
+   1x  100px

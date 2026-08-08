@@ -1,0 +1,41 @@
+FRAME      11617:468      1440x679     FAQ  col gap:40 cross:CENTER pad:0/122/0/122
+  FRAME      11617:469      1196x84      About  row gap:59 main:CENTER cross:CENTER pad:0/121/0/121
+    FRAME      11617:470      1198x84      Frame 137  col gap:25 main:SPACE_BETWEEN cross:CENTER
+      TEXT       11617:471      473x35       Frequently Asked Questions  color:#ffffff case:TITLE "Frequently Asked Questions" 35/35 w600
+      TEXT       11617:472      301x24       You have questions? We have the answers  color:#eaebf4 ls:0.16 "You have questions? We have the answers" 16/24 w300
+  FRAME      11619:10834    1196x555     Frame 858  col gap:20
+    INSTANCE   11619:10748    1196x95      Faq 1  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11619:10748;11619:10709 1136x35      Frame 176  row gap:5 main:SPACE_BETWEEN cross:CENTER
+        TEXT       I11619:10748;11619:10710 407x35       What is Fintra and how does it give me an advantage?  color:#ffffff case:TITLE "What is Fintra and how does it give me an advantage?" 16/35 w500
+        VECTOR     I11619:10748;11619:10711 16x9         Vector  bg:#a1a1aa
+    INSTANCE   11619:10817    1196x95      Faq 3  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11619:10817;11619:10771 1136x35      Frame 176  row gap:5 main:SPACE_BETWEEN cross:CENTER
+        TEXT       I11619:10817;11619:10772 264x35       Is the market data truly real-time?  color:#ffffff case:TITLE "Is the market data truly real-time?" 16/35 w500
+        VECTOR     I11619:10817;11619:10773 16x9         Vector  bg:#a1a1aa
+    INSTANCE   11619:10818    1196x95      Faq 5  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11619:10818;11619:10803 1136x35      Frame 176  row gap:5 main:SPACE_BETWEEN cross:CENTER
+        TEXT       I11619:10818;11619:10804 375x35       Is my trading data and capital secure with Fintra?  color:#ffffff case:TITLE "Is my trading data and capital secure with Fintra?" 16/35 w500
+        VECTOR     I11619:10818;11619:10805 16x9         Vector  bg:#a1a1aa
+    INSTANCE   11619:10819    1196x95      Faq 2  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11619:10819;11619:10755 1136x35      Frame 176  row gap:5 main:SPACE_BETWEEN cross:CENTER
+        TEXT       I11619:10819;11619:10756 362x35       How do I update my official BO Account details?  color:#ffffff case:TITLE "How do I update my official BO Account details?" 16/35 w500
+        VECTOR     I11619:10819;11619:10757 16x9         Vector  bg:#a1a1aa
+    INSTANCE   11619:10820    1196x95      Faq 4  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11619:10820;11619:10787 1136x35      Frame 176  row gap:5 main:SPACE_BETWEEN cross:CENTER
+        TEXT       I11619:10820;11619:10788 328x35       How does the "Instant Cash" feature work?  color:#ffffff case:TITLE "How does the "Instant Cash" feature work?" 16/35 w500
+        VECTOR     I11619:10820;11619:10789 16x9         Vector  bg:#a1a1aa
+
+--- typography ---
+   5x  General Sans w500 16px/35
+   1x  General Sans w600 35px/35
+   1x  General Sans w300 16px/24
+
+--- colours ---
+   6x  fill #ffffff
+   5x  fill #0d1818
+   5x  stroke GRADIENT_LINEAR
+   5x  fill #a1a1aa
+   1x  fill #eaebf4
+
+--- corner radii ---
+   5x  12px

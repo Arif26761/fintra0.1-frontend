@@ -1,0 +1,117 @@
+INSTANCE   11610:5350     1440x833     Pricing  col gap:40 cross:CENTER
+  FRAME      I11610:5350;11610:5019 1440x84      About  row gap:59 cross:CENTER pad:0/121/0/121
+    FRAME      I11610:5350;11610:5020 1198x84      Frame 137  col gap:25 main:SPACE_BETWEEN cross:CENTER
+      TEXT       I11610:5350;11610:5021 460x35       Choose Your Trading Power  color:#ffffff case:TITLE "Choose Your Trading Power" 35/35 w600
+      TEXT       I11610:5350;11610:5022 470x24       Flexible plans designed for every stage of your investment journey  color:#eaebf4 ls:0.16 "Flexible plans designed for every stage of your investment journey" 16/24 w300
+  FRAME      I11610:5350;11610:5023 333x46       Frame 25  row gap:10 cross:CENTER pad:5/5/5/5 r:100 bg:#0d1818 border:GRADIENT_LINEAR @0.10@1px
+    RECTANGLE  I11610:5350;11610:5024 159x36       Rectangle 1  r:200 bg:#b7ff64
+    FRAME      I11610:5350;11610:5025 159x36       Frame 23  row gap:10 main:CENTER cross:CENTER pad:10/20/10/20 r:100
+      TEXT       I11610:5350;11610:5026 61x16        Monthly  color:#000000 case:TITLE "Monthly" 16/16 w500
+    FRAME      I11610:5350;11610:5027 154x36       Frame 24  row gap:10 main:CENTER cross:CENTER pad:10/20/10/20 r:100
+      TEXT       I11610:5350;11610:5028 114x16       Annually (30% Off)  color:#ffffff case:TITLE "Annually (30% Off)" 16/16 w700
+  FRAME      I11610:5350;11610:5029 1440x623     Frame 165  row gap:30 main:CENTER cross:CENTER
+    INSTANCE   I11610:5350;11610:5030 583x623      Component 8  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11610:5350;11610:5030;11586:5966 523x193      Frame 176  col gap:35 pad:20/20/20/20 r:8 bg:#192424
+        FRAME      I11610:5350;11610:5030;11586:5967 483x64       Frame 844  col gap:5
+          TEXT       I11610:5350;11610:5030;11586:5968 483x35       Essential  color:#ffffff case:TITLE "Essential" 20/35 w500
+          TEXT       I11610:5350;11610:5030;11586:5969 483x24       Curated tools for casual tracking and market entry  color:#eaebf4 ls:0.16 "Curated tools for casual tracking and market entry" 16/24 w300
+        TEXT       I11610:5350;11610:5030;11586:5970 483x54       Free  color:#ffffff case:TITLE "Free" 40/54 w600
+      FRAME      I11610:5350;11610:5030;11586:5971 523x47       BTN  row gap:10 main:CENTER cross:CENTER pad:10/40/10/40 r:100 bg:#ffffff
+        TEXT       I11610:5350;11610:5030;11586:5972 100x27       Get Started  color:#000000 "Get Started" 18/27 w500
+        VECTOR     I11610:5350;11610:5030;11586:5973 10x10        Vector  border:#000000@2px
+      FRAME      I11610:5350;11610:5030;11586:5974 523x228      Frame 855  col gap:15 cross:MAX
+        TEXT       I11610:5350;11610:5030;11586:5975 523x16       Features  color:#eaebf4 case:TITLE "Features" 16/16 w500
+        FRAME      I11610:5350;11610:5030;11586:5976 523x197      Frame 854  col gap:13
+          FRAME      I11610:5350;11610:5030;11586:5977 523x22       Frame 849  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5978 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5979 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:5980 238x22       Basic indicators and timeframes.  color:#eaebf4 case:TITLE "Basic indicators and timeframes." 16/22 w300
+          FRAME      I11610:5350;11610:5030;11586:5981 523x22       Frame 850  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5982 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5983 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:5984 310x22       Daily gainers, losers, and unchanged lists.  color:#eaebf4 case:TITLE "Daily gainers, losers, and unchanged lists." 16/22 w300
+          FRAME      I11610:5350;11610:5030;11586:5985 523x22       Frame 851  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5986 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5987 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:5988 271x22       Track up to 10 of your favorite stocks.  color:#eaebf4 case:TITLE "Track up to 10 of your favorite stocks." 16/22 w300
+          FRAME      I11610:5350;11610:5030;11586:5989 523x22       Frame 852  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5990 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5991 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:5992 307x22       Real-time balance and position monitoring.  color:#eaebf4 case:TITLE "Real-time balance and position monitoring." 16/22 w300
+          FRAME      I11610:5350;11610:5030;11586:5993 523x22       Frame 853  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5994 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5995 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:5996 292x22       General DSE news and announcements.  color:#eaebf4 case:TITLE "General DSE news and announcements." 16/22 w300
+          FRAME      I11610:5350;11610:5030;11586:5997 523x22       Frame 854  row gap:18
+            FRAME      I11610:5350;11610:5030;11586:5998 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5030;11586:5999 8x6          Vector  border:#ffffff@1.5px
+            TEXT       I11610:5350;11610:5030;11586:6000 244x22       Basic filtering by sector and price.  color:#eaebf4 case:TITLE "Basic filtering by sector and price." 16/22 w300
+    INSTANCE   I11610:5350;11610:5031 583x623      Component 9  col gap:30 pad:30/30/30/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11610:5350;11610:5031;11586:6082 523x193      Frame 176  col gap:35 pad:20/20/20/20 r:8 bg:#132418
+        FRAME      I11610:5350;11610:5031;11586:6083 483x64       Frame 844  col gap:5
+          TEXT       I11610:5350;11610:5031;11586:6084 483x35       Fintra+  color:#b7ff64 case:TITLE "Fintra+" 20/35 w500
+          TEXT       I11610:5350;11610:5031;11586:6085 483x24       Professional tools for traders who demand an advantage.  color:#eaebf4 ls:0.16 "Professional tools for traders who demand an advantage." 16/24 w300
+        TEXT       I11610:5350;11610:5031;11586:6086 483x54       ৳ 1,000 /Month  color:#ffffff case:TITLE "৳ 1,000 /Month" 40/54 w600
+      FRAME      I11610:5350;11610:5031;11586:6087 523x47       BTN  row gap:10 main:CENTER cross:CENTER pad:10/40/10/40 r:100 bg:#b7ff64
+        TEXT       I11610:5350;11610:5031;11586:6088 114x27       Upgrade Now  color:#000000 "Upgrade Now" 18/27 w500
+        VECTOR     I11610:5350;11610:5031;11625:10907 10x10        Vector  border:#000000@2px
+      FRAME      I11610:5350;11610:5031;11586:6090 523x263      Frame 855  col gap:15 cross:MAX
+        TEXT       I11610:5350;11610:5031;11586:6091 523x16       Everything in essential, plus  color:#eaebf4 case:TITLE "Everything in essential, plus" 16/16 w500
+        FRAME      I11610:5350;11610:5031;11586:6092 523x232      Frame 854  col gap:13
+          FRAME      I11610:5350;11610:5031;11586:6093 523x22       Frame 849  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6094 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6095 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6096 364x22       Direct-from-exchange market feeds with no delay.  color:#eaebf4 case:TITLE "Direct-from-exchange market feeds with no delay." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6097 523x22       Frame 850  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6098 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6099 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6100 346x22       Institutional-grade indicators and drawing tools.  color:#eaebf4 case:TITLE "Institutional-grade indicators and drawing tools." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6101 523x22       Frame 851  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6102 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6103 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6104 451x22       Exclusive eligibility for instant cash to trade during settlement.  color:#eaebf4 case:TITLE "Exclusive eligibility for instant cash to trade during settlement." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6105 523x22       Frame 852  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6106 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6107 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6108 303x22       50+ deep-tier filters to find hidden alpha.  color:#eaebf4 case:TITLE "50+ deep-tier filters to find hidden alpha." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6109 523x22       Frame 853  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6110 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6111 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6112 387x22       Access to pro-level deep dives and dividend analysis.  color:#eaebf4 case:TITLE "Access to pro-level deep dives and dividend analysis." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6113 523x22       Frame 854  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6114 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6115 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6116 389x22       Be the first to know about Price Sensitive Information.  color:#eaebf4 case:TITLE "Be the first to know about Price Sensitive Information." 16/22 w300
+          FRAME      I11610:5350;11610:5031;11586:6117 523x22       Frame 855  row gap:18
+            FRAME      I11610:5350;11610:5031;11586:6118 8x15         Frame 850  col gap:10 pad:9/0/0/0
+              VECTOR     I11610:5350;11610:5031;11586:6119 8x6          Vector  border:#b7ff64@1.5px
+            TEXT       I11610:5350;11610:5031;11586:6120 395x22       24/7 priority access to our dedicated assistance team.  color:#eaebf4 case:TITLE "24/7 priority access to our dedicated assistance team." 16/22 w300
+
+--- typography ---
+  13x  General Sans w300 16px/22
+   3x  General Sans w300 16px/24
+   3x  General Sans w500 16px/16
+   2x  General Sans w500 20px/35
+   2x  General Sans w600 40px/54
+   2x  General Sans w500 18px/27
+   1x  General Sans w600 35px/35
+   1x  Kentledge w700 16px/16
+
+--- colours ---
+  18x  fill #eaebf4
+   7x  stroke #b7ff64
+   6x  fill #ffffff
+   6x  stroke #ffffff
+   3x  fill #0d1818
+   3x  stroke GRADIENT_LINEAR
+   3x  fill #b7ff64
+   3x  fill #000000
+   2x  stroke #000000
+   1x  fill #192424
+   1x  fill #132418
+
+--- corner radii ---
+   5x  100px
+   2x  12px
+   2x  8px
+   1x  200px

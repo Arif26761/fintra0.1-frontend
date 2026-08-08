@@ -1,0 +1,115 @@
+FRAME      11625:15841    1440x496     Frame 872  col gap:100 cross:CENTER
+  FRAME      11625:15824    1195x319     Frame 870  row gap:103 main:SPACE_BETWEEN
+    FRAME      11477:75618    334x319      Frame 151  col gap:50 main:SPACE_BETWEEN
+      FRAME      11477:75619    334x203      Frame 147  col gap:20
+        FRAME      11760:18636    334x143      Frame 877  col gap:15
+          VECTOR     11625:15438    160x40       Logo  bg:#ffffff
+          TEXT       11477:75621    334x88       Redefining the trading experience for the modern investor. Precision tools, institutional intelligence, and the speed you need to dominate the market.  color:#eaebf4 "Redefining the trading experience for the modern investor. Precision tools, institutional intelligence, and the speed you need to dominate the market." 16/22 w300
+        FRAME      11760:18593    292x40       App redirect  row gap:22 cross:CENTER
+          FRAME      11760:18594    135x40       Download_on_the_App_Store_Badge
+            GROUP      11760:18595    135x40       Group
+              VECTOR     11760:18596    135x40       Vector  bg:#a6a6a6
+              VECTOR     11760:18597    133x38       Vector  bg:#231f20
+              GROUP      11760:18598    21x26        Group
+                GROUP      11760:18599    21x26        Group
+                  VECTOR     11760:18600    21x19        Vector  bg:#ffffff
+                  VECTOR     11760:18601    5x6          Vector  bg:#ffffff
+              GROUP      11760:18602    80x17        Group
+                VECTOR     11760:18603    11x13        Vector  bg:#ffffff
+                VECTOR     11760:18604    9x14         Vector  bg:#ffffff
+                VECTOR     11760:18605    9x14         Vector  bg:#ffffff
+                VECTOR     11760:18606    8x14         Vector  bg:#ffffff
+                VECTOR     11760:18607    6x12         Vector  bg:#ffffff
+                VECTOR     11760:18608    9x10         Vector  bg:#ffffff
+                VECTOR     11760:18609    5x10         Vector  bg:#ffffff
+                VECTOR     11760:18610    9x10         Vector  bg:#ffffff
+              GROUP      11760:18611    78x7         Group
+                GROUP      11760:18612    78x7         Group
+                  VECTOR     11760:18613    5x7          Vector  bg:#ffffff
+                  VECTOR     11760:18614    5x5          Vector  bg:#ffffff
+                  VECTOR     11760:18615    7x5          Vector  bg:#ffffff
+                  VECTOR     11760:18616    4x5          Vector  bg:#ffffff
+                  VECTOR     11760:18617    1x7          Vector  bg:#ffffff
+                  VECTOR     11760:18618    5x5          Vector  bg:#ffffff
+                  VECTOR     11760:18619    4x5          Vector  bg:#ffffff
+                  VECTOR     11760:18620    5x7          Vector  bg:#ffffff
+                  VECTOR     11760:18621    5x5          Vector  bg:#ffffff
+                  VECTOR     11760:18622    4x5          Vector  bg:#ffffff
+                  VECTOR     11760:18623    3x6          Vector  bg:#ffffff
+                  VECTOR     11760:18624    4x7          Vector  bg:#ffffff
+                  VECTOR     11760:18625    4x5          Vector  bg:#ffffff
+          FRAME      11760:18626    135x40       Google_Play_Store_badge_EN
+            VECTOR     11760:18627    135x40       path11  bg:#231f20
+            VECTOR     11760:18628    135x40       path13  bg:#a2a2a1
+            VECTOR     11760:18629    85x17        path35  bg:#ffffff
+            VECTOR     11760:18630    16x13        path37  bg:#eb3131
+            VECTOR     11760:18631    13x11        path39  bg:#f6b60b
+            VECTOR     11760:18632    11x21        path41  bg:#5778c5
+            VECTOR     11760:18633    16x13        path43  bg:#3bad49
+            VECTOR     11760:18634    39x6         path33  bg:#ffffff border:#ffffff@0.26666000485420227px
+      FRAME      11625:15786    334x62       Frame 867  col gap:10
+        TEXT       11625:15440    334x27       Follow our market updates  color:#eaebf4 case:TITLE "Follow our market updates" 18/27 w600
+        FRAME      11625:15781    103x25       Frame 37
+          VECTOR     11625:15782    25x25        Vector  bg:#ffffff
+          VECTOR     11625:15783    25x25        Vector  bg:#ffffff
+          VECTOR     11625:15784    25x25        Vector  bg:#ffffff
+    FRAME      11625:15787    126x116      Quick Links  col gap:21
+      TEXT       11625:15788    126x14       Company  color:#a1a1aa case:TITLE "Company" 16/14 w500
+      TEXT       11625:15789    126x11       About Fintra  color:#ffffff case:TITLE "About Fintra" 16/14 w500
+      TEXT       11625:15790    126x14       Careers  color:#ffffff case:TITLE "Careers" 16/14 w500
+      TEXT       11625:15791    126x14       Contact Support  color:#ffffff case:TITLE "Contact Support" 16/14 w500
+    FRAME      11625:15794    129x151      Quick Links  col gap:21
+      TEXT       11625:15795    129x14       Legal Links  color:#a1a1aa case:TITLE "Legal Links" 16/14 w500
+      TEXT       11625:15796    129x11       Privacy Policy  color:#ffffff case:TITLE "Privacy Policy" 16/14 w500
+      TEXT       11625:15797    129x14       Terms of Service  color:#ffffff case:TITLE "Terms of Service" 16/14 w500
+      TEXT       11625:15799    114x14       Risk Disclosure  color:#ffffff case:TITLE "Risk Disclosure" 16/14 w500
+      TEXT       11625:15798    101x14       Refund Policy  color:#ffffff case:TITLE "Refund Policy" 16/14 w500
+    FRAME      11625:15823    334x319      Frame 869  col gap:49
+      FRAME      11625:15801    334x0        Frame 867  col gap:10
+        TEXT       11625:15802    334x27       Subscribe to our newsletter  color:#eaebf4 case:TITLE "Subscribe to our newsletter" 18/27 w600
+        FRAME      11625:15807    334x52       Frame 35  row gap:10 main:SPACE_BETWEEN cross:CENTER pad:10/7/10/15 r:100 bg:#0d1818 border:GRADIENT_LINEAR @0.15@1px
+          TEXT       11625:15808    117x14       Enter Your Email  color:#eaebf4 case:TITLE "Enter Your Email" 16/14 w400
+          FRAME      11625:15812    101x32       Component 13  row gap:10 main:CENTER cross:CENTER pad:15/30/15/30 r:100 bg:#b7ff64
+            TEXT       11625:15813    66x14        Subscribe  color:#000000 case:TITLE "Subscribe" 14/14 w500
+      FRAME      11625:15814    334x181      Frame 868  col gap:10
+        TEXT       11625:15815    334x24       Visit Our Office  color:#eaebf4 case:TITLE "Visit Our Office" 18/24 w600
+        RECTANGLE  11625:15821    334x147      Rectangle 2  r:8 bg:IMAGE
+  FRAME      11477:75611    1440x77      Footer  row gap:10 main:SPACE_BETWEEN pad:20/121/20/121 bg:#b7ff64
+    FRAME      11625:11063    1198x37      Frame 865  row gap:833 main:SPACE_BETWEEN cross:CENTER
+      TEXT       11625:11068    404x27       © 2026 Fintra Securities Ltd. All Rights Reserved.  color:#000000 "© 2026 Fintra Securities Ltd. All Rights Reserved." 18/27 w500
+      FRAME      11625:11067    166x37       Frame 866  row gap:10 cross:CENTER pad:5/20/5/20 r:100 bg:#9bf236
+        TEXT       11625:11064    102x27       Jump to top  color:#000000 "Jump to top" 18/27 w500
+        VECTOR     11625:11065    14x14        Vector  border:#000000@2px
+
+--- typography ---
+   9x  General Sans w500 16px/14
+   2x  General Sans w600 18px/27
+   2x  General Sans w500 18px/27
+   1x  General Sans w300 16px/22
+   1x  General Sans w400 16px/14
+   1x  General Sans w500 14px/14
+   1x  General Sans w600 18px/24
+
+--- colours ---
+  36x  fill #ffffff
+   5x  fill #eaebf4
+   3x  fill #000000
+   2x  fill #231f20
+   2x  fill #a1a1aa
+   2x  fill #b7ff64
+   1x  fill #a6a6a6
+   1x  fill #a2a2a1
+   1x  fill #eb3131
+   1x  fill #f6b60b
+   1x  fill #5778c5
+   1x  fill #3bad49
+   1x  stroke #ffffff
+   1x  fill #0d1818
+   1x  stroke GRADIENT_LINEAR
+   1x  fill IMAGE
+   1x  fill #9bf236
+   1x  stroke #000000
+
+--- corner radii ---
+   3x  100px
+   1x  8px
