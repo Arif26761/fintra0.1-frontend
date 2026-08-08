@@ -8,13 +8,20 @@ export default function FeatureCard({
   imgClassName,
   gradient,
   className = '',
+  sizes,
 }) {
   return (
     <div
       className={`flex shrink-0 flex-col items-start gap-7.5 rounded-md shadow-[inset_0_0_0_1px_rgb(255_255_255/0.08)] bg-bg-card p-7.5 ${className}`}
     >
       <div className={`relative shrink-0 overflow-hidden ${frameClassName}`}>
-        <Image src={image} alt="" className={`absolute max-w-none ${imgClassName}`} fill />
+        <Image
+          src={image}
+          alt=""
+          className={`absolute max-w-none ${imgClassName}`}
+          fill
+          sizes={sizes}
+        />
         <div className="absolute inset-0" style={{ backgroundImage: gradient }} />
       </div>
 

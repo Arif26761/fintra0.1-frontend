@@ -1,0 +1,99 @@
+FRAME      11564:36       1440x636     App CTA  col gap:90 cross:CENTER
+  FRAME      11564:37       1440x84      About  row gap:59 cross:CENTER pad:0/121/0/121
+    FRAME      11564:38       1198x84      Frame 137  row gap:25 main:SPACE_BETWEEN cross:CENTER
+      FRAME      11564:4866     439x84       Frame 839  col main:SPACE_BETWEEN
+        TEXT       11564:39       439x35       Trade Anywhere, Anytime.  color:#ffffff case:TITLE "Trade Anywhere, Anytime." 35/35 w600
+        TEXT       11564:40       374x24       Download the Fintra mobile app for iOS and Android  color:#eaebf4 ls:0.16 "Download the Fintra mobile app for iOS and Android" 16/24 w300
+      FRAME      11564:4823     368x84       App redirect  row gap:22 cross:CENTER
+        FRAME      11564:4824     173x51       Download_on_the_App_Store_Badge
+          GROUP      11564:4825     173x51       Group
+            VECTOR     11564:4826     173x51       Vector  bg:#a6a6a6
+            VECTOR     11564:4827     171x49       Vector  bg:#231f20
+            GROUP      11564:4828     27x33        Group
+              GROUP      11564:4829     27x33        Group
+                VECTOR     11564:4830     27x25        Vector  bg:#ffffff
+                VECTOR     11564:4831     7x8          Vector  bg:#ffffff
+            GROUP      11564:4832     102x22       Group
+              VECTOR     11564:4833     14x17        Vector  bg:#ffffff
+              VECTOR     11564:4834     12x18        Vector  bg:#ffffff
+              VECTOR     11564:4835     12x18        Vector  bg:#ffffff
+              VECTOR     11564:4836     11x18        Vector  bg:#ffffff
+              VECTOR     11564:4837     7x16         Vector  bg:#ffffff
+              VECTOR     11564:4838     12x13        Vector  bg:#ffffff
+              VECTOR     11564:4839     7x13         Vector  bg:#ffffff
+              VECTOR     11564:4840     11x13        Vector  bg:#ffffff
+            GROUP      11564:4841     99x9         Group
+              GROUP      11564:4842     99x9         Group
+                VECTOR     11564:4843     7x9          Vector  bg:#ffffff
+                VECTOR     11564:4844     6x6          Vector  bg:#ffffff
+                VECTOR     11564:4845     9x6          Vector  bg:#ffffff
+                VECTOR     11564:4846     5x6          Vector  bg:#ffffff
+                VECTOR     11564:4847     1x9          Vector  bg:#ffffff
+                VECTOR     11564:4848     6x6          Vector  bg:#ffffff
+                VECTOR     11564:4849     5x6          Vector  bg:#ffffff
+                VECTOR     11564:4850     6x9          Vector  bg:#ffffff
+                VECTOR     11564:4851     6x6          Vector  bg:#ffffff
+                VECTOR     11564:4852     5x6          Vector  bg:#ffffff
+                VECTOR     11564:4853     4x8          Vector  bg:#ffffff
+                VECTOR     11564:4854     5x9          Vector  bg:#ffffff
+                VECTOR     11564:4855     5x6          Vector  bg:#ffffff
+        FRAME      11564:4856     173x51       Google_Play_Store_badge_EN
+          VECTOR     11564:4857     173x51       path11  bg:#231f20
+          VECTOR     11564:4858     173x51       path13  bg:#a2a2a1
+          VECTOR     11564:4859     109x22       path35  bg:#ffffff
+          VECTOR     11564:4860     21x17        path37  bg:#eb3131
+          VECTOR     11564:4861     16x14        path39  bg:#f6b60b
+          VECTOR     11564:4862     14x27        path41  bg:#5778c5
+          VECTOR     11564:4863     21x16        path43  bg:#3bad49
+          VECTOR     11564:4864     50x8         path33  bg:#ffffff border:#ffffff@0.26666000485420227px
+  INSTANCE   11576:5628     1196x462     Component 5  row gap:60
+    FRAME      I11576:5628;11573:5383 463x462      Frame 840  col gap:30
+      FRAME      I11576:5628;11573:5384 463x93       Frame 176  col gap:5
+        FRAME      I11576:5628;11578:5667 463x3        Frame 843
+          LINE       I11576:5628;11573:5385 463x0        Line 2  border:#213636@2px
+        TEXT       I11576:5628;11573:5386 463x35       Trade Fast, Trade Easy  color:#ffffff case:TITLE "Trade Fast, Trade Easy" 20/35 w600
+        TEXT       I11576:5628;11573:5387 463x48       Master the market with a high-velocity interface built for decisive action.  color:#eaebf4 ls:0.16 "Master the market with a high-velocity interface built for decisive action." 16/24 w300
+      FRAME      I11576:5628;11573:5388 463x93       Frame 177  col gap:5
+        FRAME      I11576:5628;11578:5675 463x3        Frame 843
+          LINE       I11576:5628;11578:5676 463x0        Line 2  border:#213636@2px
+        TEXT       I11576:5628;11573:5390 463x85       Instant Portfolio Insights  color:#a1a1aa case:TITLE "Instant Portfolio Insights" 20/35 w600
+      FRAME      I11576:5628;11573:5391 463x93       Frame 178  col gap:5
+        FRAME      I11576:5628;11578:5672 463x3        Frame 843
+          LINE       I11576:5628;11578:5673 463x0        Line 2  border:#213636@2px
+        TEXT       I11576:5628;11573:5393 463x85       Track Your Favorite Stocks  color:#a1a1aa case:TITLE "Track Your Favorite Stocks" 20/35 w600
+      FRAME      I11576:5628;11573:5394 463x93       Frame 179  col gap:5
+        FRAME      I11576:5628;11578:5678 463x3        Frame 843
+          LINE       I11576:5628;11578:5679 463x0        Line 2  border:#213636@2px
+        TEXT       I11576:5628;11573:5396 463x85       Your Trading Hub at a Glance  color:#a1a1aa case:TITLE "Your Trading Hub at a Glance" 20/35 w600
+    FRAME      I11576:5628;11573:5397 673x462      Component 2  col gap:30 pad:30/30/0/30 r:12 bg:#0d1818 border:GRADIENT_LINEAR @0.20@1px
+      FRAME      I11576:5628;11573:5398 613x432      Frame 842
+        RECTANGLE  I11576:5628;11573:5428 370x780      Hub  bg:IMAGE
+        RECTANGLE  I11576:5628;11573:5430 370x780      Fav Stocks  bg:IMAGE
+        RECTANGLE  I11576:5628;11573:5426 370x780      Portfolio  bg:IMAGE
+        RECTANGLE  I11576:5628;11573:5399 370x780      Buy/Sell  bg:IMAGE
+
+--- typography ---
+   4x  General Sans w600 20px/35
+   2x  General Sans w300 16px/24
+   1x  General Sans w600 35px/35
+
+--- colours ---
+  27x  fill #ffffff
+   4x  stroke #213636
+   4x  fill IMAGE
+   4x  fill GRADIENT_LINEAR
+   3x  fill #a1a1aa
+   2x  fill #eaebf4
+   2x  fill #231f20
+   1x  fill #a6a6a6
+   1x  fill #a2a2a1
+   1x  fill #eb3131
+   1x  fill #f6b60b
+   1x  fill #5778c5
+   1x  fill #3bad49
+   1x  stroke #ffffff
+   1x  fill #0d1818
+   1x  stroke GRADIENT_LINEAR
+
+--- corner radii ---
+   1x  12px

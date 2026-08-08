@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="relative isolate flex h-219.5 w-full flex-col items-center justify-center gap-2.5 overflow-hidden rounded-[18px] bg-rich-green px-25.75 pb-52.5">
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute top-160.5 left-0 -z-10 h-175 w-350.75"
+            className="pointer-events-none absolute top-160.5 -z-10 h-175 w-350.75"
           >
             <div className="absolute inset-[-57.14%_-28.51%]">
               <img src="/images/hero-glow.svg" alt="" className="block size-full max-w-none" />
@@ -64,7 +64,7 @@ export default function Hero() {
           className="absolute top-0 left-1/2 h-170.25 w-239.5 max-w-none -translate-x-1/2 rounded-[12px] object-cover"
         />
         <div
-          className="absolute inset-0 rounded-[12px]"
+          className="absolute inset-0"
           style={{
             background: 'linear-gradient(to bottom, rgba(0,12,12,0) 23.8%, #000c0c 79.8%)',
           }}
