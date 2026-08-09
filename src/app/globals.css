@@ -25,3 +25,7 @@ body {
   mask-composite: exclude;
   pointer-events: none;
 }
+
+.gradient-ring-soft {
+  --ring-alpha: 0.1;
+}

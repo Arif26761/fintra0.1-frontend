@@ -57,7 +57,7 @@ const NARROW = [
 
 export default function Features() {
   return (
-    <section data-section="features" className="flex w-360 flex-col items-center gap-10">
+    <section data-section="features" className="flex w-360 h-224.5 flex-col items-center gap-10">
       <div className="flex w-full items-center px-30.25">
         <div className="flex h-21 w-299.5 flex-col items-center justify-between whitespace-nowrap">
           <h2 className="text-3xl leading-8.75 font-semibold text-ink capitalize">

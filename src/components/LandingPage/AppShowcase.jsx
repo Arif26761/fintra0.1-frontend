@@ -82,7 +82,7 @@ export default function AppShowcase() {
               width={475}
               height={1002}
               priority={index === 0}
-              className={`absolute top-[8px] left-[69px] max-w-none transition-opacity duration-300 ${
+              className={`absolute top-2 left-17.25 max-w-none transition-opacity duration-300 ${
                 index === active ? 'opacity-100' : 'opacity-0'
               }`}
             />
