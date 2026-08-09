@@ -3,7 +3,6 @@ import AppCta from '@/components/LandingPage/AppCta';
 import Features from '@/components/LandingPage/Features';
 import Hero from '@/components/LandingPage/Hero';
 import Pricing from '@/components/LandingPage/Pricing';
-import PricingCard from '@/components/LandingPage/PricingCard';
 
 export default function Home() {
   return (

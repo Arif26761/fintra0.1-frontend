@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import AppShowcase from './AppShowcase';
 
+const FADE = 'linear-gradient(126.02deg, rgba(13,24,24,0) 38.231%, rgb(13,24,24) 89.571%)';
 const STORE_LINKS = [
   {
     href: 'https://www.apple.com/app-store/',
@@ -28,7 +29,7 @@ export default function AppCta() {
             </p>
           </div>
 
-          <div className="flex h-full w-92 items-center gap-5.5">
+          <div className="flex h-full w-92 items-center gap-5.5 shadow-[inset_0_0_0_1px_rgb(255_255_255/0.08)]">
             {STORE_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -37,7 +38,15 @@ export default function AppCta() {
                 rel="noreferrer"
                 className="rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
               >
-                <Image src={link.src} alt={link.alt} width={173} height={51} unoptimized />
+                <Image
+                  src={link.src}
+                  alt={link.alt}
+                  width={173}
+                  height={51}
+                  className="h-12.75 w-43.25"
+                  unoptimized
+                />
+                <div className="absolute inset-0" style={{ backgroundImage: FADE }} />
               </a>
             ))}
           </div>
