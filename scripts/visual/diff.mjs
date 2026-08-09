@@ -44,6 +44,9 @@ for (const name of SECTIONS) {
     continue;
   }
 
+  const box = await el.boundingBox();
+  console.log(`${name.padEnd(13)} box   y:${box.y}  h:${box.height}`);
+
   await el.screenshot({ path: `tests/visual/actual/${name}.png` });
 
   let base = PNG.sync.read(readFileSync(basePath));
