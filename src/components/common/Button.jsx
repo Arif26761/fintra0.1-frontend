@@ -4,6 +4,7 @@ const BASE = 'inline-flex items-center justify-center gap-2.5 rounded-pill white
 
 const VARIANTS = {
   primary: 'bg-brand text-black font-medium',
+  white: 'bg-ink text-black font-medium',
   ghost: 'bg-[rgb(255_255_255/0.1)] text-ink font-semibold',
   ghostMuted: 'bg-[rgb(255_255_255/0.1)] text-ink-soft font-medium',
 };
