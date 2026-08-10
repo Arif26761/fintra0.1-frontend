@@ -61,6 +61,7 @@ export default function Hero() {
           alt=""
           width={958}
           height={681}
+          priority
           className="absolute top-0 left-1/2 h-170.25 w-239.5 max-w-none -translate-x-1/2 rounded-[12px] object-cover"
         />
         <div

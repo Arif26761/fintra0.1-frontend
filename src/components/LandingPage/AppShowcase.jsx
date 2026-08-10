@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
+const FADE = 'linear-gradient(126.02deg, rgba(13,24,24,0) 38.231%, rgb(13,24,24) 89.571%)';
+
 const ITEMS = [
   {
     title: 'Trade Fast, Trade Easy',
@@ -87,6 +89,7 @@ export default function AppShowcase() {
               }`}
             />
           ))}
+          <div className="pointer-events-none absolute inset-0" style={{ backgroundImage: FADE }} />
         </div>
       </div>
     </div>

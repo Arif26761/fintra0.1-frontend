@@ -7,7 +7,7 @@ import pixelmatch from 'pixelmatch';
 const URL = process.env.DIFF_URL ?? 'http://localhost:3000';
 const SECTIONS = ['hero', 'features', 'app-cta', 'pricing', 'faq', 'testimonials', 'prefooter'];
 const only = process.argv[2];
-const BG = [13, 24, 24]; // --color-bg #0d1818
+const BG = [0, 24, 24]; // --color-bg #000c0c
 const SIZE_SLACK = 4; // px of rounding we tolerate before calling it a layout bug
 
 mkdirSync('tests/visual/actual', { recursive: true });

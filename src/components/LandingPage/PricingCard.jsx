@@ -1,4 +1,4 @@
-import ArrowUpRight from '@/components/common/icon/ArrowUpRight';
+import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
 import Button from '@/components/common/Button';
 import Check from '@/components/common/Check';
 
@@ -40,7 +40,7 @@ export default function PricingCard({
           </span>
 
           {saveLabel && (
-            <span className="rounded-sm bg-surface-faded px-3 py-1.5 text-xl leading-none font-normal text-ink-ghost">
+            <span className="h-9.75 flex items-center rounded-sm bg-surface-faded px-3 py-1.5 text-xl leading-none font-normal text-ink-soft">
               {saveLabel}
             </span>
           )}
