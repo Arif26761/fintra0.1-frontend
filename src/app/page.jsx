@@ -4,6 +4,7 @@ import Faq from '@/components/LandingPage/Faa';
 import Features from '@/components/LandingPage/Features';
 import Hero from '@/components/LandingPage/Hero';
 import Pricing from '@/components/LandingPage/Pricing';
+import Testimonials from '@/components/LandingPage/Testimonials';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AppCta />
       <Pricing />
       <Faq />
+      <Testimonials />
     </main>
   );
 }
