@@ -3,6 +3,7 @@ import AppCta from '@/components/LandingPage/AppCta';
 import Faq from '@/components/LandingPage/Faa';
 import Features from '@/components/LandingPage/Features';
 import Hero from '@/components/LandingPage/Hero';
+import PreFooter from '@/components/LandingPage/PreFooter';
 import Pricing from '@/components/LandingPage/Pricing';
 import Testimonials from '@/components/LandingPage/Testimonials';
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Testimonials />
+      <PreFooter />
     </main>
   );
 }

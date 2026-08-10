@@ -3,5 +3,30 @@
   "editor.inlineSuggest.edits.allowCodeShifting": "never",
   "editor.inlineSuggest.enabled": false,
   "css.lint.unknownAtRules": "ignore",
-  "cSpell.words": ["ariful", "colour", "colours", "Fintra", "haque", "networkidle", "prefooter"]
+  "cSpell.words": [
+    "appstore",
+    "ariful",
+    "backhround",
+    "Bangla",
+    "Bkash",
+    "borker",
+    "chowdhury",
+    "colour",
+    "colours",
+    "Fintra",
+    "googleplay",
+    "haque",
+    "hrefs",
+    "Iftar",
+    "kamrul",
+    "karim",
+    "networkidle",
+    "nuzhat",
+    "Permenant",
+    "prefooter",
+    "tanvir",
+    "TREC",
+    "Webdesign",
+    "উপাদানঃ"
+  ]
 }

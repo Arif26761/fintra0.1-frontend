@@ -35,7 +35,7 @@ const TESTIMONIALS = [
 export default function TestimonialSlider() {
   return (
     <div
-      className="relative z-10 flex h-61 w-128.5 shrink-0 snap-x snap-mandatory items-center gap-16.25 overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      className="relative z-10 flex h-61 w-128.5 shrink-0 snap-x snap-mandatory items-center gap-16.25 overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] scrollbar-none [&::-webkit-scrollbar]:hidden"
       tabIndex={0}
       role="region"
       aria-label="What our traders say"
