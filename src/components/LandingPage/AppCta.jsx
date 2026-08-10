@@ -37,7 +37,14 @@ export default function AppCta() {
                 rel="noreferrer"
                 className="rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
               >
-                <Image src={link.src} alt={link.alt} width={173} height={51} unoptimized />
+                <Image
+                  src={link.src}
+                  alt={link.alt}
+                  width={173}
+                  height={51}
+                  unoptimized
+                  className="h-12.75 w-43.25"
+                />
               </a>
             ))}
           </div>

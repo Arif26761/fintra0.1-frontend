@@ -12,7 +12,7 @@ export default function FeatureCard({
 }) {
   return (
     <div
-      className={`flex shrink-0 flex-col items-start gap-7.5 rounded-md shadow-[inset_0_0_0_1px_rgb(255_255_255/0.08)] bg-bg-card p-7.5 ${className}`}
+      className={`gradient-ring relative flex shrink-0 flex-col items-start gap-7.5 rounded-md bg-bg-card p-7.5 ${className}`}
     >
       <div className={`relative shrink-0 overflow-hidden ${frameClassName}`}>
         <Image
