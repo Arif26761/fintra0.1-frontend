@@ -2,7 +2,7 @@
 
 const OPTIONS = [
   { id: 'monthly', label: 'Monthly', size: 'w-39.75 font-medium' },
-  { id: 'annually', label: 'Annually', note: '(30% Off)', size: 'w-38.5 font-bold' },
+  { id: 'annually', label: 'Annually', note: '(30% Off)', size: 'w-38.5 font-medium' },
 ];
 
 const PILL = {
@@ -33,7 +33,9 @@ export default function BillingToggle({ value, onChange }) {
           } ${value === option.id ? 'text-black' : 'text-ink'}`}
         >
           {option.label}
-          {option.note && <span className="ml-1 text-[11px] font-normal">{option.note}</span>}
+          {option.note && (
+            <span className="ml-1 text-[10px] font-medium text-ink-muted">{option.note}</span>
+          )}
         </button>
       ))}
     </div>

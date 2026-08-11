@@ -9,7 +9,7 @@ export default function Navbar({ active = 'Features' }) {
   return (
     <nav
       aria-label="Main"
-      className="flex w-309 items-center justify-between rounded-md bg-[rgb(30_30_30/0.2)] py-2.5 pr-2.5 pl-5 shadow-[inset_0_0_0_2px_rgb(255_255_255/0.15)] backdrop-blur-md"
+      className="flex w-full max-w-309 items-center justify-between rounded-md bg-[rgb(30_30_30/0.2)] py-2.5 pr-2.5 pl-5 shadow-[inset_0_0_0_2px_rgb(255_255_255/0.15)] backdrop-blur-md"
     >
       <Link href="/" aria-label="Fintra home" className="shrink-0">
         <Image src="/images/logo.svg" alt="Fintra" width={120} height={31} unoptimized priority />

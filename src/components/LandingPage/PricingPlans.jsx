@@ -53,7 +53,7 @@ export default function PricingPlans() {
     <>
       <BillingToggle value={billing} onChange={setBilling} />
 
-      <div className="flex h-155.75 w-full items-center justify-center gap-7.5">
+      <div className="flex w-full flex-wrap items-center justify-center gap-7.5">
         {PLANS.map((plan) => {
           const { price, unit, save } = plan.pricing[billing];
 

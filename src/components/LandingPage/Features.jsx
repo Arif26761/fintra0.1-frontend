@@ -57,9 +57,9 @@ const NARROW = [
 
 export default function Features() {
   return (
-    <section data-section="features" className="flex w-360 h-224.5 flex-col items-center gap-10">
-      <div className="flex w-full items-center px-30.25">
-        <div className="flex h-21 w-299.5 flex-col items-center justify-between whitespace-nowrap">
+    <section data-section="features" className="flex w-full max-w-360 flex-col items-center gap-10">
+      <div className="flex w-full items-center px-6 lg:px-30.25">
+        <div className="flex h-21 w-full max-w-299.5 flex-col items-center justify-between whitespace-nowrap">
           <h2 className="text-3xl leading-8.75 font-semibold text-ink capitalize">
             Everything You Need to Trade Smarter
           </h2>
@@ -69,15 +69,15 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex w-299 flex-col items-start gap-7.5">
-        <div className="flex w-full items-center gap-7.5">
+      <div className="flex w-full max-w-299 flex-col items-start gap-7.5 px-6 lg:px-0">
+        <div className="flex w-full flex-wrap items-center gap-7.5">
           {WIDE.map((card) => (
-            <FeatureCard key={card.title} {...card} className="w-145.75" />
+            <FeatureCard key={card.title} {...card} className="min-w-0 w-145.75" />
           ))}
         </div>
-        <div className="flex w-full items-center gap-7.5">
+        <div className="flex w-full flex-wrap items-center gap-7.5">
           {NARROW.map((card) => (
-            <FeatureCard key={card.title} {...card} className="w-[378.667px]" />
+            <FeatureCard key={card.title} {...card} className="min-w-0 w-[378.667px]" />
           ))}
         </div>
       </div>
