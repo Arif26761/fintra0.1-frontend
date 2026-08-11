@@ -42,6 +42,30 @@ const describeEffects = (node, indent) => {
   }
 };
 
+const describeSpans = (node, indent) => {
+  if (node.type !== 'TEXT' || !node.characterStyleOverrides?.length) return;
+
+  const runs = [];
+  for (let i = 0; i < node.characters.length; i += 1) {
+    const id = node.characterStyleOverrides[i] ?? 0;
+    const last = runs[runs.length - 1];
+    if (last && last.id === id) last.text += node.characters[i];
+    else runs.push({ id, text: node.characters[i] });
+  }
+
+  for (const run of runs) {
+    const o = node.styleOverrideTable?.[run.id];
+    if (!o) continue;
+    const parts = [];
+    if (o.fontFamily) parts.push(o.fontFamily);
+    if (o.fontSize) parts.push(`${o.fontSize}px`);
+    if (o.fontWeight) parts.push(`w${o.fontWeight}`);
+    if (o.lineHeightPx) parts.push(`lh:${Math.round(o.lineHeightPx)}`);
+    if (o.letterSpacing) parts.push(`ls:${o.letterSpacing}`);
+    console.log(`${indent}span "${run.text}"  ${parts.join(' ')}`);
+  }
+};
+
 if (!file || !targetId) {
   console.error('usage: node scripts/figma/offsets.mjs <raw.json> <node-id>');
   process.exitCode = 1;
@@ -74,6 +98,7 @@ if (!file || !targetId) {
     console.log(`${target.name}  ${target.id}  ${box.width}x${box.height}`);
     describeGradients(target, '  ');
     describeEffects(target, '  ');
+    describeSpans(target, '  ');
 
     for (const child of target.children ?? []) {
       const c = child.absoluteBoundingBox;
@@ -90,6 +115,7 @@ if (!file || !targetId) {
       );
       describeGradients(child, '      ');
       describeEffects(child, '      ');
+      describeSpans(child, '  ');
     }
   }
 }

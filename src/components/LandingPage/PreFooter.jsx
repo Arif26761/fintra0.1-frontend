@@ -70,10 +70,10 @@ function LinkColumn({ heading, links, width }) {
 
 export default function PreFooter() {
   return (
-    <section data-section="prefooter" className="flex h-124 w-360 flex-col items-center gap-25">
+    <section data-section="prefooter" className="flex h-124 w-full flex-col items-center gap-25">
       {/* 1195 wide at x122.5 — this block is NOT the usual 121/1198 inset */}
-      <div className="flex h-79.75 w-298.75 justify-between">
-        <div className="flex h-79.75 w-83.5 flex-col justify-between">
+      <div className="flex w-full max-w-298.75 flex-wrap justify-between gap-10 px-6 lg:gap-0 lg:px-0">
+        <div className="flex min-w-0 w-83.5 flex-col justify-between gap-5">
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-3.75">
               <Image
@@ -133,12 +133,12 @@ export default function PreFooter() {
           </div>
         </div>
 
-        <LinkColumn heading="Company" links={COMPANY} width="w-31.5" />
-        <LinkColumn heading="Legal Links" links={LEGAL} width="w-32.25" />
+        <LinkColumn heading="Company" links={COMPANY} width="min-w-0 w-31.5" />
+        <LinkColumn heading="Legal Links" links={LEGAL} width="min-w-0 w-32.25" />
 
         {/* Figma's newsletter block here is visible:false and absent from the
             baseline — deliberately not built. */}
-        <div className="flex w-83.5 flex-col gap-2.5">
+        <div className="flex min-w-0 w-83.5 flex-col gap-2.5">
           <p className="text-lg leading-6 font-semibold text-ink-soft capitalize">
             Visit Our Office
           </p>
@@ -153,7 +153,7 @@ export default function PreFooter() {
         </div>
       </div>
 
-      <div className="flex h-19.25 w-360 bg-brand px-30.25 py-5">
+      <div className="flex h-19.25 w-full bg-brand px-6 py-5 lg:px-30.25">
         <div className="flex h-9.25 w-full items-center justify-between">
           <p className="text-lg leading-6.75 font-medium text-black">
             © 2026 Fintra Securities Ltd. All Rights Reserved.

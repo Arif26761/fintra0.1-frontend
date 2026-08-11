@@ -16,7 +16,7 @@ export default function Testimonials() {
   return (
     <section
       data-section="testimonials"
-      className="gradient-ring relative flex h-91 w-299.5 gap-12.5 overflow-hidden rounded-md bg-bg-card p-15 [--ring-angle:126.2deg] [--ring-from:-3.9%] [--ring-to:37.6%]"
+      className="gradient-ring relative flex w-full max-w-299.5 flex-col gap-12.5 overflow-hidden rounded-md bg-bg-card p-6 lg:flex-row lg:p-15 [--ring-angle:126.2deg] [--ring-from:-3.9%] [--ring-to:37.6%]"
     >
       <Glow />
 

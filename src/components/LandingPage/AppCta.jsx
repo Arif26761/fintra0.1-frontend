@@ -16,10 +16,13 @@ const STORE_LINKS = [
 
 export default function AppCta() {
   return (
-    <section data-section="app-cta" className="flex h-159 w-360 flex-col items-center gap-22.5">
-      <div className="flex h-21 w-full items-center px-30.25">
-        <div className="flex h-full w-299.5 items-center justify-between gap-6.25">
-          <div className="flex h-full w-109.75 flex-col justify-between">
+    <section
+      data-section="app-cta"
+      className="flex w-full max-w-360 flex-col items-center gap-22.5"
+    >
+      <div className="flex h-21 w-full items-center px-6 lg:px-30.25">
+        <div className="flex h-full w-full max-w-299.5 flex-col items-center justify-between gap-6.25 lg:flex-row">
+          <div className="flex h-full min-w-0 w-109.75 flex-col justify-between">
             <h2 className="text-3xl leading-8.75 font-semibold text-ink capitalize">
               Trade Anywhere, Anytime.
             </h2>
