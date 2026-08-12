@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
 import Button from '@/components/common/Button';
 import Check from '@/components/common/Check';
@@ -13,10 +14,24 @@ export default function PricingCard({
   features,
   featured = false,
 }) {
+  const hoverImage = featured ? '/images/plan-hover-green.png' : '/images/Plan-hover-white.png';
+
   return (
-    <div className="gradient-ring relative flex h-155.75 w-145.75 shrink-0 flex-col gap-7.5 rounded-md bg-bg-card p-7.5">
+    <div
+      className={`gradient-ring group relative flex h-155.75 w-145.75 shrink-0 flex-col gap-7.5 overflow-hidden rounded-md bg-bg-card p-7.5 transition-all duration-300 ${
+        featured ? '' : 'ring-hover-white'
+      }`}
+    >
+      {/* Hover Overlay Image */}
+      <Image
+        src={hoverImage}
+        alt=""
+        fill
+        className="pointer-events-none absolute inset-0 z-30 object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+      />
+
       <div
-        className={`flex w-full flex-col gap-8.75 rounded-sm p-5 ${
+        className={`relative z-10 flex w-full flex-col gap-8.75 rounded-sm p-5 ${
           featured ? 'bg-surface-alt' : 'bg-surface'
         }`}
       >
@@ -47,12 +62,14 @@ export default function PricingCard({
         </p>
       </div>
 
-      <Button variant={featured ? 'primary' : 'white'} size="md" className="w-full">
-        {cta}
-        <ArrowUpRight />
-      </Button>
+      <div className="relative z-40 w-full">
+        <Button variant={featured ? 'primary' : 'white'} size="md" className="w-full">
+          {cta}
+          <ArrowUpRight />
+        </Button>
+      </div>
 
-      <div className="flex w-full flex-col gap-3.75">
+      <div className="relative z-40 flex w-full flex-col gap-3.75">
         <p className="text-base leading-4 font-medium text-ink-soft capitalize">{featuresLabel}</p>
 
         <ul className="flex w-full flex-col gap-3.25">

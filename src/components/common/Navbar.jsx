@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '@/components/common/Button';
@@ -6,6 +9,24 @@ import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
 const LINKS = ['Market', 'Analysis', 'Chart', 'Screener', 'Features'];
 
 export default function Navbar({ active = 'Features' }) {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const itemRefs = useRef([]);
+  const activeIndex = LINKS.findIndex((label) => label === active);
+  const targetIndex = hoveredIndex !== null ? hoveredIndex : activeIndex !== -1 ? activeIndex : 0;
+
+  const [lineStyle, setLineStyle] = useState({ left: 0, width: 0, opacity: 0 });
+
+  useEffect(() => {
+    const targetEl = itemRefs.current[targetIndex];
+    if (targetEl) {
+      setLineStyle({
+        left: targetEl.offsetLeft,
+        width: targetEl.offsetWidth,
+        opacity: 1,
+      });
+    }
+  }, [targetIndex]);
+
   return (
     <nav
       aria-label="Main"
@@ -15,21 +36,46 @@ export default function Navbar({ active = 'Features' }) {
         <Image src="/images/logo.svg" alt="Fintra" width={120} height={31} unoptimized priority />
       </Link>
 
-      <ul className="flex h-11.25 list-none items-center gap-10">
-        {LINKS.map((label) => (
-          <li key={label} className="relative flex h-full items-center">
-            <Link
-              href={`/${label.toLowerCase()}`}
-              aria-current={label === active ? 'page' : undefined}
-              className="text-base leading-6.75 font-medium text-ink-soft"
+      <ul
+        onMouseLeave={() => setHoveredIndex(null)}
+        className="relative flex h-11.25 list-none items-center gap-10"
+      >
+        {LINKS.map((label, index) => {
+          const isActive = label === active;
+          const isHovered = hoveredIndex === index;
+
+          return (
+            <li
+              key={label}
+              ref={(el) => {
+                itemRefs.current[index] = el;
+              }}
+              onMouseEnter={() => setHoveredIndex(index)}
+              className="relative flex h-full items-center"
             >
-              {label}
-            </Link>
-            {label === active && (
-              <span className="absolute inset-x-0 -bottom-2.5 h-0.5 rounded-pill bg-brand" />
-            )}
-          </li>
-        ))}
+              <Link
+                href={`/${label.toLowerCase()}`}
+                aria-current={isActive ? 'page' : undefined}
+                className={`text-base leading-6.75 font-medium transition-colors duration-300 ease-linear ${
+                  isActive || isHovered ? 'text-ink' : 'text-ink-soft'
+                }`}
+              >
+                {label}
+              </Link>
+            </li>
+          );
+        })}
+
+        {/* Sliding Active / Hover Indicator Line */}
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute -bottom-2.5 h-0.5 rounded-pill bg-brand transition-all duration-300 ease-linear"
+          style={{
+            left: `${lineStyle.left}px`,
+            width: `${lineStyle.width}px`,
+            opacity: lineStyle.opacity,
+          }}
+        />
       </ul>
 
       <div className="flex items-center gap-2.5">
