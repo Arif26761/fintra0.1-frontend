@@ -55,6 +55,14 @@ body {
   ) !important;
 }
 
+.testimonial-track {
+  transition: transform 300ms linear;
+}
+
+.hero-fade-overlay {
+  background: linear-gradient(to bottom, rgba(0, 12, 12, 0) 23.8%, #000c0c 79.8%);
+}
+
 .feature-card-glow {
   backdrop-filter: blur(304px);
   -webkit-backdrop-filter: blur(304px);
