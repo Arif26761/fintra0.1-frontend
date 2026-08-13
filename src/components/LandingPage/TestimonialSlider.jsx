@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect, useRef, useState } from 'react';
 
 // Each testimonial is a flat image fill in Figma (Test 1..5 inside the Slider
 // instance I11625:11055), exported rather than rebuilt as markup — same artwork,
@@ -33,27 +36,63 @@ const TESTIMONIALS = [
 ];
 
 export default function TestimonialSlider() {
+  const [active, setActive] = useState(0);
+  // const cardRefs = useRef([]);
+  const trackRef = useRef(null);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActive((prev) => (prev + 1) % TESTIMONIALS.length);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    if (trackRef.current) {
+      // Each non-active card is 414px (w-103.5) with 65px (gap-16.25) = 479px step
+      const offset = active * 479;
+      trackRef.current.style.transform = `translateX(-${offset}px)`;
+    }
+  }, [active]);
+
   return (
     <div
-      className="relative z-10 flex h-61 w-full max-w-128.5 shrink-0 snap-x snap-mandatory items-center gap-16.25 overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] scrollbar-none [&::-webkit-scrollbar]:hidden"
+      className="relative z-10 flex h-61 w-full max-w-128.5 shrink-0 items-center overflow-hidden"
       tabIndex={0}
       role="region"
       aria-label="What our traders say"
     >
-      {TESTIMONIALS.map((item, i) => (
-        <Image
-          key={item.id}
-          src={item.src}
-          alt={item.alt}
-          width={i === 0 ? 514 : 414}
-          height={i === 0 ? 244 : 197}
-          priority={i === 0}
-          unoptimized
-          className={`shrink-0 snap-start rounded-md ${
-            i === 0 ? 'h-61 w-128.5' : 'h-49.25 w-103.5'
-          }`}
-        />
-      ))}
+      <div ref={trackRef} className="testimonial-track flex items-center gap-16.25">
+        {TESTIMONIALS.map((item, i) => {
+          const isActive = i === active;
+          const isPast = i < active;
+
+          return (
+            <div
+              key={item.id}
+              // ref={(el) => {
+              //   cardRefs.current[i] = el;
+              // }}
+              className={`shrink-0 transition-all duration-300 ease-linear ${
+                isPast ? 'opacity-0 pointer-events-none' : 'opacity-100'
+              }`}
+            >
+              <Image
+                src={item.src}
+                alt={item.alt}
+                width={isActive ? 514 : 414}
+                height={isActive ? 244 : 197}
+                priority={i === 0}
+                unoptimized
+                className={`shrink-0 rounded-md transition-all duration-300 ease-linear ${
+                  isActive ? 'h-61 w-128.5' : 'h-49.25 w-103.5'
+                }`}
+              />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

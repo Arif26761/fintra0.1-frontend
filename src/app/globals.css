@@ -24,8 +24,125 @@ body {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+  transition:
+    background 300ms linear,
+    opacity 300ms linear;
+}
+
+.gradient-ring:hover:not(.no-ring-hover):not(.ring-hover-white)::before {
+  background: linear-gradient(
+    111.12deg,
+    rgba(183, 255, 100, 0.8) -9.01%,
+    rgba(183, 255, 100, 0.12) 36.91%
+  );
+}
+
+.ring-hover-white:hover::before,
+.gradient-ring.ring-hover-white:hover::before {
+  background: linear-gradient(
+    111.12deg,
+    rgba(255, 255, 255, 0.8) -9.01%,
+    rgba(255, 255, 255, 0.12) 36.91%
+  ) !important;
+}
+
+.ring-toggled-green[data-open='true']::before,
+.gradient-ring.ring-toggled-green[data-open='true']::before {
+  background: linear-gradient(
+    121.29deg,
+    rgba(183, 255, 100, 0.8) -14.29%,
+    rgba(183, 255, 100, 0.12) 63.23%
+  ) !important;
+}
+
+.testimonial-track {
+  transition: transform 300ms linear;
+}
+
+.hero-fade-overlay {
+  background: linear-gradient(to bottom, rgba(0, 12, 12, 0) 23.8%, #000c0c 79.8%);
+}
+
+.feature-card-glow {
+  backdrop-filter: blur(304px);
+  -webkit-backdrop-filter: blur(304px);
+  mix-blend-mode: screen;
 }
 
 .gradient-ring-soft {
   --ring-alpha: 0.1;
+}
+
+.logo-slider-container {
+  width: 1194px;
+  max-width: 100%;
+  height: 60px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.left-blur-element {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  width: 39px;
+  height: 98px;
+  top: -19px;
+  left: 0px;
+  opacity: 1;
+  transform: rotate(0deg);
+  background: linear-gradient(90deg, #000c0c 39.74%, rgba(0, 12, 12, 0) 100%);
+}
+
+.right-blur-element {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  width: 39px;
+  height: 98px;
+  top: -19px;
+  left: 1156px;
+  opacity: 1;
+  transform: rotate(-180deg);
+  background: linear-gradient(90deg, #000c0c 39.74%, rgba(0, 12, 12, 0) 100%);
+}
+
+@keyframes logo-slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-logo-slide {
+  animation: logo-slide 20s linear infinite;
+}
+
+.animate-logo-slide:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 1194px) {
+  .right-blur-element {
+    left: auto !important;
+    right: 0 !important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-hero-dashboard[data-inview='true'] {
+    animation: hero-dashboard-slide 1250ms var(--ease-slow) 100ms both;
+  }
+
+  @keyframes hero-dashboard-slide {
+    from {
+      transform: translateY(445px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
 }

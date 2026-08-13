@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
-    "diff": "node scripts/visual/diff.mjs"
+    "diff": "node scripts/visual/diff.mjs",
+    "figma:pull": "node --env-file=.env.local scripts/figma/pull.mjs"
   },
   "lint-staged": {
     "*.{js,jsx,mjs}": [

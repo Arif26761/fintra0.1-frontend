@@ -1,13 +1,18 @@
+'use client';
+
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import Button from '@/components/common/Button';
 import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
+import { useInView } from '@/hooks/useInView';
 
 export default function Hero() {
+  const [ref, inView] = useInView({ threshold: 0.1 });
+
   return (
-    <section data-section="hero" className="relative h-315.5 w-full">
-      <div className="absolute inset-x-0 top-0 flex h-226.5 flex-col items-center justify-center p-4.5">
-        <div className="relative isolate flex h-219.5 w-full flex-col items-center justify-center gap-2.5 overflow-hidden rounded-[18px] bg-rich-green px-25.75 pb-52.5">
+    <section ref={ref} data-section="hero" className="relative w-full lg:h-315.5">
+      <div className="lg:absolute lg:inset-x-0 lg:top-0 lg:flex lg:h-226.5 lg:flex-col lg:items-center lg:justify-center lg:p-4.5">
+        <div className="relative isolate flex flex-col items-center justify-center gap-2.5 overflow-hidden rounded-[18px] bg-rich-green px-6 py-10 lg:h-219.5 lg:w-full lg:px-25.75 lg:py-0 lg:pb-52.5">
           <div
             aria-hidden="true"
             className="pointer-events-none absolute top-160.5 -z-10 h-175 w-350.75"
@@ -62,7 +67,8 @@ export default function Hero() {
           width={958}
           height={681}
           priority
-          className="absolute top-0 left-1/2 h-170.25 w-239.5 max-w-none -translate-x-1/2 rounded-[12px] object-cover"
+          className="absolute top-0 left-1/2 h-170.25 w-239.5 max-w-none -translate-x-1/2 rounded-[12px] object-cover animate-hero-dashboard"
+          data-inview={inView ? 'true' : 'false'}
         />
         <div
           className="absolute inset-0"

@@ -59,6 +59,8 @@ for (const [bpKey, bp] of bpEntries) {
     hasTouch: bpKey === 'mobile',
   });
 
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+
   await page.goto(URL, { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts.ready);
   // Hide the fixed navbar so it doesn't bleed into section screenshots.
