@@ -5,16 +5,17 @@ import ArrowUp from './Icon/ArrowUp';
 
 export default function Footer() {
   return (
-    <div className="flex h-19.25 w-full bg-brand px-6 py-5 lg:px-30.25">
-      <div className="flex h-9.25 w-full items-center justify-between">
-        <p className="text-lg leading-6.75 font-medium text-black">
+    <div className="relative isolate flex h-16.25 w-full items-start bg-brand px-3.75 pt-7 pb-2.5 lg:h-19.25 lg:items-center lg:px-30.25 lg:py-5">
+      <div className="mx-auto flex w-full flex-col items-center lg:h-9.25 lg:flex-row lg:items-center lg:justify-between">
+        <p className="text-xs leading-6.75 font-medium text-black lg:text-lg">
           © 2026 Fintra Securities Ltd. All Rights Reserved.
         </p>
+
         <Button
           variant="brand600"
           size="xs"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black"
+          className="absolute -top-4.25 left-1/2 -translate-x-1/2 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black lg:static lg:translate-x-0"
         >
           <span className="capitalize">Jump to top</span>
           <ArrowUp />

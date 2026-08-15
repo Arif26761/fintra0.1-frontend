@@ -51,9 +51,9 @@ const LEGAL = [
   { label: 'Refund Policy', href: '#' },
 ];
 
-function LinkColumn({ heading, links, width }) {
+function LinkColumn({ heading, links, height }) {
   return (
-    <div className={`flex flex-col gap-5.25 ${width}`}>
+    <div className={`flex w-full flex-col justify-between ${height}`}>
       <p className="text-base leading-3.5 font-medium text-ink-muted capitalize">{heading}</p>
       {links.map((link) => (
         <Link
@@ -70,10 +70,12 @@ function LinkColumn({ heading, links, width }) {
 
 export default function PreFooter() {
   return (
-    <section data-section="prefooter" className="flex h-124 w-full flex-col items-center gap-25">
-      {/* 1195 wide at x122.5 — this block is NOT the usual 121/1198 inset */}
-      <div className="flex w-full max-w-298.75 flex-wrap justify-between gap-10 px-6 lg:gap-0 lg:px-0">
-        <div className="flex min-w-0 h-[319px] w-[334px] flex-col justify-between">
+    <section data-section="prefooter" className="flex w-full flex-col items-center gap-25 lg:h-124">
+      {/* Mobile: 362 content in a 402 viewport, stacked, 40px between blocks.
+          Desktop: 1195 wide, four columns, space-between. */}
+      <div className="flex w-full max-w-298.75 flex-col gap-10 px-5 lg:flex-row lg:justify-between lg:gap-0 lg:px-0">
+        {/* Frame 151 — mobile 362x273 with a 30px gap; desktop 334x319 space-between */}
+        <div className="flex w-full min-w-0 flex-col gap-7.5 lg:h-[319px] lg:w-[334px] lg:justify-between lg:gap-0">
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-3.75">
               <Image
@@ -84,7 +86,7 @@ export default function PreFooter() {
                 className="h-10 w-40"
                 unoptimized
               />
-              <p className="w-83.5 text-base leading-5.5 font-light text-ink-soft">
+              <p className="w-full text-base leading-5.5 font-light text-ink-soft lg:w-83.5">
                 Redefining the trading experience for the modern investor. Precision tools,
                 institutional intelligence, and the speed you need to dominate the market.
               </p>
@@ -112,7 +114,7 @@ export default function PreFooter() {
             </div>
           </div>
 
-          <div className="flex h-15.5 w-83.5 flex-col gap-2.5">
+          <div className="flex h-15.5 w-full flex-col gap-2.5 lg:w-83.5">
             <p className="text-lg leading-6.75 font-semibold text-ink-soft capitalize">
               Follow our market updates
             </p>
@@ -133,12 +135,12 @@ export default function PreFooter() {
           </div>
         </div>
 
-        <LinkColumn heading="Company" links={COMPANY} width="min-w-0 w-31.5" />
-        <LinkColumn heading="Legal Links" links={LEGAL} width="min-w-0 w-32.25" />
+        <LinkColumn heading="Company" links={COMPANY} height="h-29 lg:w-31.5" />
+        <LinkColumn heading="Legal Links" links={LEGAL} height="h-37.75 lg:w-32.25" />
 
-        {/* Figma's newsletter block here is visible:false and absent from the
-            baseline — deliberately not built. */}
-        <div className="flex min-w-0 w-83.5 flex-col gap-2.5">
+        {/* Figma's newsletter block is visible:false at BOTH breakpoints
+            (11625:15801 desktop, 12590:17116 mobile) — deliberately not built. */}
+        <div className="flex w-full min-w-0 flex-col gap-2.5 lg:w-83.5">
           <p className="text-lg leading-6 font-semibold text-ink-soft capitalize">
             Visit Our Office
           </p>
@@ -147,7 +149,7 @@ export default function PreFooter() {
             alt="Map showing the Fintra office location"
             width={334}
             height={147}
-            className="h-36.75 w-83.5 rounded-sm object-cover"
+            className="h-36.75 w-full rounded-sm object-cover lg:w-83.5"
             unoptimized
           />
         </div>

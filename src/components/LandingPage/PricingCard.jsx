@@ -27,6 +27,7 @@ export default function PricingCard({
         src={hoverImage}
         alt=""
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="pointer-events-none absolute inset-0 z-30 object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
 
