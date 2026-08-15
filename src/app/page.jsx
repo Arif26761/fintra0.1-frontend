@@ -9,7 +9,7 @@ import Testimonials from '@/components/LandingPage/Testimonials';
 
 export default function Home() {
   return (
-    <main className="mx-auto w-full max-w-full min-h-dvh flex flex-col items-center gap-16 lg:gap-29.25">
+    <main className="mx-auto w-full max-w-full min-h-dvh flex flex-col items-center gap-17 pt-15.75 lg:gap-29.25 lg:pt-0">
       <div
         data-diff-hide
         className="fixed top-11.25 left-0 right-0 z-50 flex justify-center px-6 lg:px-0"
@@ -17,7 +17,7 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center gap-17 lg:gap-0">
         <Hero />
         <Features />
       </div>

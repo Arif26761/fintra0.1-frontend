@@ -133,14 +133,33 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .animate-hero-dashboard[data-inview='true'] {
+  .animate-hero-dashboard {
     animation: hero-dashboard-slide 1250ms var(--ease-slow) 100ms both;
+    will-change: transform;
+    backface-visibility: hidden;
   }
 
   @keyframes hero-dashboard-slide {
     from {
-      transform: translateY(445px);
+      transform: translateY(586px);
     }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-hero-dashboard-mobile {
+    animation: hero-dashboard-slide-mobile 1250ms var(--ease-slow) 100ms both;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  @keyframes hero-dashboard-slide-mobile {
+    from {
+      transform: translateY(316px);
+    }
+
     to {
       transform: translateY(0);
     }

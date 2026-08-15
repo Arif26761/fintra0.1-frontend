@@ -31,6 +31,7 @@ export default function FaqItem({ id, question, answer, open, onToggle }) {
         src="/images/faq-hover.png"
         alt=""
         fill
+        sizes="(max-width: 768px) 100vw, 100vw"
         className={`pointer-events-none absolute inset-0 z-30 object-cover transition-opacity duration-300 linear ${
           open ? 'opacity-0' : 'opacity-0 group-hover:opacity-100'
         }`}
@@ -41,6 +42,7 @@ export default function FaqItem({ id, question, answer, open, onToggle }) {
         src="/images/faq-toggle.png"
         alt=""
         fill
+        sizes="(max-width: 768px) 100vw, 100vw"
         className={`pointer-events-none absolute inset-0 z-30 object-cover transition-opacity duration-300 linear ${
           open ? 'opacity-100' : 'opacity-0'
         }`}

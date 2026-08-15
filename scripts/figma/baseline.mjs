@@ -17,17 +17,15 @@ const SECTIONS_DESKTOP = {
 };
 
 // Mobile section node IDs (page Landing 2.1 - Mobile, frame 12429:22815).
-// The full mobile frame is 12429:22815; individual sections follow.
-// TODO: confirm per-section IDs once the mobile Figma frame is inspected.
+// Verified against raw/12429-22815-d30.json — names and sizes match the spec.
 const SECTIONS_MOBILE = {
-  // Placeholder — export the full mobile frame until per-section IDs are confirmed.
-  // hero:         '12429:22818',
-  // features:     '12528:5761',
-  // 'app-cta':    '12534:5767',
-  // pricing:      '12547:5522',
-  // faq:          '12558:16435',
-  // testimonials: '12587:16944',
-  // prefooter:    '12590:17049',
+  hero: '12429:22818', // Start        372x799
+  features: '12528:5761', // Frame 880    362x453
+  'app-cta': '12534:5767', // Frame 881    362x778
+  pricing: '12547:5522', // Frame 882    402x936
+  faq: '12558:16435', // Frame 883    402x617
+  testimonials: '12587:16944', // Component 3  362x610
+  prefooter: '12590:17049', // Frame 872    402x1006
 };
 
 const SECTIONS_BY_BP = {
