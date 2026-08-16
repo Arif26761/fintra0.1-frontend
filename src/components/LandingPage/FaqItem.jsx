@@ -1,21 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-
-// 16x9 solid triangle — Figma "Vector", fill #a1a1aa.
-function Caret({ open }) {
-  return (
-    <svg
-      viewBox="0 0 16 9"
-      aria-hidden="true"
-      className={`h-2.25 w-4 shrink-0 text-ink-muted transition-transform duration-300 linear ${
-        open ? 'rotate-180' : ''
-      }`}
-    >
-      <path d="M0 0h16L8 9z" fill="currentColor" />
-    </svg>
-  );
-}
+import Caret from '../common/Icon/Caret';
 
 export default function FaqItem({ id, question, answer, open, onToggle }) {
   return (

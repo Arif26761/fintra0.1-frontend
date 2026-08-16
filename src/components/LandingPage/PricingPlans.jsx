@@ -50,10 +50,10 @@ export default function PricingPlans() {
   const [billing, setBilling] = useState('monthly');
 
   return (
-    <>
+    <div className="flex w-full flex-col items-center gap-7.5 lg:contents">
       <BillingToggle value={billing} onChange={setBilling} />
 
-      <div className="flex w-full flex-wrap items-center justify-center gap-7.5">
+      <div className="flex w-full flex-col-reverse items-center gap-7.5 lg:flex-row lg:flex-wrap lg:justify-center">
         {PLANS.map((plan) => {
           const { price, unit, save } = plan.pricing[billing];
 
@@ -73,6 +73,6 @@ export default function PricingPlans() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }

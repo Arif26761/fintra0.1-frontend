@@ -2,6 +2,7 @@ import Image from 'next/image';
 import ArrowUpRight from '@/components/common/Icon/ArrowUpRight';
 import Button from '@/components/common/Button';
 import Check from '@/components/common/Check';
+import PlanFeatures from './PlanFeatures';
 
 export default function PricingCard({
   name,
@@ -18,7 +19,8 @@ export default function PricingCard({
 
   return (
     <div
-      className={`gradient-ring group relative flex h-155.75 w-145.75 shrink-0 flex-col gap-7.5 overflow-hidden rounded-md bg-bg-card p-7.5 transition-all duration-300 ${
+      // card root
+      className={`gradient-ring group relative flex w-90.875 shrink-0 flex-col gap-7.5 overflow-hidden rounded-md bg-bg-card p-3.75 transition-all duration-300 lg:h-155.75 lg:w-145.75 lg:p-7.5 ${
         featured ? '' : 'ring-hover-white'
       }`}
     >
@@ -32,13 +34,15 @@ export default function PricingCard({
       />
 
       <div
-        className={`relative z-10 flex w-full flex-col gap-8.75 rounded-sm p-5 ${
+        // header box — pad 15/20 mobile, 20 all round desktop
+        className={`relative z-10 flex w-full flex-col gap-8.75 rounded-sm px-5 py-3.75 lg:p-5 ${
           featured ? 'bg-surface-alt' : 'bg-surface'
         }`}
       >
         <div className="flex w-full flex-col gap-1.25">
           <h3
-            className={`text-xl leading-8.75 font-medium capitalize ${
+            // name  18/24 → 20/35
+            className={`text-lg leading-6 font-medium capitalize lg:text-xl lg:leading-8.75 ${
               featured ? 'text-brand' : 'text-ink'
             }`}
           >
@@ -50,7 +54,7 @@ export default function PricingCard({
         </div>
 
         <p className="flex w-full items-center justify-between capitalize">
-          <span className="flex items-baseline gap-2.5 text-4xl leading-13.5 font-semibold text-ink">
+          <span className="flex items-baseline gap-2.5 text-3xl leading-10.25 font-semibold text-ink lg:text-4xl lg:leading-13.5">
             {price}
             {priceUnit && <span className="text-xl leading-none font-normal">{priceUnit}</span>}
           </span>
@@ -70,20 +74,7 @@ export default function PricingCard({
         </Button>
       </div>
 
-      <div className="relative z-40 flex w-full flex-col gap-3.75">
-        <p className="text-base leading-4 font-medium text-ink-soft capitalize">{featuresLabel}</p>
-
-        <ul className="flex w-full flex-col gap-3.25">
-          {features.map((feature) => (
-            <li key={feature} className="flex h-5.5 w-full gap-4.5">
-              <Check className={featured ? 'text-brand' : 'text-ink'} />
-              <span className="text-base leading-5.5 font-light text-ink-soft capitalize">
-                {feature}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <PlanFeatures featured={featured} featuresLabel={featuresLabel} features={features} />
     </div>
   );
 }
