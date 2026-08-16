@@ -9,7 +9,7 @@ const COPY = {
 
 export default function Hero() {
   return (
-    <section data-section="hero" className="relative w-full lg:h-315.5">
+    <section data-section="hero" className="relative w-full lg:h-315.5 px-4">
       <HeroMobile copy={COPY} />
       <HeroDesktop copy={COPY} />
     </section>

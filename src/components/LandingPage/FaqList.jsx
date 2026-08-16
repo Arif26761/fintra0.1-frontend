@@ -10,30 +10,35 @@ import FaqItem from './FaqItem';
 const FAQ_ITEMS = [
   {
     id: 'advantage',
+    order: 'order-1',
     question: 'What is Fintra and how does it give me an advantage?',
     answer:
       'Fintra is a high-performance trading ecosystem that equips you with institutional-grade tools, real-time data, and expert research to master the market with confidence',
   },
   {
     id: 'realtime',
+    order: 'order-2',
     question: 'Is the market data truly real-time?',
     answer:
       'Yes. We provide direct-from-exchange data feeds with zero latency, ensuring you witness every price tick and market movement the microsecond it happens.',
   },
   {
     id: 'security',
+    order: 'order-3',
     question: 'Is my trading data and capital secure with Fintra?',
     answer:
       'Absolutely. We utilize industry-leading encryption and multi-factor authentication to ensure your data, trades, and capital remain protected under bank-grade security protocols.',
   },
   {
     id: 'bo-account',
+    order: 'order-4',
     question: 'How do I update my official BO Account details?',
     answer:
       'For your security and regulatory compliance, BO account changes cannot be made in-app. Please visit our office in person or contact our support team to initiate an update.',
   },
   {
     id: 'instant-cash',
+    order: 'order-5',
     question: 'How does the "Instant Cash" feature work?',
     answer:
       'Instant Cash provides immediate liquidity against your pending sales, allowing you to seize new market opportunities instantly without waiting for the standard T+2 settlement cycle.',
@@ -58,6 +63,7 @@ export default function FaqList() {
           id={item.id}
           question={item.question}
           answer={item.answer}
+          className={`${item.order} lg:order-0`}
           open={openIds.has(item.id)}
           onToggle={() => toggle(item.id)}
         />
