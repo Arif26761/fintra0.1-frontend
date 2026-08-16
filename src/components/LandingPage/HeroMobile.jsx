@@ -9,7 +9,7 @@ const BADGE = 'Trusted by over 600 BD traders';
 // difference from desktop that classes cannot express.
 export default function HeroMobile({ copy, inView }) {
   return (
-    <div className="relative isolate mx-auto flex h-199.75 w-93 flex-col items-center justify-between overflow-hidden rounded-[14px] bg-rich-green px-7.5 pt-27.5 lg:hidden">
+    <div className="relative isolate mx-auto flex h-199.75 w-full flex-col items-center justify-between overflow-hidden rounded-[14px] bg-rich-green px-7.5 pt-27.5 lg:hidden">
       {/* Ellipse 1 — 385x352 @ top 644. blur(110px) is Dev Mode's own value;
           the raw tree says LAYER_BLUR 220, so the divisor is 2, not 3. */}
       <div

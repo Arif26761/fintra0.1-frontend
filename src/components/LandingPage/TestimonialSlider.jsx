@@ -11,26 +11,31 @@ const TESTIMONIALS = [
   {
     id: 'ariful-haque',
     src: '/images/testimonials/ariful-haque.png',
+    srcMobile: '/images/testimonials/mobile/ariful-haque.png',
     alt: 'Testimonial from Ariful Haque, Full-Time Trader — rated 5 out of 5',
   },
   {
     id: 'kamrul-islam',
     src: '/images/testimonials/kamrul-islam.png',
+    srcMobile: '/images/testimonials/mobile/kamrul-islam.png',
     alt: 'Testimonial from Kamrul Islam, Corporate Executive — rated 5 out of 5',
   },
   {
     id: 'nuzhat-chowdhury',
     src: '/images/testimonials/nuzhat-chowdhury.png',
+    srcMobile: '/images/testimonials/mobile/nuzhat-chowdhury.png',
     alt: 'Testimonial from Nuzhat Chowdhury, Entrepreneur — rated 5 out of 5',
   },
   {
     id: 'tanvir-ahmed',
     src: '/images/testimonials/tanvir-ahmed.png',
+    srcMobile: '/images/testimonials/mobile/tanvir-ahmed.png',
     alt: 'Testimonial from Tanvir Ahmed, Tech Lead and Part-Time Trader — rated 5 out of 5',
   },
   {
     id: 'sarah-karim',
     src: '/images/testimonials/sarah-karim.png',
+    srcMobile: '/images/testimonials/mobile/sarah-karim.png',
     alt: 'Testimonial from Sarah Karim, Investment Analyst — rated 5 out of 5',
   },
 ];
@@ -57,42 +62,68 @@ export default function TestimonialSlider() {
   }, [active]);
 
   return (
-    <div
-      className="relative z-10 flex h-61 w-full max-w-128.5 shrink-0 items-center overflow-hidden"
-      tabIndex={0}
-      role="region"
-      aria-label="What our traders say"
-    >
-      <div ref={trackRef} className="testimonial-track flex items-center gap-16.25">
-        {TESTIMONIALS.map((item, i) => {
-          const isActive = i === active;
-          const isPast = i < active;
-
-          return (
-            <div
+    <>
+      {/* Component 494 — a 322x246 viewport over a 1226-tall column. */}
+      <div
+        className="relative z-10 h-61.5 w-full overflow-hidden lg:hidden"
+        role="region"
+        aria-label="What our traders say"
+      >
+        <div
+          className="flex flex-col items-center gap-7.5 transition-transform duration-300 ease-linear"
+          style={{ transform: `translateY(-${active * 245}px)` }}
+        >
+          {TESTIMONIALS.map((item, i) => (
+            <Image
               key={item.id}
-              // ref={(el) => {
-              //   cardRefs.current[i] = el;
-              // }}
-              className={`shrink-0 transition-all duration-300 ease-linear ${
-                isPast ? 'opacity-0 pointer-events-none' : 'opacity-100'
-              }`}
-            >
-              <Image
-                src={item.src}
-                alt={item.alt}
-                width={isActive ? 514 : 414}
-                height={isActive ? 244 : 197}
-                priority={i === 0}
-                unoptimized
-                className={`shrink-0 rounded-md transition-all duration-300 ease-linear ${
-                  isActive ? 'h-61 w-128.5' : 'h-49.25 w-103.5'
-                }`}
-              />
-            </div>
-          );
-        })}
+              src={item.srcMobile}
+              alt={item.alt}
+              width={644}
+              height={492}
+              unoptimized
+              className={`shrink-0 rounded-md transition-all duration-300 ease-linear ${
+                i === active ? 'h-61.5 w-80.5' : 'h-53.75 w-70.5'
+              } ${i < active ? 'pointer-events-none opacity-0' : 'opacity-100'}`}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+
+      {/* Desktop — horizontal track, unchanged apart from the breakpoint gate. */}
+      <div
+        className="relative z-10 hidden h-61 w-full max-w-128.5 shrink-0 items-center overflow-hidden lg:flex"
+        tabIndex={0}
+        role="region"
+        aria-label="What our traders say"
+      >
+        <div ref={trackRef} className="testimonial-track flex items-center gap-16.25">
+          {TESTIMONIALS.map((item, i) => {
+            const isActive = i === active;
+            const isPast = i < active;
+
+            return (
+              <div
+                key={item.id}
+                className={`shrink-0 transition-all duration-300 ease-linear ${
+                  isPast ? 'opacity-0 pointer-events-none' : 'opacity-100'
+                }`}
+              >
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width={isActive ? 514 : 414}
+                  height={isActive ? 244 : 197}
+                  priority={i === 0}
+                  unoptimized
+                  className={`shrink-0 rounded-md transition-all duration-300 ease-linear ${
+                    isActive ? 'h-61 w-128.5' : 'h-49.25 w-103.5'
+                  }`}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </>
   );
 }

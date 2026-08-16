@@ -3,11 +3,11 @@
 import Image from 'next/image';
 import Caret from '../common/Icon/Caret';
 
-export default function FaqItem({ id, question, answer, open, onToggle }) {
+export default function FaqItem({ id, question, answer, open, onToggle, className = '' }) {
   return (
     <div
       onClick={onToggle}
-      className={`gradient-ring group relative flex w-full cursor-pointer flex-col overflow-hidden rounded-md bg-bg-card p-7.5 transition-all duration-300 linear ${
+      className={`gradient-ring group relative flex w-full cursor-pointer flex-col overflow-hidden rounded-md bg-bg-card p-3.75 transition-all duration-300 linear lg:p-7.5 ${className} ${
         open ? 'gap-7.5 ring-toggled-green' : 'gap-0 ring-hover-white'
       }`}
       data-open={open ? 'true' : 'false'}
@@ -44,10 +44,10 @@ export default function FaqItem({ id, question, answer, open, onToggle }) {
             e.stopPropagation();
             onToggle();
           }}
-          className="relative z-40 flex h-[35px] w-full items-center justify-between gap-5 text-left text-base leading-[35px] font-medium capitalize text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+          className="relative z-40 flex w-full items-center justify-between gap-2 text-left text-base leading-5.5 font-medium capitalize text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand lg:h-[35px] lg:gap-5 lg:leading-[35px]"
         >
           <span>{question}</span>
-          <Caret open={open} />
+          <Caret open={open} className="mt-0.75 h-[5.14px] w-2.25 text-[#d9d9d9]" />
         </button>
       </h3>
 
