@@ -107,7 +107,7 @@ body {
   background: linear-gradient(90deg, #000c0c 39.74%, rgba(0, 12, 12, 0) 100%);
 }
 
-@keyframes logo-slide {
+@keyframes marquee {
   0% {
     transform: translateX(0%);
   }
@@ -117,8 +117,8 @@ body {
   }
 }
 
-.animate-logo-slide {
-  animation: logo-slide 20s linear infinite;
+.animate-marquee {
+  animation: marquee var(--marquee-duration, 20s) linear infinite;
 }
 
 .animate-logo-slide:hover {
