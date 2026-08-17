@@ -16,7 +16,7 @@ export default function LogoSlider() {
 
       <div className="right-blur-element" />
 
-      <div className="flex w-max items-center animate-logo-slide shrink-0">
+      <div className="flex w-max items-center animate-marquee shrink-0">
         <div className="flex items-center justify-around gap-12 lg:gap-16 px-6 shrink-0 min-w-max">
           {sliderLogos.map((logo, index) => (
             <div

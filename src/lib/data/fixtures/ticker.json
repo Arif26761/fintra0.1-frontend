@@ -1,0 +1,14 @@
+[
+  { "symbol": "ACI", "price": "168.50", "changePct": 0.42 },
+  { "symbol": "BRACBANK", "price": "78.60", "changePct": 3.15 },
+  { "symbol": "CITYBANK", "price": "27.00", "changePct": 0.75 },
+  { "symbol": "DHAKABANK", "price": "13.20", "changePct": 1.54 },
+  { "symbol": "EBL", "price": "26.40", "changePct": 1.15 },
+  { "symbol": "FORTUNE", "price": "32.10", "changePct": -0.12 },
+  { "symbol": "GP", "price": "266.10", "changePct": 0 },
+  { "symbol": "HEIDELBCEM", "price": "215.40", "changePct": 1.2 },
+  { "symbol": "IFIC", "price": "5.70", "changePct": 0 },
+  { "symbol": "JAMUNABANK", "price": "24.50", "changePct": 2.08 },
+  { "symbol": "KOHINOOR", "price": "435.00", "changePct": 0 },
+  { "symbol": "LHB", "price": "53.40", "changePct": 0.56 }
+]
