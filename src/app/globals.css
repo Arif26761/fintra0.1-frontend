@@ -1,6 +1,17 @@
 @import 'tailwindcss';
 @import '../styles/tokens.css';
 
+html,
+body,
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-ink);
@@ -101,7 +112,7 @@ body {
   width: 39px;
   height: 98px;
   top: -19px;
-  left: 1156px;
+  left: 1158px;
   opacity: 1;
   transform: rotate(-180deg);
   background: linear-gradient(90deg, #000c0c 39.74%, rgba(0, 12, 12, 0) 100%);
@@ -121,7 +132,7 @@ body {
   animation: marquee var(--marquee-duration, 20s) linear infinite;
 }
 
-.animate-logo-slide:hover {
+.animate-marquee:hover {
   animation-play-state: paused;
 }
 

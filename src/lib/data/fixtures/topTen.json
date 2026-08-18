@@ -1,0 +1,82 @@
+[
+  {
+    "code": "XXXX",
+    "ltpChange": "1.2 (+0.22)",
+    "direction": "up",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXXXX",
+    "ltpChange": "1.2 (-0.54)",
+    "direction": "down",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXX",
+    "ltpChange": "1.2 (+0.22)",
+    "direction": "up",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXXX",
+    "ltpChange": "1.2 (+0.22)",
+    "direction": "up",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXX",
+    "ltpChange": "17.6(-0.54)",
+    "direction": "down",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXXX",
+    "ltpChange": "2.2(-0.54)",
+    "direction": "down",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXX",
+    "ltpChange": "17.6 (+3.24)",
+    "direction": "up",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXXX",
+    "ltpChange": "2.2",
+    "direction": "flat",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXX",
+    "ltpChange": "17.6(-0.54)",
+    "direction": "down",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  },
+  {
+    "code": "XXXXX",
+    "ltpChange": "2.2(-0.54)",
+    "direction": "down",
+    "low": "X.XX",
+    "high": "X.XX",
+    "metric": "XXXX"
+  }
+]

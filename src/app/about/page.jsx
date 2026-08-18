@@ -13,12 +13,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <main className="mx-auto w-full max-w-full min-h-dvh flex flex-col items-center gap-16 lg:gap-29.2 pb-0 pt-40 bg-bg">
-      <div
-        data-diff-hide
-        className="fixed top-11.25 left-0 right-0 z-50 flex justify-center px-6 lg:px-0"
-      >
-        <Navbar />
-      </div>
+      <Navbar />
 
       {/* Main Content Area */}
       <div className="w-full max-w-299.5 flex flex-col gap-10 lg:gap-20">

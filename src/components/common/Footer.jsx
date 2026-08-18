@@ -3,9 +3,11 @@
 import Button from '@/components/common/Button';
 import ArrowUp from './Icon/ArrowUp';
 
-export default function Footer() {
+export default function Footer({ className = '' }) {
   return (
-    <div className="relative isolate flex h-16.25 w-full items-start bg-brand px-3.75 pt-7 pb-2.5 lg:h-19.25 lg:items-center lg:px-30.25 lg:py-5">
+    <footer
+      className={`sticky bottom-0 mt-auto relative isolate flex h-16.25 w-full items-start bg-brand px-3.75 pt-7 pb-2.5 lg:h-19.25 lg:items-center lg:px-30.25 lg:py-5 ${className}`}
+    >
       <div className="mx-auto flex w-full flex-col items-center lg:h-9.25 lg:flex-row lg:items-center lg:justify-between">
         <p className="text-xs leading-6.75 font-medium text-black lg:text-lg">
           © 2026 Fintra Securities Ltd. All Rights Reserved.
@@ -21,6 +23,6 @@ export default function Footer() {
           <ArrowUp />
         </Button>
       </div>
-    </div>
+    </footer>
   );
 }
