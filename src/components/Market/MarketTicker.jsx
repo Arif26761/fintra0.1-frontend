@@ -17,16 +17,23 @@ export default async function MarketTicker() {
     const sign = row.changePct < 0 ? '-' : '+';
     const pct = `${sign}${Math.abs(row.changePct).toFixed(2)}%`;
 
+    const pctTone =
+      direction === 'up'
+        ? 'text-brand'
+        : direction === 'down'
+          ? 'text-[#ff2c2c]'
+          : 'text-ink-muted';
+
     return (
       <div
         key={row.symbol}
-        className="mr-2.5 flex h-8 shrink-0 items-center gap-1.75 rounded-[5px] bg-bg-card px-1.5 py-0.75"
+        className="gradient-ring no-ring-hover relative mr-2.5 flex h-8 shrink-0 items-center gap-1.75 rounded-[5px] bg-bg-card px-1.5 py-0.75"
       >
         <Arrow direction={direction} />
         <div className="flex h-6.5 flex-col">
           <span className="text-[10px] leading-3.5 font-medium text-ink">{row.symbol}</span>
           <span className="text-[9px] leading-3 font-normal text-ink">
-            {row.price} {pct}
+            {row.price} <span className={pctTone}>{pct}</span>
           </span>
         </div>
       </div>
@@ -34,7 +41,7 @@ export default async function MarketTicker() {
   });
 
   return (
-    <Marquee duration={45} className="h-14.25 w-full max-w-299" trackClassName="pl-5">
+    <Marquee duration={10} className=" h-14.25 w-[1196px] max-w-299" trackClassName="pl-5">
       {chips}
     </Marquee>
   );

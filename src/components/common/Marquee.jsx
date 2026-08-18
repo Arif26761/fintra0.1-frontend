@@ -5,13 +5,13 @@
 export default function Marquee({ children, duration = 20, className = '', trackClassName = '' }) {
   return (
     <div className={`relative flex items-center overflow-hidden bg-bg ${className}`}>
-      <span
+      <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-y-0 left-0 z-10 w-9.75 bg-bg"
+        className="pointer-events-none absolute inset-y-0 left-0 z-10 w-14.75 left-blur-element"
       />
-      <span
+      <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-y-0 right-0 z-10 w-9.75 bg-bg"
+        className="pointer-events-none absolute inset-y-0 right-0 z-10 w-14.75 right-blur-element"
       />
 
       <div

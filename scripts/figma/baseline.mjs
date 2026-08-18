@@ -28,6 +28,17 @@ const SECTIONS_MOBILE = {
   prefooter: '12590:17049', // Frame 872    402x1006
 };
 
+const SECTIONS_MARKET = {
+  'market-header': '12336:43255',
+  'market-ticker': '12336:43264',
+  'market-intro': '12336:43266',
+  'market-cards': '12336:43270',
+  'market-index': '12336:43274',
+  'market-top10': '12336:43275',
+  'market-heatmap': '12336:43276',
+  'market-news': '12336:43277',
+};
+
 const SECTIONS_BY_BP = {
   desktop: SECTIONS_DESKTOP,
   mobile: SECTIONS_MOBILE,

@@ -1,5 +1,7 @@
 import tickerFixture from './fixtures/ticker.json';
 import companiesFixture from './fixtures/companies.json';
+import topTenFixture from './fixtures/topTen.json';
+import marketNewsFixture from './fixtures/marketnews.json';
 
 export async function getTicker() {
   return tickerFixture;
@@ -15,4 +17,13 @@ export async function searchCompanies(query = '') {
   return companiesFixture.filter(
     (c) => c.name.toLowerCase().includes(q) || c.code.toLowerCase().includes(q),
   );
+}
+
+export async function getTopTen(metric = 'trade') {
+  void metric;
+  return topTenFixture;
+}
+
+export async function getMarketNews() {
+  return marketNewsFixture;
 }

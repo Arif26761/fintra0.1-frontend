@@ -52,7 +52,7 @@ export default function Navbar({ links, active = 'Features' }) {
               className="relative flex h-full items-center"
             >
               <Link
-                href={`/${label.toLowerCase()}`}
+                href={label.toLowerCase() === 'features' ? '/' : `/${label.toLowerCase()}`}
                 aria-current={isActive ? 'page' : undefined}
                 className={`text-base leading-6.75 font-medium transition-colors duration-300 ease-linear ${
                   isActive || isHovered ? 'text-ink' : 'text-ink-soft'

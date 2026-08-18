@@ -63,7 +63,7 @@ export default function NavbarMobile({ links, active }) {
             {links.map((label) => (
               <li key={label}>
                 <Link
-                  href={`/${label.toLowerCase()}`}
+                  href={label.toLowerCase() === 'features' ? '/' : `/${label.toLowerCase()}`}
                   aria-current={label === active ? 'page' : undefined}
                   onClick={() => setOpen(false)}
                   className={`text-base leading-6.75 font-medium ${

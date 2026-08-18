@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "headline": "News Headline 1",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "As of market close on August 22, 2027, the Zenith Growth Fund reported a Net Asset Value (NAV) of $12.57 per unit based on current market prices and $14.82 per unit based on cost"
+  },
+  {
+    "id": "2",
+    "headline": "News Headline 2",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "At the end of trading on April 30, 2026, the Zenith Growth Fund reported a Net Asset Value (NAV) of $12.50 per unit based on current market prices and $13.75 per unit based on cost."
+  },
+  {
+    "id": "3",
+    "headline": "News Headline 3",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "Following the quarterly review on March 15, 2026, the Fund announced a dividend payout ratio of 5% for its unit holders."
+  },
+  {
+    "id": "4",
+    "headline": "News Headline 4",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "As of April 30, 2026, the Fund's total assets under management reached Tk. 1 billion, reflecting a steady growth trajectory."
+  },
+  {
+    "id": "5",
+    "headline": "News Headline 5",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "In an effort to enhance transparency, the Fund will begin publishing monthly performance reports starting May 2026."
+  },
+  {
+    "id": "6",
+    "headline": "News Headline 6",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "The Fund's management team will hold a webinar on June 20, 2026, to discuss investment strategies and market outlook."
+  },
+  {
+    "id": "7",
+    "headline": "News Headline 7",
+    "displayAt": "XX/XX/XXXX, XX:XX",
+    "summary": "On July 1, 2026, the Fund will implement a new fee structure aimed at reducing costs for small investors."
+  }
+]
